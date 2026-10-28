@@ -106,9 +106,18 @@ const elemId = `terkep-${Math.random().toString(36).slice(2, 9)}`;
     Marker,
     NavigationControl,
     Popup,
+    setWorkerUrl,
     type GeoJSONSource,
   } from "maplibre-gl";
   import "maplibre-gl/dist/maplibre-gl.css";
+  // MapLibre a térkép-feldolgozást egy külön Web Workerben végzi, de a
+  // worker saját modulfájljának URL-jét bundler (Vite) alatt nem tudja
+  // magától megtalálni — ezért explicit kell megadni, különben a térkép
+  // üres/fehér marad (csak a DOM-alapú marker látszik, a vektorcsempék
+  // nem). A `?url` import a Vite-nak szóló jelzés: ne bundle-ezze bele,
+  // csak adja vissza a végleges (hash-elt) fájl-URL-t.
+  import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
+  setWorkerUrl(workerUrl);
 
   const STILUS = "https://tiles.openfreemap.org/styles/positron";
 
