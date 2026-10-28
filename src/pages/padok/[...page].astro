@@ -17,6 +17,15 @@ interface Props {
 }
 const { page } = Astro.props;
 const osszesPad = await mindenPad();
+
+// Az első lapon a `page.url.first` nincs kitöltve, ott a `current` a lista
+// gyökere. A többi oldal URL-je ebből épül: /padok/ → /padok/2/.
+const alapUrl = page.url.first ?? page.url.current;
+const alapUrlVagott = alapUrl.replace(/\/$/, "");
+const zaroPerjel = alapUrl.endsWith("/") ? "/" : "";
+const oldalUrl = (n: number) =>
+  n === 1 ? alapUrl : `${alapUrlVagott}/${n}${zaroPerjel}`;
+const oldalszamok = Array.from({ length: page.lastPage }, (_, i) => i + 1);
 ---
 
 <Base
@@ -39,9 +48,24 @@ const osszesPad = await mindenPad();
     {page.lastPage > 1 && (
       <nav class="lapozo" aria-label="Lapozás">
         {page.url.prev && <a href={page.url.prev}>← Előző</a>}
-        <span>
+        <span class="lapozo-tomor">
           {page.currentPage}. / {page.lastPage}
         </span>
+        <ol class="lapozo-szamok">
+          {oldalszamok.map((n) =>
+            n === page.currentPage ? (
+              <li>
+                <span aria-current="page">{n}</span>
+              </li>
+            ) : (
+              <li>
+                <a href={oldalUrl(n)} aria-label={`${n}. oldal`}>
+                  {n}
+                </a>
+              </li>
+            ),
+          )}
+        </ol>
         {page.url.next && <a href={page.url.next}>Következő →</a>}
       </nav>
     )}
@@ -71,5 +95,47 @@ const osszesPad = await mindenPad();
     text-decoration: none;
     color: var(--szin-kiemelt);
     font-weight: 600;
+  }
+
+  /* Mobilon csak az „5. / 9” kijelzés látszik, a sok oldalszám nem férne ki. */
+  .lapozo-szamok {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.35rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lapozo-szamok a,
+  .lapozo-szamok span {
+    display: block;
+    min-width: 2.25rem;
+    padding: 0.35rem 0.5rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .lapozo-szamok a:hover {
+    background: var(--szin-szegely);
+  }
+
+  .lapozo-szamok [aria-current="page"] {
+    background: var(--szin-kiemelt);
+    color: var(--szin-kiemelt-szoveg);
+    font-weight: 600;
+  }
+
+  @media (min-width: 561px) {
+    .lapozo-tomor {
+      display: none;
+    }
+
+    .lapozo-szamok {
+      display: flex;
+    }
   }
 </style>

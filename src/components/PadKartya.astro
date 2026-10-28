@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import { formatHonap } from "../lib/date";
+import { formatDatum } from "../lib/date";
 import { borito, type Pad } from "../lib/padok";
 
 interface Props {
@@ -21,7 +21,7 @@ const kep = borito(pad);
   <div class="pad-kartya-info">
     <h3>{pad.data.title}</h3>
     <p class="pad-kartya-hely">{pad.data.place ?? "ismeretlen hely"}</p>
-    <p class="pad-kartya-datum">{formatHonap(pad.data.date)}</p>
+    <p class="pad-kartya-datum">{formatDatum(pad.data.date)}</p>
   </div>
 </a>
 

@@ -59,8 +59,15 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/*
+ * A `height: auto` nem elhagyható: az `<img>` `width`/`height` attribútumai
+ * (amiket az Astro a layout shift ellen mindig kiír) CSS-méretként is hatnak,
+ * így ha a szélességet CSS-ből 100%-ra húzzuk, a magasság az eredeti pixelérték
+ * marad, és a kép függőlegesen megnyúlik. Az `auto` visszaadja az arányt.
+ */
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 

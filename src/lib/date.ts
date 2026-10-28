@@ -14,16 +14,13 @@ const HONAPOK = [
 ] as const;
 
 /**
- * "2015. január" formátum — szándékosan SOHA nem ír ki napot.
+ * "2015. január 3." formátum — mindenhol napra pontosan írjuk ki a dátumot.
  *
- * A régi posztoknál csak év-hónap ismert a blog URL-jéből (nincs
- * `datePrecision` mező, a mezőt a terv egyszerűsítette), ezért a honlap
- * mindenhol egységesen hónap-pontossággal jelenít meg minden dátumot —
- * így a régi és az új padok között nincs kitalált nap, és nincs
- * következetlenség a megjelenítésben.
+ * A régi posztoknál csak év-hónap ismert a blog URL-jéből, ezért ott a
+ * frontmatter dátuma a hónap elseje, és így is jelenik meg.
  */
-export function formatHonap(date: Date): string {
-  return `${date.getUTCFullYear()}. ${HONAPOK[date.getUTCMonth()]}`;
+export function formatDatum(date: Date): string {
+  return `${date.getUTCFullYear()}. ${HONAPOK[date.getUTCMonth()]} ${date.getUTCDate()}.`;
 }
 
 /** RSS-hez és a sitemaphoz: ISO 8601 dátum, időzóna nélkül (UTC éjfél). */

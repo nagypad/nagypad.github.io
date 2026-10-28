@@ -16,10 +16,9 @@ const padok = defineCollection({
     z.object({
       title: z.string().min(1, "Hiányzik a pad neve").max(120),
 
-      // Közzététel dátuma. A régi posztoknál csak év-hónap ismert a blog
-      // URL-jéből, ezért ott a dátum a hónap elseje — a megjelenítésnél
-      // mindig "2012. március" formában írjuk ki, soha napra pontosan nem
-      // állítjuk, így nem kell külön datePrecision mező.
+      // Közzététel dátuma. A megjelenítésnél mindig napra pontosan írjuk ki
+      // ("2012. március 1."). A régi posztoknál csak év-hónap ismert a blog
+      // URL-jéből, ezért ott a dátum a hónap elseje.
       date: z.coerce.date(),
 
       // [lat, lon]. Elhagyható → a pad az "ismeretlen hely" listába kerül.

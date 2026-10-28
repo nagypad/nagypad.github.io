@@ -1,29 +1,54 @@
 ---
 import Base from "../../layouts/Base.astro";
+
+// A Pagefind indexe csak build után létezik (lásd README.md), ezért `astro dev`
+// alatt nincs mit betölteni: a UI-fájlok 404-eznek, és a kereső mező sem jelenik
+// meg. Dev alatt ezért magyarázatot írunk ki a kereső helyére.
+const dev = import.meta.env.DEV;
 ---
 
 <Base title="Keresés" leiras="Keresés a padok között." noindex={true}>
   <div class="tartalom kereses-oldal">
     <h1>Keresés</h1>
-    <div id="pagefind-keret"></div>
+    <div id="pagefind-keret">
+      {dev && (
+        <p class="kereses-dev">
+          A keresőindex csak build után jön létre, ezért a kereső itt, dev
+          szerveren nem működik. Próbáld így: <code>npm run build</code>, majd
+          <code>npm run preview</code>.
+        </p>
+      )}
+    </div>
   </div>
 </Base>
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
-<script src="/pagefind/pagefind-ui.js" is:inline></script>
-<script is:inline>
-  window.addEventListener("DOMContentLoaded", () => {
-    // A Pagefind indexe csak build után létezik (lásd README.md) — `astro dev`
-    // alatt ez a doboz üres marad, ez elvárt, nem hiba.
-    if (typeof PagefindUI === "function") {
-      new PagefindUI({ element: "#pagefind-keret", showSubResults: true });
-    }
-  });
-</script>
+{
+  !dev && (
+    <>
+      <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+      <script src="/pagefind/pagefind-ui.js" is:inline />
+      <script is:inline>
+        window.addEventListener("DOMContentLoaded", () => {
+          if (typeof PagefindUI === "function") {
+            new PagefindUI({
+              element: "#pagefind-keret",
+              showSubResults: true,
+            });
+          }
+        });
+      </script>
+    </>
+  )
+}
 
 <style>
   .kereses-oldal {
     padding-block: 2rem 4rem;
     max-width: 640px;
+  }
+
+  .kereses-dev {
+    color: var(--szin-szoveg-halvany);
+    font-size: 0.95rem;
   }
 </style>

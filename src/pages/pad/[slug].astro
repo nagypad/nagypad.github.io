@@ -5,7 +5,7 @@ import Base from "../../layouts/Base.astro";
 import Terkep from "../../components/Terkep.astro";
 import Megosztas from "../../components/Megosztas.astro";
 import PadKartya from "../../components/PadKartya.astro";
-import { formatHonap } from "../../lib/date";
+import { formatDatum } from "../../lib/date";
 import { mindenPad, borito } from "../../lib/padok";
 import { cimkeSlug, kanonikusCimkek } from "../../lib/tags";
 
@@ -52,15 +52,17 @@ const ogKepUrl = new URL(borítokep.src, Astro.site).toString();
   koordinata={pad.data.coords}
   kozzetett={pad.data.date}
 >
-  <article class="tartalom pad-oldal">
-    <nav class="pad-vissza">
+  {/* A `data-pagefind-body` csak itt van jelen, ezért a Pagefind kizárólag a
+      pad-oldalakat indexeli — a lista-, címke- és statikus oldalak kimaradnak. */}
+  <article class="tartalom pad-oldal" data-pagefind-body>
+    <nav class="pad-vissza" data-pagefind-ignore>
       <a href="/padok/">← Összes pad</a>
     </nav>
 
     <header class="pad-fejlec">
       <h1>{pad.data.title}</h1>
       <p class="pad-meta">
-        {formatHonap(pad.data.date)}
+        {formatDatum(pad.data.date)}
         {pad.data.place && <> · {pad.data.place}</>}
         {!pad.data.coords && <span class="cimke">ismeretlen hely</span>}
       </p>
@@ -116,7 +118,7 @@ const ogKepUrl = new URL(borítokep.src, Astro.site).toString();
     </footer>
 
     {(elozo || kovetkezo) && (
-      <nav class="pad-navigacio" aria-label="Szomszédos padok">
+      <nav class="pad-navigacio" aria-label="Szomszédos padok" data-pagefind-ignore>
         {elozo && <PadKartya pad={elozo} />}
         {kovetkezo && <PadKartya pad={kovetkezo} />}
       </nav>
