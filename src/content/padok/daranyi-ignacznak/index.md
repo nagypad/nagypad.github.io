@@ -6,7 +6,10 @@ coords:
   - 17.8919863701
 place: Tihany, Magyarország
 tags:
-  - magyarország
+  - kilátás
+  - árnyék
+  - emlékezés
+  - nyár
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

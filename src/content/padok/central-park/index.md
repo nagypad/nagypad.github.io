@@ -6,7 +6,10 @@ coords:
   - -73.9678788185
 place: Manhattan, New York, Egyesült Államok
 tags:
-  - egyesült államok
+  - tél
+  - rejtekhely
+  - nagyváros
+  - mese
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

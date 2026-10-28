@@ -6,7 +6,10 @@ coords:
   - 7.82256066799
 place: Schopfheim, Németország
 tags:
-  - németország
+  - park
+  - nyár
+  - árnyék
+  - nyugalom
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

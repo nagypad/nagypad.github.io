@@ -6,7 +6,10 @@ coords:
   - 16.7061603069
 place: Nagycenk, Magyarország
 tags:
-  - magyarország
+  - méltóság
+  - kert
+  - régmúlt
+  - pompa
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

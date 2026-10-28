@@ -6,7 +6,10 @@ coords:
   - 12.4710917473
 place: Municipio Roma XV, Róma, Olaszország
 tags:
-  - olaszország
+  - szemlélődés
+  - ima
+  - alkonyat
+  - egyedüllét
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

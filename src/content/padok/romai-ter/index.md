@@ -6,7 +6,10 @@ coords:
   - 19.048481
 place: Rómaifürdő, Budapest, Magyarország
 tags:
-  - magyarország
+  - fehér
+  - nyár
+  - lombok
+  - nyugalom
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

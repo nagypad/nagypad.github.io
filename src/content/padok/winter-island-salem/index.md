@@ -6,7 +6,10 @@ coords:
   - -70.8684146404
 place: Salem, Egyesült Államok
 tags:
-  - egyesült államok
+  - éjszaka
+  - tenger
+  - fények
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

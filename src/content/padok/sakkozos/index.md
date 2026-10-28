@@ -6,7 +6,10 @@ coords:
   - 19.9295854568
 place: Stare Miasto, Krakkó, Lengyelország
 tags:
-  - lengyelország
+  - folyópart
+  - társaság
+  - alkonyat
+  - beszélgetés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

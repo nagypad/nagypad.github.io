@@ -6,7 +6,10 @@ coords:
   - 18.4631735086
 place: Tatabánya, Magyarország
 tags:
-  - magyarország
+  - összenövés
+  - ősz
+  - időtlenség
+  - avar
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

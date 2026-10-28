@@ -6,7 +6,10 @@ coords:
   - 19.1925626993
 place: Gyálszőlő, Gyál, Magyarország
 tags:
-  - magyarország
+  - együttlét
+  - apaság
+  - víz
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

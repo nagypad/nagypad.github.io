@@ -6,7 +6,10 @@ coords:
   - 20.6849169731
 place: Szögliget, Magyarország
 tags:
-  - magyarország
+  - tábortűz
+  - társaság
+  - vidék
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

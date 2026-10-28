@@ -1,7 +1,11 @@
 ---
 title: Ogilvy & Mather
 date: "2013-06-01"
-tags: []
+tags:
+  - ötlet
+  - város
+  - pihenő
+  - meglepetés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

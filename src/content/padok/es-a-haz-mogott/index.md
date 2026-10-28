@@ -6,7 +6,10 @@ coords:
   - 6.71588927507
 place: Val-de-Travers, Svájc
 tags:
-  - svájc
+  - egyszerűség
+  - udvar
+  - napfény
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

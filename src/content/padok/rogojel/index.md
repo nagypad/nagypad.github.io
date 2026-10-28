@@ -6,7 +6,10 @@ coords:
   - 22.8198266029
 place: Székelyjó, Románia
 tags:
-  - románia
+  - hegy
+  - menedék
+  - ősz
+  - tágasság
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

@@ -6,7 +6,10 @@ coords:
   - 8.54321591556
 place: Hochschulen, Zürich, Svájc
 tags:
-  - svájc
+  - este
+  - folyópart
+  - gyerekkor
+  - fények
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

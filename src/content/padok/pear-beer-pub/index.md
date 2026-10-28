@@ -6,7 +6,10 @@ coords:
   - -3.1854432
 place: Southside, Edinburgh, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - kocsma
+  - vendégvárás
+  - macskakő
+  - este
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 18.9534249902
 place: Remetekertváros, Budapest, Magyarország
 tags:
-  - magyarország
+  - büszkeség
+  - igyekezet
+  - újdonság
+  - rend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

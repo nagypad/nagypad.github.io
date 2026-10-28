@@ -6,7 +6,10 @@ coords:
   - 13.6349880695
 place: Rovinj, Horvátország
 tags:
-  - horvátország
+  - kikötő
+  - nyár
+  - tenger
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - -1.26016616821
 place: City Centre, Oxford, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - áhítat
+  - félhomály
+  - ima
+  - rend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

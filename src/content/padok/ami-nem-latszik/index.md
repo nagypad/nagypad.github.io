@@ -6,7 +6,10 @@ coords:
   - 20.9676003456
 place: Jászó, Szlovákia
 tags:
-  - szlovákia
+  - titok
+  - kert
+  - szimmetria
+  - rejtekhely
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

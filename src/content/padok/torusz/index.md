@@ -6,7 +6,10 @@ coords:
   - 19.0419244766
 place: Víziváros, Budapest, Magyarország
 tags:
-  - magyarország
+  - körbeülés
+  - udvar
+  - kőfal
+  - árnyék
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

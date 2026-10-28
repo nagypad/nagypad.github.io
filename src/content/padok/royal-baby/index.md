@@ -6,7 +6,10 @@ coords:
   - -0.107025504112
 place: City of London, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - ünnep
+  - város
+  - derű
+  - pihenő
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

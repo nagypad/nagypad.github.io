@@ -6,7 +6,10 @@ coords:
   - 7.6064658165
 place: Altstadt, Koblenz, Németország
 tags:
-  - németország
+  - éjszaka
+  - folyó
+  - csend
+  - fények
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

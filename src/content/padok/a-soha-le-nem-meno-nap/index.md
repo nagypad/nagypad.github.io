@@ -6,7 +6,10 @@ coords:
   - -21.9248914719
 place: Miðborg, Reykjavík, Izland
 tags:
-  - izland
+  - derengés
+  - csend
+  - egyedüllét
+  - virrasztás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

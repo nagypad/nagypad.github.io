@@ -6,7 +6,10 @@ coords:
   - 19.0398108959
 place: Óbuda, Budapest, Magyarország
 tags:
-  - magyarország
+  - kitartás
+  - hányattatás
+  - útszél
+  - humor
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

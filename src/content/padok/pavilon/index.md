@@ -6,7 +6,10 @@ coords:
   - 17.8299736977
 place: Balatonszárszó, Magyarország
 tags:
-  - magyarország
+  - pavilon
+  - ünnep
+  - ősz
+  - fehér
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

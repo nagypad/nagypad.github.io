@@ -6,7 +6,10 @@ coords:
   - 22.022806577
 place: Máriapócs, Magyarország
 tags:
-  - magyarország
+  - áhítat
+  - tágasság
+  - tél
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

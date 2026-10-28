@@ -6,7 +6,10 @@ coords:
   - 21.2564849854
 place: Košice-Staré Mesto, Kassa, Szlovákia
 tags:
-  - szlovákia
+  - fehér
+  - tél
+  - rend
+  - csend
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

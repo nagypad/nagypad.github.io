@@ -6,7 +6,10 @@ coords:
   - 8.44045579433
 place: Regensberg, Svájc
 tags:
-  - svájc
+  - gyerekkor
+  - pára
+  - tavasz
+  - felfedezés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

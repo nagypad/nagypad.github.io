@@ -6,7 +6,10 @@ coords:
   - -71.4018221
 place: Hart's Location, Egyesült Államok
 tags:
-  - egyesült államok
+  - ősz
+  - tó
+  - szín
+  - messzeség
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

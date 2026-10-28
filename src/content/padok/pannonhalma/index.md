@@ -6,7 +6,10 @@ coords:
   - 17.7586591
 place: Újtelep, Pannonhalma, Magyarország
 tags:
-  - magyarország
+  - méltóság
+  - macskakő
+  - rend
+  - csend
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

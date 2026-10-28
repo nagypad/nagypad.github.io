@@ -6,7 +6,10 @@ coords:
   - 8.69036644609
 place: Innenstadt, Frankfurt am Main, Németország
 tags:
-  - németország
+  - magasság
+  - ámulat
+  - város
+  - ragyogás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

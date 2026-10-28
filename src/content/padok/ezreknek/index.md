@@ -6,7 +6,10 @@ coords:
   - 16.1209774017
 place: Marija Bistrica, Máriabeszterce, Horvátország
 tags:
-  - horvátország
+  - áhítat
+  - sokaság
+  - tágasság
+  - ünnep
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

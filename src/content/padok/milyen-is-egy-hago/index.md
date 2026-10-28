@@ -6,7 +6,10 @@ coords:
   - 7.50779614184
 place: Oberdorf (SO), Svájc
 tags:
-  - svájc
+  - útközben
+  - hegy
+  - várakozás
+  - indulás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 8.61491203308
 place: Uhwiesen, Svájc
 tags:
-  - svájc
+  - otthonosság
+  - virág
+  - csend
+  - egyszerűség
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

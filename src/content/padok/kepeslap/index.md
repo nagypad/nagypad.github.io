@@ -6,7 +6,10 @@ coords:
   - 2.2963142395
 place: Paris 7e Arrondissement, Párizs, Franciaország
 tags:
-  - franciaország
+  - nosztalgia
+  - kettesben
+  - tél
+  - séta
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

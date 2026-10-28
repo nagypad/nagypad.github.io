@@ -6,7 +6,10 @@ coords:
   - 7.52743721008
 place: Rüttenen, Svájc
 tags:
-  - svájc
+  - messzeség
+  - hegy
+  - tágasság
+  - egyszerűség
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

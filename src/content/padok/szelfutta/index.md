@@ -6,7 +6,10 @@ coords:
   - 17.791097
 place: Balatonudvari, Magyarország
 tags:
-  - magyarország
+  - szél
+  - víz
+  - kitartás
+  - borús ég
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

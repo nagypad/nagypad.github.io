@@ -6,7 +6,10 @@ coords:
   - 9.20225143433
 place: Bad Cannstatt, Stuttgart, Németország
 tags:
-  - németország
+  - bambusz
+  - árnyék
+  - zöld
+  - rejtekhely
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

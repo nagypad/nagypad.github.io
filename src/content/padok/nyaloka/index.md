@@ -6,7 +6,10 @@ coords:
   - -3.29979300499
 place: Dalgety Bay, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - rom
+  - régmúlt
+  - tágasság
+  - ősz
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

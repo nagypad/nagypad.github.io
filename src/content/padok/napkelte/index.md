@@ -6,7 +6,10 @@ coords:
   - 17.5488674641
 place: Döbrönte, Magyarország
 tags:
-  - magyarország
+  - hajnal
+  - ragyogás
+  - dombtető
+  - virrasztás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

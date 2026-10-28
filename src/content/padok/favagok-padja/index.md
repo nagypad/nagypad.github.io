@@ -6,7 +6,10 @@ coords:
   - 8.43166351318
 place: Steinmaur, Svájc
 tags:
-  - svájc
+  - rögtönzés
+  - munka
+  - tavasz
+  - erdő
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

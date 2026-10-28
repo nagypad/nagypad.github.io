@@ -6,7 +6,10 @@ coords:
   - 19.0166667
 place: Rézmál, Budapest, Magyarország
 tags:
-  - magyarország
+  - gyerekkor
+  - ősz
+  - avar
+  - ámulat
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

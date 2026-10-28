@@ -6,7 +6,10 @@ coords:
   - 25.5614267
 place: Borszék, Románia
 tags:
-  - románia
+  - hó
+  - csend
+  - tél
+  - békesség
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

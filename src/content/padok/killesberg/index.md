@@ -6,7 +6,10 @@ coords:
   - 9.168906
 place: Stuttgart-Nord, Stuttgart, Németország
 tags:
-  - németország
+  - lugas
+  - árnyék
+  - nyár
+  - nyugalom
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

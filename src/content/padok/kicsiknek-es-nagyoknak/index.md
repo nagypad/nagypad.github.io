@@ -6,7 +6,10 @@ coords:
   - 8.55770900975
 place: Hottingen, Zürich, Svájc
 tags:
-  - svájc
+  - ív
+  - kert
+  - rend
+  - tél
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

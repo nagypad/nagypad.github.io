@@ -6,7 +6,10 @@ coords:
   - 21.5682166391
 place: Újtelep, Sárospatak, Magyarország
 tags:
-  - magyarország
+  - kopás
+  - moha
+  - kitartás
+  - részlet
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

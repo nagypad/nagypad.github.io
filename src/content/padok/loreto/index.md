@@ -6,7 +6,10 @@ coords:
   - 16.5160113
 place: Katastralgemeinde Loretto, Lorettom, Ausztria
 tags:
-  - ausztria
+  - áhítat
+  - árkád
+  - csend
+  - szemlélődés
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

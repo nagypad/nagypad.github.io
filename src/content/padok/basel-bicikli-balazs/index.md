@@ -6,7 +6,10 @@ coords:
   - 7.60425567627
 place: Wettstein, Bázel, Svájc
 tags:
-  - svájc
+  - folyópart
+  - ellazulás
+  - szabadnap
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

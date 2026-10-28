@@ -6,7 +6,10 @@ coords:
   - 21.5673449636
 place: Kispatak, Sárospatak, Magyarország
 tags:
-  - magyarország
+  - sorakozás
+  - utca
+  - gyerekkor
+  - árnyék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

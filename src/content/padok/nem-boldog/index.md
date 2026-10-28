@@ -6,7 +6,10 @@ coords:
   - 19.2024815083
 place: Stare Stawy, Oświęcim, Lengyelország
 tags:
-  - lengyelország
+  - emlékezés
+  - csend
+  - tisztelgés
+  - gyász
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

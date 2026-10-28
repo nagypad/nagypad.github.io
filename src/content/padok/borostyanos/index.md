@@ -6,7 +6,10 @@ coords:
   - 19.9363553524
 place: Stare Miasto, Krakkó, Lengyelország
 tags:
-  - lengyelország
+  - tágasság
+  - rend
+  - borostyán
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

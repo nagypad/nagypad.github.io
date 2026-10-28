@@ -6,7 +6,10 @@ coords:
   - 21.5691661835
 place: Újtelep, Sárospatak, Magyarország
 tags:
-  - magyarország
+  - erdő
+  - társaság
+  - körbeülés
+  - árnyék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

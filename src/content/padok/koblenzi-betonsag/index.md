@@ -6,7 +6,10 @@ coords:
   - 7.60338664055
 place: Altstadt, Koblenz, Németország
 tags:
-  - németország
+  - éjszaka
+  - lámpafény
+  - méltóság
+  - tágasság
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

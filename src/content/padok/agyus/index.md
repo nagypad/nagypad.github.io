@@ -6,7 +6,10 @@ coords:
   - 17.6305836439
 place: Belváros, Győr, Magyarország
 tags:
-  - magyarország
+  - történelem
+  - gyökerek
+  - béke
+  - árnyék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

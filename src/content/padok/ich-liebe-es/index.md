@@ -6,7 +6,10 @@ coords:
   - 8.25531899929
 place: Gurtweil, Németország
 tags:
-  - németország
+  - humor
+  - társaság
+  - meglepetés
+  - kirakat
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

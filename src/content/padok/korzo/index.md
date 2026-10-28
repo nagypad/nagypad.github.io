@@ -6,7 +6,10 @@ coords:
   - -21.8675994873
 place: Laugardalur, Reykjavík, Izland
 tags:
-  - izland
+  - kikötő
+  - borús ég
+  - tágasság
+  - indulás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

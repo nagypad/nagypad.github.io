@@ -6,7 +6,10 @@ coords:
   - 19.4926214218
 place: Síklakihegy, Aszód, Magyarország
 tags:
-  - magyarország
+  - várakozás
+  - nosztalgia
+  - vidék
+  - indulás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

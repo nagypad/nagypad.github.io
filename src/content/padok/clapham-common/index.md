@@ -6,7 +6,10 @@ coords:
   - -0.144581794739
 place: Clapham, London, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - park
+  - nyár
+  - tágasság
+  - nyugalom
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

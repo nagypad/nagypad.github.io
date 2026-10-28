@@ -6,7 +6,10 @@ coords:
   - 8.74357759953
 place: Illnau-Effretikon, Svájc
 tags:
-  - svájc
+  - humor
+  - régmúlt
+  - félhomály
+  - ablakfülke
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

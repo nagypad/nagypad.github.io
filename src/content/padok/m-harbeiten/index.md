@@ -6,7 +6,10 @@ coords:
   - 7.81222343445
 place: Schopfheim, Németország
 tags:
-  - németország
+  - útközben
+  - folyópart
+  - nyár
+  - pihenő
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

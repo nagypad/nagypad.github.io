@@ -6,7 +6,10 @@ coords:
   - 18.3935970068
 place: Turuloldal, Tatabánya, Magyarország
 tags:
-  - magyarország
+  - várakozás
+  - november
+  - eső
+  - utazás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

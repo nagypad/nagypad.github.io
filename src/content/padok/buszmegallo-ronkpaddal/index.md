@@ -6,7 +6,10 @@ coords:
   - 17.9138731956
 place: Kőhegy, Zamárdi, Magyarország
 tags:
-  - magyarország
+  - család
+  - várakozás
+  - együttlét
+  - menedék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

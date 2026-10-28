@@ -6,7 +6,10 @@ coords:
   - 18.0177
 place: Ezüstpart, Siófok, Magyarország
 tags:
-  - magyarország
+  - várakozás
+  - egyszerűség
+  - nyár
+  - rejtekhely
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

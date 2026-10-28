@@ -6,7 +6,10 @@ coords:
   - 6.97823882103
 place: Le Régit, Franciaország
 tags:
-  - franciaország
+  - menedék
+  - félhomály
+  - melegség
+  - régmúlt
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 9.14178371429
 place: Möhringen, Stuttgart, Németország
 tags:
-  - németország
+  - kenyérillat
+  - derű
+  - várakozás
+  - kirakat
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

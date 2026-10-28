@@ -6,7 +6,10 @@ coords:
   - 18.8904547691
 place: Pilisszentkereszt, Magyarország
 tags:
-  - magyarország
+  - hó
+  - tél
+  - erdő
+  - elmerülés
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

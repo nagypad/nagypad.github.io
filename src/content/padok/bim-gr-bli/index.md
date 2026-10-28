@@ -6,7 +6,10 @@ coords:
   - 7.90743649006
 place: Ey, Wengen, Svájc
 tags:
-  - svájc
+  - otthonosság
+  - muskátli
+  - gyerekkor
+  - szimmetria
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - -74.0069228
 place: Manhattan, New York, Egyesült Államok
 tags:
-  - egyesült államok
+  - nagyváros
+  - művészet
+  - séta
+  - tél
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 9.18843269348
 place: Konstanz, Németország
 tags:
-  - németország
+  - tópart
+  - árnyék
+  - séta
+  - nyugalom
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

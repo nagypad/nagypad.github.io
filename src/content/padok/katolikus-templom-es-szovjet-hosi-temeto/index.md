@@ -6,7 +6,10 @@ coords:
   - 20.5923271179
 place: Abádszalók, Magyarország
 tags:
-  - magyarország
+  - emlékezés
+  - csend
+  - árnyék
+  - nyár
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

@@ -6,7 +6,10 @@ coords:
   - 6.97774529457
 place: Le Régit, Franciaország
 tags:
-  - franciaország
+  - tükröződés
+  - csend
+  - erdő
+  - tó
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

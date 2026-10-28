@@ -6,7 +6,10 @@ coords:
   - 19.0829259
 place: Losoncinegyed, Budapest, Magyarország
 tags:
-  - magyarország
+  - csend
+  - barlang
+  - félhomály
+  - szemlélődés
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

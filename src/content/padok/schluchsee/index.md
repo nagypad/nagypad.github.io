@@ -6,7 +6,10 @@ coords:
   - 8.17811965942
 place: Schluchsee (Ort), Németország
 tags:
-  - németország
+  - tó
+  - borús ég
+  - tágasság
+  - pihenő
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

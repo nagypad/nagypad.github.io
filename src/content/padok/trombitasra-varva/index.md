@@ -6,7 +6,10 @@ coords:
   - 19.9381041527
 place: Stare Miasto, Krakkó, Lengyelország
 tags:
-  - lengyelország
+  - várakozás
+  - város
+  - nyüzsgés
+  - magasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

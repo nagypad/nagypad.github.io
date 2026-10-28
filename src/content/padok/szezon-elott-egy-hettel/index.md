@@ -6,7 +6,10 @@ coords:
   - 8.30859643951
 place: Guttannen, Svájc
 tags:
-  - svájc
+  - hegy
+  - köd
+  - újdonság
+  - várakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

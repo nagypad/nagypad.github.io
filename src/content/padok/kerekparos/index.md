@@ -6,7 +6,10 @@ coords:
   - 17.87981987
 place: Tihany, Magyarország
 tags:
-  - magyarország
+  - útközben
+  - pihenő
+  - erdő
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

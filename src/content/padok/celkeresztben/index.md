@@ -6,7 +6,10 @@ coords:
   - 19.0262788159
 place: Országút, Budapest, Magyarország
 tags:
-  - magyarország
+  - ámulat
+  - kíváncsiság
+  - gyerekkor
+  - körforgás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

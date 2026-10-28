@@ -6,7 +6,10 @@ coords:
   - -1.25991940498
 place: City Centre, Oxford, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - méltóság
+  - rend
+  - diákkor
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 35.922
 place: Samandağ, Törökország
 tags:
-  - törökország
+  - régmúlt
+  - burjánzás
+  - csend
+  - rejtély
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

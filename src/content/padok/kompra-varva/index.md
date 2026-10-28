@@ -6,7 +6,10 @@ coords:
   - 18.9672598243
 place: Újhegy, Visegrád, Magyarország
 tags:
-  - magyarország
+  - éjszaka
+  - várakozás
+  - kettesben
+  - fények
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

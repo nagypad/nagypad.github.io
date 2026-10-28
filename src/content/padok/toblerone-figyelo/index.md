@@ -6,7 +6,10 @@ coords:
   - 7.74467468262
 place: Zermatt, Svájc
 tags:
-  - svájc
+  - hegy
+  - pihenő
+  - útközben
+  - kopás
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

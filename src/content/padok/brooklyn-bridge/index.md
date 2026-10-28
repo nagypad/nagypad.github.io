@@ -6,7 +6,10 @@ coords:
   - -74.0046411753
 place: Manhattan, New York, Egyesült Államok
 tags:
-  - egyesült államok
+  - folyópart
+  - híd
+  - séta
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

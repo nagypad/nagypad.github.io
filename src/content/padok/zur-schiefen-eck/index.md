@@ -6,7 +6,10 @@ coords:
   - 7.79315829277
 place: Augarten, Rheinfelden, Svájc
 tags:
-  - svájc
+  - óváros
+  - macskakő
+  - aprócska
+  - napfény
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

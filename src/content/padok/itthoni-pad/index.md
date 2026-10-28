@@ -6,7 +6,10 @@ coords:
   - 7.80300736427
 place: Schopfheim, Németország
 tags:
-  - németország
+  - részlet
+  - árnyék
+  - otthon
+  - régmúlt
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

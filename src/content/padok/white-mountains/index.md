@@ -6,7 +6,10 @@ coords:
   - -71.4962305
 place: Lincoln, Egyesült Államok
 tags:
-  - egyesült államok
+  - hegy
+  - ősz
+  - tágasság
+  - kilátás
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

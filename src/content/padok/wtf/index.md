@@ -6,7 +6,10 @@ coords:
   - 7.80784606934
 place: Schopfheim, Németország
 tags:
-  - németország
+  - patak
+  - zöld
+  - graffiti
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

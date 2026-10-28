@@ -6,7 +6,10 @@ coords:
   - 18.98211658
 place: Királyrét, Szokolya, Magyarország
 tags:
-  - magyarország
+  - patak
+  - erdő
+  - csobogás
+  - egyszerűség
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

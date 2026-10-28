@@ -6,7 +6,10 @@ coords:
   - 17.6799631119
 place: Szentjakabfa, Magyarország
 tags:
-  - magyarország
+  - falu
+  - nyár
+  - tágasság
+  - sorakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

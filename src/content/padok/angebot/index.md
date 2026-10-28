@@ -6,7 +6,10 @@ coords:
   - 9.1809956
 place: Stuttgart-Mitte, Stuttgart, Németország
 tags:
-  - németország
+  - vásár
+  - otthonosság
+  - csábítás
+  - kirakat
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

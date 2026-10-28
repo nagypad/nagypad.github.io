@@ -6,7 +6,10 @@ coords:
   - 7.94148445129
 place: Säckingen, Bad Säckingen, Németország
 tags:
-  - németország
+  - mosoly
+  - faragás
+  - humor
+  - macskakő
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

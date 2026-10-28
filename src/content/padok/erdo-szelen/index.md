@@ -6,7 +6,10 @@ coords:
   - 22.7038532495
 place: Pádis, Románia
 tags:
-  - románia
+  - hajnal
+  - dér
+  - erdő
+  - csend
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

@@ -6,7 +6,10 @@ coords:
   - 20.7751464844
 place: Avas, Miskolc, Magyarország
 tags:
-  - magyarország
+  - hó
+  - tél
+  - várakozás
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 8.593841
 place: Embrach, Svájc
 tags:
-  - svájc
+  - remény
+  - szín
+  - várakozás
+  - reggel
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

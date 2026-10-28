@@ -6,7 +6,10 @@ coords:
   - 20.7339692116
 place: Tiszavég, Tiszafüred, Magyarország
 tags:
-  - magyarország
+  - ősz
+  - pihenő
+  - tágasság
+  - sorakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

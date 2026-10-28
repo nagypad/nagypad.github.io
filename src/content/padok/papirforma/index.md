@@ -6,7 +6,10 @@ coords:
   - 9.18126583099
 place: Altstadt, Konstanz, Németország
 tags:
-  - németország
+  - víz
+  - borús ég
+  - csend
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

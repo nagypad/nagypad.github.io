@@ -6,7 +6,10 @@ coords:
   - 7.9341213
 place: Todtnau, Németország
 tags:
-  - németország
+  - meglepetés
+  - vízesés
+  - szín
+  - kaland
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

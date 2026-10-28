@@ -6,7 +6,10 @@ coords:
   - 18.4197860956
 place: Agostyán, Tata, Magyarország
 tags:
-  - magyarország
+  - faragás
+  - erdő
+  - kézimunka
+  - árnyék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

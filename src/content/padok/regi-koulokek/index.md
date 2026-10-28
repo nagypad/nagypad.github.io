@@ -6,7 +6,10 @@ coords:
   - 19.0420371294
 place: Víziváros, Budapest, Magyarország
 tags:
-  - magyarország
+  - régmúlt
+  - kőfal
+  - kilátás
+  - árnyék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

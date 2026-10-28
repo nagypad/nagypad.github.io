@@ -6,7 +6,10 @@ coords:
   - 8.18582527092
 place: Lenzburg, Svájc
 tags:
-  - svájc
+  - régmúlt
+  - tavasz
+  - csobogás
+  - árnyék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

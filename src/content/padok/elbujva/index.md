@@ -6,7 +6,10 @@ coords:
   - 17.4754929543
 place: Badacsonytördemic, Magyarország
 tags:
-  - magyarország
+  - árnyék
+  - nyár
+  - víz
+  - rejtekhely
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 13.3779144287
 place: Mondsee, Ausztria
 tags:
-  - ausztria
+  - hegy
+  - tó
+  - tágasság
+  - borús ég
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

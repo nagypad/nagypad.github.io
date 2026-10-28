@@ -6,7 +6,10 @@ coords:
   - 14.4441890717
 place: Mjesni odbor Luka, Fiume, Horvátország
 tags:
-  - horvátország
+  - méltóság
+  - pompa
+  - park
+  - ünnep
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

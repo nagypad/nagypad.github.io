@@ -6,7 +6,10 @@ coords:
   - 8.07658195496
 place: Rüßwihl, Németország
 tags:
-  - németország
+  - szemlélődés
+  - egyedüllét
+  - csend
+  - horizont
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

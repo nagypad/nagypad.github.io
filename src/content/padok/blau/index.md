@@ -6,7 +6,10 @@ coords:
   - 7.79926300049
 place: Schopfheim, Németország
 tags:
-  - németország
+  - kékség
+  - otthonosság
+  - nyugalom
+  - virág
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

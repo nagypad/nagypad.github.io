@@ -6,7 +6,10 @@ coords:
   - 14.6266222
 place: Horvátország
 tags:
-  - horvátország
+  - kikötő
+  - tenger
+  - nyár
+  - nyugalom
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

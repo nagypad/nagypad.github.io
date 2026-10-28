@@ -6,7 +6,10 @@ coords:
   - 19.9377930164
 place: Stare Miasto, Krakkó, Lengyelország
 tags:
-  - lengyelország
+  - beszélgetés
+  - fiatalság
+  - város
+  - tavasz
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

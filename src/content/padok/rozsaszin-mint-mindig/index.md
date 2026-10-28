@@ -6,7 +6,10 @@ coords:
   - 9.18426990509
 place: Stuttgart-Mitte, Stuttgart, Németország
 tags:
-  - németország
+  - szín
+  - utca
+  - derű
+  - meglepetés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

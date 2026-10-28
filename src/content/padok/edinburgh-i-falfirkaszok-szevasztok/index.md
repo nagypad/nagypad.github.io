@@ -6,7 +6,10 @@ coords:
   - -3.17979633808
 place: Southside, Edinburgh, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - szín
+  - graffiti
+  - társaság
+  - külváros
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

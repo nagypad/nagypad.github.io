@@ -6,7 +6,10 @@ coords:
   - 17.8918683529
 place: Tihany, Magyarország
 tags:
-  - magyarország
+  - útszél
+  - sorakozás
+  - különc
+  - napfény
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

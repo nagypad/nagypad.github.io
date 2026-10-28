@@ -6,7 +6,10 @@ coords:
   - 8.08003352768
 place: Hofstetten bei Brienz, Svájc
 tags:
-  - svájc
+  - erdő
+  - árnyék
+  - csend
+  - felfedezés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

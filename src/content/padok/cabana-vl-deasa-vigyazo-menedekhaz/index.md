@@ -6,7 +6,10 @@ coords:
   - 22.8126704693
 place: Székelyjó, Románia
 tags:
-  - románia
+  - magasság
+  - pihenő
+  - tágasság
+  - megérkezés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

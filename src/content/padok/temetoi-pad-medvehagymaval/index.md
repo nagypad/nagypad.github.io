@@ -6,7 +6,10 @@ coords:
   - 8.81850669538
 place: Singen (Hohentwiel), Németország
 tags:
-  - németország
+  - emlékezés
+  - burjánzás
+  - csend
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 19.9346280098
 place: Stare Miasto, Krakkó, Lengyelország
 tags:
-  - lengyelország
+  - tágasság
+  - méltóság
+  - tavasz
+  - pihenő
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

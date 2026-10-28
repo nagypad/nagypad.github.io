@@ -6,7 +6,10 @@ coords:
   - 7.81291007996
 place: Schopfheim, Németország
 tags:
-  - németország
+  - sörsátor
+  - ünnep
+  - társaság
+  - melegség
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 8.4540733695
 place: Dielsdorf, Svájc
 tags:
-  - svájc
+  - egyszerűség
+  - otthonosság
+  - macskakő
+  - napfény
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - -0.146448612213
 place: Mayfair, City of Westminster, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - nyár
+  - fagylalt
+  - pihenő
+  - park
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

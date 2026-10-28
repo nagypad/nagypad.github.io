@@ -6,7 +6,10 @@ coords:
   - 8.07821273804
 place: Rüßwihl, Németország
 tags:
-  - németország
+  - otthonosság
+  - vendégvárás
+  - muskátli
+  - kisváros
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

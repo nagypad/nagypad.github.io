@@ -6,7 +6,10 @@ coords:
   - 8.43856751919
 place: Regensberg, Svájc
 tags:
-  - svájc
+  - köd
+  - ősz
+  - avar
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

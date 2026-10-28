@@ -6,7 +6,10 @@ coords:
   - -70.7795852423
 place: Scituate, Egyesült Államok
 tags:
-  - egyesült államok
+  - útszél
+  - ősz
+  - egyszerűség
+  - rejtekhely
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

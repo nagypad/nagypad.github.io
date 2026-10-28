@@ -6,7 +6,10 @@ coords:
   - 19.2269486189
 place: Öregfalu, Ócsa, Magyarország
 tags:
-  - magyarország
+  - otthonosság
+  - falu
+  - gyerekkor
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

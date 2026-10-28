@@ -6,7 +6,10 @@ coords:
   - 17.8944325447
 place: Endrődi Sándor-lakótelep, Veszprém, Magyarország
 tags:
-  - magyarország
+  - játék
+  - gyerekkor
+  - derű
+  - kaland
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

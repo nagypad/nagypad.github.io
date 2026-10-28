@@ -6,7 +6,10 @@ coords:
   - 10.7318758
 place: Kringsjå, Oslo, Norvégia
 tags:
-  - norvégia
+  - erdő
+  - szikla
+  - csend
+  - túra
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 8.53366792202
 place: Bülach, Svájc
 tags:
-  - svájc
+  - szín
+  - várakozás
+  - gyógyulás
+  - derű
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

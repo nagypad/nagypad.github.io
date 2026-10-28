@@ -6,7 +6,10 @@ coords:
   - -1.22140556574
 place: Littlemore, Oxford, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - kocsma
+  - vendégvárás
+  - falu
+  - otthonosság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

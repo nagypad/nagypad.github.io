@@ -6,7 +6,10 @@ coords:
   - 8.49818229675
 place: Aeugst am Albis, Svájc
 tags:
-  - svájc
+  - tó
+  - erdő
+  - csend
+  - tavasz
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

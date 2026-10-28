@@ -6,7 +6,10 @@ coords:
   - 7.79473543167
 place: Augarten, Rheinfelden, Svájc
 tags:
-  - svájc
+  - folyópart
+  - egyedüllét
+  - szemlélődés
+  - este
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

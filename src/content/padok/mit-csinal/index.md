@@ -6,7 +6,10 @@ coords:
   - -4.2876176
 place: Finnieston, Glasgow, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - humor
+  - park
+  - ősz
+  - rejtély
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

@@ -6,7 +6,10 @@ coords:
   - 8.81875345861
 place: Singen (Hohentwiel), Németország
 tags:
-  - németország
+  - rom
+  - borostyán
+  - árnyék
+  - régmúlt
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

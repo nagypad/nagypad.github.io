@@ -6,7 +6,10 @@ coords:
   - 18.9216381311
 place: Perőcsény, Magyarország
 tags:
-  - magyarország
+  - rögtönzés
+  - egyszerűség
+  - tavasz
+  - udvar
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

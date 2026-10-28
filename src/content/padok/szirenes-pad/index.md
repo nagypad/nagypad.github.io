@@ -6,7 +6,10 @@ coords:
   - 21.5685707331
 place: Kispatak, Sárospatak, Magyarország
 tags:
-  - magyarország
+  - pompa
+  - régmúlt
+  - udvar
+  - napfény
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

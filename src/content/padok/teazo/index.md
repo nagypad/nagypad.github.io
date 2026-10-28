@@ -6,7 +6,10 @@ coords:
   - 24.2562994986
 place: Kolari, Finnország
 tags:
-  - finnország
+  - menedék
+  - erdő
+  - tábortűz
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

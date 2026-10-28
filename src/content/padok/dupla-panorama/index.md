@@ -6,7 +6,10 @@ coords:
   - 19.051682353
 place: Gellérthegy, Budapest, Magyarország
 tags:
-  - magyarország
+  - kettősség
+  - napfény
+  - szín
+  - háttal
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

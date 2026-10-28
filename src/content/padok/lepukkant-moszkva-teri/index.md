@@ -6,7 +6,10 @@ coords:
   - 19.0247797966
 place: Országút, Budapest, Magyarország
 tags:
-  - magyarország
+  - kitartás
+  - hányattatás
+  - várakozás
+  - kék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 8.18070416718
 place: Habsburg, Svájc
 tags:
-  - svájc
+  - régmúlt
+  - kőfal
+  - félhomály
+  - menedék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

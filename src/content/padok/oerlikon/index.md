@@ -6,7 +6,10 @@ coords:
   - 7.80202031136
 place: Schopfheim, Németország
 tags:
-  - németország
+  - várakozás
+  - rend
+  - város
+  - sorakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 14.256477356
 place: Il-Qbajjar, Marsalforn, Málta
 tags:
-  - málta
+  - tenger
+  - nyár
+  - szín
+  - forróság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

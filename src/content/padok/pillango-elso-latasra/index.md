@@ -6,7 +6,10 @@ coords:
   - 7.2006454
 place: Kerzers, Svájc
 tags:
-  - svájc
+  - zöld
+  - páfrány
+  - trópus
+  - rejtekhely
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

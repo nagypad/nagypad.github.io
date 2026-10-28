@@ -6,7 +6,10 @@ coords:
   - -6.684716
 place: Balraheen ED, Írország
 tags:
-  - írország
+  - zöld
+  - tágasság
+  - nyugalom
+  - tavasz
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

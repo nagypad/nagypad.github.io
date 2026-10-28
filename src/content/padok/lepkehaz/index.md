@@ -6,7 +6,10 @@ coords:
   - 9.19411897659
 place: Konstanz, Németország
 tags:
-  - németország
+  - csipke
+  - pompa
+  - kert
+  - régmúlt
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

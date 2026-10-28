@@ -6,7 +6,10 @@ coords:
   - 22.7776354551
 place: Meregyó, Románia
 tags:
-  - románia
+  - hegy
+  - napsugár
+  - rögtönzés
+  - pásztorélet
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

@@ -6,7 +6,10 @@ coords:
   - 19.0759348869
 place: Városliget, Budapest, Magyarország
 tags:
-  - magyarország
+  - állatkert
+  - séta
+  - régmúlt
+  - árnyék
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

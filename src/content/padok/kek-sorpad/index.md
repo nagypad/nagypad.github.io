@@ -6,7 +6,10 @@ coords:
   - -21.9296550751
 place: Miðborg, Reykjavík, Izland
 tags:
-  - izland
+  - hajnal
+  - utca
+  - meglepetés
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

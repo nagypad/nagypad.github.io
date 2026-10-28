@@ -6,7 +6,10 @@ coords:
   - 9.1817588
 place: Stuttgart-Mitte, Stuttgart, Németország
 tags:
-  - németország
+  - játék
+  - gyerekkor
+  - aprócska
+  - vásár
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

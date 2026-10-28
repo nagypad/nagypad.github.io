@@ -6,7 +6,10 @@ coords:
   - 17.8955054283
 place: Tihany, Magyarország
 tags:
-  - magyarország
+  - humor
+  - utazás
+  - hajó
+  - várakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

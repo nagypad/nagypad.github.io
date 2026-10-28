@@ -6,7 +6,10 @@ coords:
   - 8.7722209096
 place: Schwyz, Svájc
 tags:
-  - svájc
+  - hó
+  - elmerülés
+  - tél
+  - humor
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

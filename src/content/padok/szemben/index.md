@@ -6,7 +6,10 @@ coords:
   - 9.73741757749
 place: Manarola, Olaszország
 tags:
-  - olaszország
+  - tenger
+  - kettesben
+  - áhítat
+  - szemlélődés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

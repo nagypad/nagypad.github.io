@@ -6,7 +6,10 @@ coords:
   - 8.63242149353
 place: Breite, Schaffhausen, Svájc
 tags:
-  - svájc
+  - derű
+  - humor
+  - szín
+  - meglepetés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

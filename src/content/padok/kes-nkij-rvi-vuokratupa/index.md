@@ -6,7 +6,10 @@ coords:
   - 24.2365584403
 place: Kolari, Finnország
 tags:
-  - finnország
+  - menedék
+  - erdő
+  - csend
+  - tornác
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

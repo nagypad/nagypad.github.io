@@ -6,7 +6,10 @@ coords:
   - 12.700487
 place: Bocchignano, Olaszország
 tags:
-  - olaszország
+  - virág
+  - otthonosság
+  - kert
+  - régmúlt
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

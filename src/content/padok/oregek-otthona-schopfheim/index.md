@@ -6,7 +6,10 @@ coords:
   - 7.8278875351
 place: Schopfheim, Németország
 tags:
-  - németország
+  - kert
+  - nyugalom
+  - időskor
+  - lugas
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

@@ -6,7 +6,10 @@ coords:
   - 7.4936282
 place: Moosseedorf, Svájc
 tags:
-  - svájc
+  - egyedüllét
+  - hullám
+  - pihenő
+  - kirakat
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 19.079732
 place: Angyalföld, Budapest, Magyarország
 tags:
-  - magyarország
+  - játék
+  - szín
+  - háttal
+  - humor
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

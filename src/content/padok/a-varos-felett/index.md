@@ -6,7 +6,10 @@ coords:
   - 19.0522885323
 place: Gellérthegy, Budapest, Magyarország
 tags:
-  - magyarország
+  - kilátás
+  - magasság
+  - város
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

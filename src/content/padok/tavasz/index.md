@@ -6,7 +6,10 @@ coords:
   - 19.9299716949
 place: Stare Miasto, Krakkó, Lengyelország
 tags:
-  - lengyelország
+  - tavasz
+  - folyópart
+  - nyüzsgés
+  - alkonyat
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 9.1765139
 place: Stuttgart-Mitte, Stuttgart, Németország
 tags:
-  - németország
+  - óváros
+  - nyár
+  - nyüzsgés
+  - kávé
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

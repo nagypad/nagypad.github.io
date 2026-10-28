@@ -6,7 +6,10 @@ coords:
   - 20.5922842026
 place: Abádszalók, Magyarország
 tags:
-  - magyarország
+  - csend
+  - kopás
+  - egyedüllét
+  - régmúlt
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

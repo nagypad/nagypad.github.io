@@ -6,7 +6,10 @@ coords:
   - 8.56423331797
 place: Glattpark, Glattbrugg, Svájc
 tags:
-  - svájc
+  - sokaság
+  - kezdet
+  - várakozás
+  - rend
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

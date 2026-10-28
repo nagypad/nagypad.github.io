@@ -6,7 +6,10 @@ coords:
   - 8.07700839102
 place: Rüßwihl, Németország
 tags:
-  - németország
+  - messzeség
+  - tél
+  - hegy
+  - egyedüllét
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

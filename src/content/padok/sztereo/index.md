@@ -6,7 +6,10 @@ coords:
   - 8.44004273415
 place: Regensberg, Svájc
 tags:
-  - svájc
+  - kettősség
+  - árnyék
+  - pihenő
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

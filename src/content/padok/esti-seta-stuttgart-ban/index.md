@@ -6,7 +6,10 @@ coords:
   - 9.1613458
 place: Stuttgart-Nord, Stuttgart, Németország
 tags:
-  - németország
+  - kilátás
+  - este
+  - város
+  - séta
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

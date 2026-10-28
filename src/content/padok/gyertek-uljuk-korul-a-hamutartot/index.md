@@ -6,7 +6,10 @@ coords:
   - 7.58515298367
 place: Vorstädte, Bázel, Svájc
 tags:
-  - svájc
+  - éjszaka
+  - társaság
+  - lámpafény
+  - humor
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

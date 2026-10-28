@@ -6,7 +6,10 @@ coords:
   - 20.2147222
 place: Tátrafüred, Szlovákia
 tags:
-  - szlovákia
+  - köd
+  - eső
+  - humor
+  - várakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

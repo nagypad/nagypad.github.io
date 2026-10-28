@@ -6,7 +6,10 @@ coords:
   - 9.20979326442
 place: Portofino, Olaszország
 tags:
-  - olaszország
+  - kikötő
+  - szín
+  - nyüzsgés
+  - tavasz
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

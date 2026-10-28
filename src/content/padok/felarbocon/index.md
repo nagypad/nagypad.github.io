@@ -6,7 +6,10 @@ coords:
   - -73.9714515209
 place: Manhattan, New York, Egyesült Államok
 tags:
-  - egyesült államok
+  - emlékezés
+  - csend
+  - tél
+  - tisztelgés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

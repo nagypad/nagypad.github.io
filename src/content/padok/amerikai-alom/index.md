@@ -6,7 +6,10 @@ coords:
   - -71.0106323
 place: South Boston, Boston, Egyesült Államok
 tags:
-  - egyesült államok
+  - tágasság
+  - történelem
+  - szabadság
+  - derű
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

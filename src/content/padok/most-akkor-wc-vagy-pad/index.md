@@ -6,7 +6,10 @@ coords:
   - 19.0248441696
 place: Krisztinaváros, Budapest, Magyarország
 tags:
-  - magyarország
+  - állomás
+  - várakozás
+  - indulás
+  - rend
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

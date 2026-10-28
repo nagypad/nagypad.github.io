@@ -6,7 +6,10 @@ coords:
   - 9.20519057795
 place: Bad Cannstatt, Stuttgart, Németország
 tags:
-  - németország
+  - borús ég
+  - tó
+  - csend
+  - tavasz
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

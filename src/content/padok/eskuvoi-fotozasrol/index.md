@@ -6,7 +6,10 @@ coords:
   - 19.3443757296
 place: Központ, Gödöllő, Magyarország
 tags:
-  - magyarország
+  - kert
+  - ünnep
+  - nyugalom
+  - várakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

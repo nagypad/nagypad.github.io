@@ -6,7 +6,10 @@ coords:
   - 18.3192837238
 place: Óváros, Tata, Magyarország
 tags:
-  - magyarország
+  - kitartás
+  - humor
+  - víz
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

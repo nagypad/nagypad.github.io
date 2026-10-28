@@ -6,7 +6,10 @@ coords:
   - 9.18892085552
 place: Németország
 tags:
-  - németország
+  - szemlélődés
+  - víz
+  - árnyék
+  - egyedüllét
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

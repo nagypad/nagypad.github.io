@@ -6,7 +6,10 @@ coords:
   - 21.2696385384
 place: Németváros, Gyula, Magyarország
 tags:
-  - magyarország
+  - ősz
+  - víz
+  - fűzfaárnyék
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

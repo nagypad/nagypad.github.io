@@ -6,7 +6,10 @@ coords:
   - -0.0142049789429
 place: East Greenwich, London, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - várakozás
+  - utca
+  - nyár
+  - hazaút
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

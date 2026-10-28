@@ -6,7 +6,10 @@ coords:
   - 18.9796328545
 place: Széchenyihegy, Budapest, Magyarország
 tags:
-  - magyarország
+  - várakozás
+  - napfolt
+  - régmúlt
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

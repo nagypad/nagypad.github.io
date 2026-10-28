@@ -6,7 +6,10 @@ coords:
   - 18.8834059238
 place: Nagykovácsi, Magyarország
 tags:
-  - magyarország
+  - gyerekkor
+  - szín
+  - ősz
+  - derű
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

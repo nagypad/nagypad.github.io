@@ -6,7 +6,10 @@ coords:
   - 18.1668269634
 place: Balatonakarattya, Magyarország
 tags:
-  - magyarország
+  - keret
+  - útszél
+  - várakozás
+  - humor
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

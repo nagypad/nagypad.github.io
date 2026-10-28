@@ -6,7 +6,10 @@ coords:
   - 20.6848311424
 place: Szögliget, Magyarország
 tags:
-  - magyarország
+  - vendégvárás
+  - ünnep
+  - vidék
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

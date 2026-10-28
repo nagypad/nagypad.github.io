@@ -6,7 +6,10 @@ coords:
   - 8.53367328644
 place: Bülach, Svájc
 tags:
-  - svájc
+  - kert
+  - tó
+  - csend
+  - madártávlat
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

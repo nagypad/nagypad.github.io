@@ -6,7 +6,10 @@ coords:
   - 20.810251236
 place: Martinkertváros, Miskolc, Magyarország
 tags:
-  - magyarország
+  - éjszaka
+  - várakozás
+  - indulás
+  - lámpafény
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 24.241879943
 place: Muonio, Finnország
 tags:
-  - finnország
+  - menedék
+  - tágasság
+  - csend
+  - vadon
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

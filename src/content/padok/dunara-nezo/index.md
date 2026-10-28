@@ -6,7 +6,10 @@ coords:
   - 18.6921107769
 place: Újmohács, Mohács, Magyarország
 tags:
-  - magyarország
+  - folyópart
+  - séta
+  - borús ég
+  - várakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

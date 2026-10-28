@@ -6,7 +6,10 @@ coords:
   - 19.389252
 place: Máriabesnyő, Gödöllő, Magyarország
 tags:
-  - magyarország
+  - sebesség
+  - elsuhanás
+  - várakozás
+  - utazás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

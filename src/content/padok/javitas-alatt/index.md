@@ -6,7 +6,10 @@ coords:
   - 9.17854918518
 place: Altstadt, Konstanz, Németország
 tags:
-  - németország
+  - tél
+  - hó
+  - várakozás
+  - felújítás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

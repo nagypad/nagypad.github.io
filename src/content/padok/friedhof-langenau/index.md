@@ -6,7 +6,10 @@ coords:
   - 7.79797554016
 place: Schopfheim, Németország
 tags:
-  - németország
+  - csend
+  - emlékezés
+  - tavasz
+  - békesség
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

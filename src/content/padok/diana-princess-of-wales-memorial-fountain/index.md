@@ -6,7 +6,10 @@ coords:
   - -0.171360969543
 place: Knightsbridge, City of Westminster, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - nyár
+  - hűsölés
+  - víz
+  - zsivaj
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

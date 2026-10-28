@@ -6,7 +6,10 @@ coords:
   - 17.2949452988
 place: Gyenesdiás, Magyarország
 tags:
-  - magyarország
+  - erdő
+  - társaság
+  - piknik
+  - árnyék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

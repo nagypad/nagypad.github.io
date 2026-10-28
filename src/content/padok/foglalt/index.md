@@ -6,7 +6,10 @@ coords:
   - 18.6845487
 place: Újváros-lakótelep, Mohács, Magyarország
 tags:
-  - magyarország
+  - farsang
+  - sokaság
+  - ünnep
+  - tél
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

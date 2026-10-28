@@ -6,7 +6,10 @@ coords:
   - 21.566374
 place: Újtelep, Sárospatak, Magyarország
 tags:
-  - magyarország
+  - hiány
+  - kékség
+  - tél
+  - várakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

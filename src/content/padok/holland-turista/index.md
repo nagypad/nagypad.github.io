@@ -6,7 +6,10 @@ coords:
   - 17.4783951044
 place: Somogyszentpál, Magyarország
 tags:
-  - magyarország
+  - várakozás
+  - falu
+  - nyár
+  - útközben
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

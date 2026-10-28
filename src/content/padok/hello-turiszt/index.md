@@ -6,7 +6,10 @@ coords:
   - 19.0807896852
 place: Városliget, Budapest, Magyarország
 tags:
-  - magyarország
+  - vendégszeretet
+  - derű
+  - szín
+  - üdvözlés
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

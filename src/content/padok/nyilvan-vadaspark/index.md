@@ -6,7 +6,10 @@ coords:
   - 8.52911353111
 place: Langnau am Albis, Svájc
 tags:
-  - svájc
+  - madár
+  - erdő
+  - ősz
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

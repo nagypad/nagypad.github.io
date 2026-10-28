@@ -6,7 +6,10 @@ coords:
   - 8.63724142313
 place: Morschach, Svájc
 tags:
-  - svájc
+  - lebegés
+  - hegy
+  - nyár
+  - kaland
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

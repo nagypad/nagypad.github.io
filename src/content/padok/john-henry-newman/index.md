@@ -6,7 +6,10 @@ coords:
   - -1.22144043446
 place: Littlemore, Oxford, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - csend
+  - kert
+  - otthonosság
+  - elvonulás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - -0.134003162384
 place: Millbank, City of Westminster, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - lombsátor
+  - park
+  - árnyék
+  - nyugalom
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

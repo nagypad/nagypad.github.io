@@ -6,7 +6,10 @@ coords:
   - 19.9287700653
 place: Vámosgyörk, Magyarország
 tags:
-  - magyarország
+  - várakozás
+  - rozsda
+  - indulás
+  - türelem
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

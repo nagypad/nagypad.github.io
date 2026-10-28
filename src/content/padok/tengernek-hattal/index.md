@@ -6,7 +6,10 @@ coords:
   - 14.5791578293
 place: Krk, Horvátország
 tags:
-  - horvátország
+  - kikötő
+  - nyár
+  - nyugalom
+  - rejtekhely
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

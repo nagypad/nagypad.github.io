@@ -6,7 +6,10 @@ coords:
   - 16.7056185007
 place: Nagycenk, Magyarország
 tags:
-  - magyarország
+  - egyedüllét
+  - ősz
+  - méltóság
+  - rejtekhely
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

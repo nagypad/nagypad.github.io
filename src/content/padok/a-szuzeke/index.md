@@ -6,7 +6,10 @@ coords:
   - 9.73970174789
 place: Manarola, Olaszország
 tags:
-  - olaszország
+  - áhítat
+  - csend
+  - ima
+  - menedék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

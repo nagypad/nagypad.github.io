@@ -6,7 +6,10 @@ coords:
   - 19.0585005283
 place: Belváros, Budapest, Magyarország
 tags:
-  - magyarország
+  - város
+  - kőtömb
+  - csend
+  - reggel
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

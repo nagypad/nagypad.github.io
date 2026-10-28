@@ -6,7 +6,10 @@ coords:
   - 18.7384593487
 place: Várhegy, Esztergom, Magyarország
 tags:
-  - magyarország
+  - ragyogás
+  - méltóság
+  - napfény
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 8.09271812439
 place: Brienzwiler, Svájc
 tags:
-  - svájc
+  - időtlenség
+  - rét
+  - pihenő
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 9.095911
 place: Weilimdorf, Stuttgart, Németország
 tags:
-  - németország
+  - várakozás
+  - állomás
+  - rend
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

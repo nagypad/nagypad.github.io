@@ -6,7 +6,10 @@ coords:
   - 18.9620161057
 place: Nagymaros, Magyarország
 tags:
-  - magyarország
+  - víz
+  - hűsölés
+  - nyár
+  - humor
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

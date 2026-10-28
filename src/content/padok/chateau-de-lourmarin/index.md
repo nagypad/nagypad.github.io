@@ -6,7 +6,10 @@ coords:
   - 5.359249
 place: Lourmarin, Franciaország
 tags:
-  - franciaország
+  - időtlenség
+  - méltóság
+  - árnyék
+  - kert
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

@@ -6,7 +6,10 @@ coords:
   - 22.84096241
 place: Meregyó, Románia
 tags:
-  - románia
+  - erdő
+  - víz
+  - csend
+  - pihenő
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

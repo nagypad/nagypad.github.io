@@ -6,7 +6,10 @@ coords:
   - 8.4538051486
 place: Dielsdorf, Svájc
 tags:
-  - svájc
+  - este
+  - kocsma
+  - lámpafény
+  - vendégvárás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

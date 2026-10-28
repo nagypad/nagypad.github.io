@@ -6,7 +6,10 @@ coords:
   - -71.1575105349
 place: Brighton, Boston, Egyesült Államok
 tags:
-  - egyesült államok
+  - rend
+  - nyugalom
+  - otthonosság
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

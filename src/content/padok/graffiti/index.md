@@ -6,7 +6,10 @@ coords:
   - 19.048568
 place: Aquincum, Budapest, Magyarország
 tags:
-  - magyarország
+  - humor
+  - játék
+  - társaság
+  - meglepetés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

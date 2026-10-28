@@ -6,7 +6,10 @@ coords:
   - -21.9317579269
 place: Miðborg, Reykjavík, Izland
 tags:
-  - izland
+  - éjszaka
+  - szín
+  - fények
+  - meglepetés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

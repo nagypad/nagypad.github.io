@@ -6,7 +6,10 @@ coords:
   - 7.89668083191
 place: Hasel, Németország
 tags:
-  - németország
+  - aprócska
+  - csend
+  - várakozás
+  - egyszerűség
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

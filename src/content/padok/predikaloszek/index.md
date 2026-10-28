@@ -6,7 +6,10 @@ coords:
   - 18.9274692535
 place: Diós, Visegrád, Magyarország
 tags:
-  - magyarország
+  - napsugár
+  - tél
+  - erdő
+  - ragyogás
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

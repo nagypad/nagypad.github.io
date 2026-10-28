@@ -6,7 +6,10 @@ coords:
   - 8.07950019836
 place: Rüßwihl, Németország
 tags:
-  - németország
+  - falu
+  - templom
+  - várakozás
+  - otthonosság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

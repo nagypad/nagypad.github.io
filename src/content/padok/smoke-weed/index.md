@@ -6,7 +6,10 @@ coords:
   - 18.964446187
 place: Hűvösvölgy, Budapest, Magyarország
 tags:
-  - magyarország
+  - éjszaka
+  - kopás
+  - graffiti
+  - titok
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

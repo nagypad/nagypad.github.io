@@ -6,7 +6,10 @@ coords:
   - 19.082790086
 place: Városliget, Budapest, Magyarország
 tags:
-  - magyarország
+  - mese
+  - faragás
+  - humor
+  - meglepetés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

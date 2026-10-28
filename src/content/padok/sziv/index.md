@@ -6,7 +6,10 @@ coords:
   - 7.82511949539
 place: Schopfheim, Németország
 tags:
-  - németország
+  - gyerekkor
+  - játék
+  - rajz
+  - felfedezés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

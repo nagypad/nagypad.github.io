@@ -6,7 +6,10 @@ coords:
   - 19.0658625
 place: Csillaghegy, Budapest, Magyarország
 tags:
-  - magyarország
+  - szín
+  - árnyék
+  - nyár
+  - játék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

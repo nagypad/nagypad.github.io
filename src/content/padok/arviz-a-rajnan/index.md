@@ -6,7 +6,10 @@ coords:
   - 7.78951642088
 place: Augarten, Rheinfelden, Svájc
 tags:
-  - svájc
+  - áradás
+  - kitartás
+  - víz
+  - merészség
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

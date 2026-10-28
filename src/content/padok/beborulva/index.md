@@ -6,7 +6,10 @@ coords:
   - 19.0497975
 place: Gellérthegy, Budapest, Magyarország
 tags:
-  - magyarország
+  - felborulás
+  - víz
+  - humor
+  - sodródás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 19.0247958899
 place: Országút, Budapest, Magyarország
 tags:
-  - magyarország
+  - népi
+  - szín
+  - mese
+  - faragás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

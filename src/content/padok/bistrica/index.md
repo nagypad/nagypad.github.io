@@ -6,7 +6,10 @@ coords:
   - 16.1190998554
 place: Marija Bistrica, Máriabeszterce, Horvátország
 tags:
-  - horvátország
+  - csend
+  - méltóság
+  - kapu
+  - tágasság
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

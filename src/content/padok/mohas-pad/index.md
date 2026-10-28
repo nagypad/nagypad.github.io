@@ -6,7 +6,10 @@ coords:
   - 8.42755399397
 place: Steinmaur, Svájc
 tags:
-  - svájc
+  - moha
+  - erdő
+  - burjánzás
+  - kopás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

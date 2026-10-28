@@ -6,7 +6,10 @@ coords:
   - 7.74930953979
 place: Zermatt, Svájc
 tags:
-  - svájc
+  - hó
+  - hegy
+  - tél
+  - kitartás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

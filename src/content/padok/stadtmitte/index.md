@@ -6,7 +6,10 @@ coords:
   - 7.59011507034
 place: Rauental, Koblenz, Németország
 tags:
-  - németország
+  - éjszaka
+  - állomás
+  - várakozás
+  - lámpafény
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

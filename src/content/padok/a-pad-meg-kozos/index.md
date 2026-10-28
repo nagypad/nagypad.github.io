@@ -6,7 +6,10 @@ coords:
   - -3.29951673746
 place: Dalgety Bay, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - együttlét
+  - humor
+  - békesség
+  - múlt
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

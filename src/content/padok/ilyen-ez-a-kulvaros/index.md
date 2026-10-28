@@ -6,7 +6,10 @@ coords:
   - 7.80836105347
 place: Schopfheim, Németország
 tags:
-  - németország
+  - egyszerűség
+  - külváros
+  - nyár
+  - otthonosság
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

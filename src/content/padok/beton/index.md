@@ -6,7 +6,10 @@ coords:
   - 7.94753551483
 place: Säckingen, Bad Säckingen, Németország
 tags:
-  - németország
+  - rend
+  - város
+  - árnyék
+  - pihenő
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

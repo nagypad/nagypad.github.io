@@ -6,7 +6,10 @@ coords:
   - -73.9941108227
 place: Brooklyn, New York, Egyesült Államok
 tags:
-  - egyesült államok
+  - meglepetés
+  - mese
+  - nagyváros
+  - szín
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

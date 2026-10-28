@@ -6,7 +6,10 @@ coords:
   - 6.95675954177
 place: Altstadt-Nord, Köln, Németország
 tags:
-  - németország
+  - magasság
+  - eső
+  - ámulat
+  - méltóság
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

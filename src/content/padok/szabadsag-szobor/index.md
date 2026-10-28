@@ -6,7 +6,10 @@ coords:
   - -73.996642828
 place: Brooklyn, New York, Egyesült Államok
 tags:
-  - egyesült államok
+  - folyópart
+  - nagyváros
+  - tágasság
+  - sorakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

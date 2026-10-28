@@ -6,7 +6,10 @@ coords:
   - -4.28482890129
 place: Finnieston, Glasgow, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - ősz
+  - park
+  - tágasság
+  - avar
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 17.8784680367
 place: Balatonföldvár, Magyarország
 tags:
-  - magyarország
+  - tükröződés
+  - eső után
+  - víz
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

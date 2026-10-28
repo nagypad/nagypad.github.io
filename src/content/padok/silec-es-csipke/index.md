@@ -6,7 +6,10 @@ coords:
   - 18.7381643057
 place: Libád, Esztergom, Magyarország
 tags:
-  - magyarország
+  - ötlet
+  - művészet
+  - meglepetés
+  - csipke
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

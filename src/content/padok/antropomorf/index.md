@@ -6,7 +6,10 @@ coords:
   - 9.19955682009
 place: Konstanz, Németország
 tags:
-  - németország
+  - társaság
+  - művészet
+  - beszélgetés
+  - meglepetés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

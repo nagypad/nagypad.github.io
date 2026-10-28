@@ -6,7 +6,10 @@ coords:
   - -21.9019317627
 place: Laugardalur, Reykjavík, Izland
 tags:
-  - izland
+  - derengés
+  - tenger
+  - csend
+  - virrasztás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

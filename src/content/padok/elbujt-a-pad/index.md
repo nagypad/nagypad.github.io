@@ -6,7 +6,10 @@ coords:
   - 8.18409562111
 place: Lenzburg, Svájc
 tags:
-  - svájc
+  - rejtekhely
+  - burjánzás
+  - vadvirág
+  - titok
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

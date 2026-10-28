@@ -6,7 +6,10 @@ coords:
   - 8.09192419052
 place: Brienzwiler, Svájc
 tags:
-  - svájc
+  - otthon
+  - melegség
+  - régmúlt
+  - hazaérkezés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

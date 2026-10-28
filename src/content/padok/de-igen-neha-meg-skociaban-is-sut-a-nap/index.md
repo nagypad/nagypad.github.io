@@ -6,7 +6,10 @@ coords:
   - -3.20094823837
 place: Old Town, Edinburgh, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - napfény
+  - macskakő
+  - pihenő
+  - derű
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

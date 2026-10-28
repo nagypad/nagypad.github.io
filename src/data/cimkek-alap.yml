@@ -1,45 +1,95 @@
 # Kezdő címkekészlet, hogy a beküldő-form autocomplete-je ne legyen üres
 # az első napon. Egyszintű, lapos lista — nincs kategória-mező a rendszerben,
 # a csoportosítás itt csak az áttekinthetőség kedvéért van.
+#
+# A címkék HANGULATOT neveznek meg, nem tényt: nem az számít, hogy a pad fából
+# vagy fémből van, hanem hogy mit érez, aki ráül. Soha nem elutasítóak — minden
+# padot szeretünk —, és főnévi alakban állnak.
 # Bővíthető: új sor = új alapcímke. (lásd TERV.md 9. fejezet)
 
-# környezet
-- tengerpart
-- vízpart
-- hegy
+# amit a pad ad
+- csend
+- nyugalom
+- pihenő
+- menedék
+- rejtekhely
+- otthonosság
+- meghittség
+- kényelem
+- vendégvárás
+- egyszerűség
+- rend
+- méltóság
+- kitartás
+
+# amit a pad kér
+- várakozás
+- szemlélődés
+- áhítat
+- emlékezés
+- egyedüllét
+- együttlét
+- beszélgetés
+- társaság
+- kettesben
+- útközben
+- indulás
+
+# a hely tágassága
+- tágasság
+- kilátás
+- magasság
+- messzeség
+- horizont
+- madártávlat
+
+# fény és idő
+- napfény
+- árnyék
+- félhomály
+- aranyfény
+- derengés
+- hajnal
+- reggel
+- alkonyat
+- éjszaka
+- lámpafény
+- ragyogás
+
+# évszak és időjárás
+- tavasz
+- nyár
+- ősz
+- tél
+- hó
+- köd
+- eső
+- borús ég
+- szél
+
+# ami körülveszi
 - erdő
+- víz
+- tenger
+- tó
+- folyópart
+- hegy
+- kert
 - park
 - város
+- nagyváros
 - falu
-- templom
-- temető
-- állomás
-- kert
+- vidék
+- macskakő
 
-# kilátás
-- panoráma
-- naplemente
-- híd
-- folyó
-
-# anyag
-- fa
-- fém
-- kő
-- beton
-
-# jelleg
-- körpad
-- hintapad
-- egyszemélyes
-- hosszú
-- asztallal
-- háttámla nélkül
-- rögtönzött
-- mobil
-
-# állapot
-- romos
-- vadonatúj
-- felirattal
-- benőtt
+# amit érez, aki nézi
+- derű
+- humor
+- ámulat
+- meglepetés
+- mese
+- nosztalgia
+- régmúlt
+- időtlenség
+- gyerekkor
+- szín

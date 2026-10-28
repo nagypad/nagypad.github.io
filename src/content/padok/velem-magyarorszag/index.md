@@ -6,7 +6,10 @@ coords:
   - 16.47895
 place: Velem, Magyarország
 tags:
-  - magyarország
+  - ősz
+  - aranyfény
+  - erdő
+  - túra
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

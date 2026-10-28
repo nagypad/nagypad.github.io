@@ -6,7 +6,10 @@ coords:
   - -70.7879108191
 place: Cohasset, Egyesült Államok
 tags:
-  - egyesült államok
+  - aranyfény
+  - ősz
+  - nyugalom
+  - víz
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

@@ -6,7 +6,10 @@ coords:
   - 17.8290402889
 place: Balatonszárszó, Magyarország
 tags:
-  - magyarország
+  - fűzfaárnyék
+  - ősz
+  - rejtekhely
+  - csend
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

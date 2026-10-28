@@ -6,7 +6,10 @@ coords:
   - 17.6218986511
 place: Révfülöp, Magyarország
 tags:
-  - magyarország
+  - kilátás
+  - tágasság
+  - nyár
+  - magasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

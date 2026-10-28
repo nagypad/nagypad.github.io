@@ -6,7 +6,10 @@ coords:
   - 18.0462241173
 place: Belváros, Siófok, Magyarország
 tags:
-  - magyarország
+  - szél
+  - fűzfaárnyék
+  - víz
+  - borús ég
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

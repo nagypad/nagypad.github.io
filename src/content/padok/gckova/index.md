@@ -6,7 +6,10 @@ coords:
   - 17.8896045685
 place: Tamáshegy, Balatonfüred, Magyarország
 tags:
-  - magyarország
+  - kilátó
+  - várakozás
+  - újdonság
+  - vidék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

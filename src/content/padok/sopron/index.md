@@ -6,7 +6,10 @@ coords:
   - 16.5906965733
 place: Belváros, Sopron, Magyarország
 tags:
-  - magyarország
+  - óváros
+  - méltóság
+  - nyár
+  - pihenő
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

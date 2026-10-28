@@ -6,7 +6,10 @@ coords:
   - 9.1216613
 place: Sant'Alenixedda, Casteddu/Cagliari, Olaszország
 tags:
-  - olaszország
+  - este
+  - fasor
+  - lámpafény
+  - séta
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

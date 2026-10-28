@@ -6,7 +6,10 @@ coords:
   - 8.4521037963
 place: Dielsdorf, Svájc
 tags:
-  - svájc
+  - olvadás
+  - kert
+  - várakozás
+  - tavaszvárás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

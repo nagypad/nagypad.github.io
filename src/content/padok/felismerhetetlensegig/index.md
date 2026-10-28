@@ -6,7 +6,10 @@ coords:
   - 19.9370113
 place: Garamszécs, Szlovákia
 tags:
-  - szlovákia
+  - hó
+  - ragyogás
+  - tél
+  - elmerülés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

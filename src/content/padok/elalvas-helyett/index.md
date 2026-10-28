@@ -6,7 +6,10 @@ coords:
   - 20.3166657686
 place: Kál, Magyarország
 tags:
-  - magyarország
+  - útközben
+  - pihenő
+  - ősz
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

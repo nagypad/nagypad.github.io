@@ -6,7 +6,10 @@ coords:
   - 19.089217186
 place: Kerepesdűlő, Budapest, Magyarország
 tags:
-  - magyarország
+  - várakozás
+  - állomás
+  - indulás
+  - nosztalgia
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

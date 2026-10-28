@@ -6,7 +6,10 @@ coords:
   - 17.8299475
 place: Balatonszárszó, Magyarország
 tags:
-  - magyarország
+  - naplemente
+  - kettesben
+  - csend
+  - víz
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

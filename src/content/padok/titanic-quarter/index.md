@@ -6,7 +6,10 @@ coords:
   - -5.910723
 place: Ballyhackamore, Belfast, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - beszélgetés
+  - kőtömb
+  - napfény
+  - hármasban
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

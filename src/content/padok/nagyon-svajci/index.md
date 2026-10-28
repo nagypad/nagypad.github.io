@@ -6,7 +6,10 @@ coords:
   - 8.43694612384
 place: Regensberg, Svájc
 tags:
-  - svájc
+  - óváros
+  - macskakő
+  - tél
+  - otthonosság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

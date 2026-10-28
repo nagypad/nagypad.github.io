@@ -6,7 +6,10 @@ coords:
   - 8.55735987425
 place: Alpenblick, Edlibach, Svájc
 tags:
-  - svájc
+  - mosoly
+  - humor
+  - erdő
+  - derű
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

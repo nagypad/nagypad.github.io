@@ -6,7 +6,10 @@ coords:
   - -71.6731631756
 place: Lincoln, Egyesült Államok
 tags:
-  - egyesült államok
+  - fagylalt
+  - ősz
+  - kisváros
+  - nosztalgia
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 17.8279995918
 place: Balatonszárszó, Magyarország
 tags:
-  - magyarország
+  - nagymama
+  - gyerekkor
+  - együttlét
+  - meghittség
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

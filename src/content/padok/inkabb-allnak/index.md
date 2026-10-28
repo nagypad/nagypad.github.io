@@ -6,7 +6,10 @@ coords:
   - 8.30802222768
 place: Baden, Svájc
 tags:
-  - svájc
+  - kert
+  - szobrok
+  - társaság
+  - rejtekhely
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

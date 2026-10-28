@@ -6,7 +6,10 @@ coords:
   - 6.91854186109
 place: Saint-Raphaël, Franciaország
 tags:
-  - franciaország
+  - tenger
+  - kilátás
+  - tágasság
+  - nyugalom
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

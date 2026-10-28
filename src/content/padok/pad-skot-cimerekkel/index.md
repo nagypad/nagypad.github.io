@@ -6,7 +6,10 @@ coords:
   - -3.19944083691
 place: Old Town, Edinburgh, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - pompa
+  - félhomály
+  - régmúlt
+  - ablakfülke
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

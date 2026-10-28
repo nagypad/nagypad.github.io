@@ -6,7 +6,10 @@ coords:
   - -74.0174514055
 place: Manhattan, New York, Egyesült Államok
 tags:
-  - egyesült államok
+  - tél
+  - messzeség
+  - víz
+  - vágyakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

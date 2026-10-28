@@ -6,7 +6,10 @@ coords:
   - -0.0762176513672
 place: Whitechapel, London, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - beszélgetés
+  - pihenő
+  - együttlét
+  - útközben
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

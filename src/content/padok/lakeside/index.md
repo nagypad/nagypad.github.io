@@ -6,7 +6,10 @@ coords:
   - 8.55375192812
 place: Kreis 8, Zürich, Svájc
 tags:
-  - svájc
+  - tágasság
+  - egyedüllét
+  - tavasz
+  - rét
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

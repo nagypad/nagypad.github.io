@@ -6,7 +6,10 @@ coords:
   - 19.9335604906
 place: Stare Miasto, Krakkó, Lengyelország
 tags:
-  - lengyelország
+  - naplemente
+  - kettesben
+  - csend
+  - folyó
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

@@ -6,7 +6,10 @@ coords:
   - 20.1628303528
 place: Nagyút, Magyarország
 tags:
-  - magyarország
+  - tágasság
+  - várakozás
+  - vidék
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

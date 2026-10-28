@@ -6,7 +6,10 @@ coords:
   - -74.0051722527
 place: Manhattan, New York, Egyesült Államok
 tags:
-  - egyesült államok
+  - város
+  - csonk
+  - egyszerűség
+  - árnyék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

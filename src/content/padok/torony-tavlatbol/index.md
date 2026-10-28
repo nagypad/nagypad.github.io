@@ -6,7 +6,10 @@ coords:
   - 18.052457571
 place: Belváros, Siófok, Magyarország
 tags:
-  - magyarország
+  - madártávlat
+  - város
+  - pihenő
+  - bicikli
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

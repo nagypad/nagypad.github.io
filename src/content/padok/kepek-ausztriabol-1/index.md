@@ -6,7 +6,10 @@ coords:
   - 12.93234
 place: Sankt Georgen bei Salzburg, Ausztria
 tags:
-  - ausztria
+  - otthonosság
+  - muskátli
+  - falu
+  - vendégvárás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

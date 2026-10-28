@@ -6,7 +6,10 @@ coords:
   - 13.6744857531
 place: Sassnitz, Németország
 tags:
-  - németország
+  - tenger
+  - egyedüllét
+  - szemlélődés
+  - remény
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

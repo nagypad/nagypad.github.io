@@ -6,7 +6,10 @@ coords:
   - 8.49071502686
 place: Affoltern, Zürich, Svájc
 tags:
-  - svájc
+  - fürdés
+  - nyár
+  - erdő
+  - hétköznap
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

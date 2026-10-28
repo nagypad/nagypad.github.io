@@ -6,7 +6,10 @@ coords:
   - 19.031377
 place: Kaszásdűlő, Budapest, Magyarország
 tags:
-  - magyarország
+  - tavasz
+  - régmúlt
+  - kert
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 17.4363917112
 place: Szigliget, Magyarország
 tags:
-  - magyarország
+  - áhítat
+  - kőfal
+  - csend
+  - egyszerűség
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

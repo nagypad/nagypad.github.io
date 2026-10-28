@@ -6,7 +6,10 @@ coords:
   - 21.5662050247
 place: Újtelep, Sárospatak, Magyarország
 tags:
-  - magyarország
+  - árnyék
+  - park
+  - délután
+  - várakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

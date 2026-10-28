@@ -6,7 +6,10 @@ coords:
   - 17.9143452644
 place: Szántód, Magyarország
 tags:
-  - magyarország
+  - bor
+  - vidék
+  - nyár
+  - régmúlt
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

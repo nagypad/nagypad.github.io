@@ -6,7 +6,10 @@ coords:
   - 8.078083992
 place: Hofstetten bei Brienz, Svájc
 tags:
-  - svájc
+  - tornác
+  - gyógyfű
+  - múlt
+  - nyugalom
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

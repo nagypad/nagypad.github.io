@@ -6,7 +6,10 @@ coords:
   - -73.9970773458
 place: Manhattan, New York, Egyesült Államok
 tags:
-  - egyesült államok
+  - éjszaka
+  - fények
+  - nagyváros
+  - sorakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

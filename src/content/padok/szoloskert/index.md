@@ -6,7 +6,10 @@ coords:
   - 8.44447470954
 place: Regensberg, Svájc
 tags:
-  - svájc
+  - gyerekkor
+  - szőlőhegy
+  - bor
+  - tavasz
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

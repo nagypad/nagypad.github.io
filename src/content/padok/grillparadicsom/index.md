@@ -6,7 +6,10 @@ coords:
   - 8.43846559525
 place: Dielsdorf, Svájc
 tags:
-  - svájc
+  - erdő
+  - tábortűz
+  - társaság
+  - árnyék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

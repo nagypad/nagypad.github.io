@@ -6,7 +6,10 @@ coords:
   - -4.2820557
 place: Anderston, Glasgow, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - cserepek
+  - csend
+  - egyszerűség
+  - udvar
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

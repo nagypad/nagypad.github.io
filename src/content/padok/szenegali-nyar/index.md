@@ -6,7 +6,10 @@ coords:
   - -17.5144815445
 place: Commune de Ngor, Dakar, Szenegál
 tags:
-  - szenegál
+  - nyár
+  - szín
+  - mozaik
+  - derű
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

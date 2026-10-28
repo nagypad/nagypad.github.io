@@ -6,7 +6,10 @@ coords:
   - 8.08731079102
 place: Rüßwihl, Németország
 tags:
-  - németország
+  - vízesés
+  - erdő
+  - csobogás
+  - árnyék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

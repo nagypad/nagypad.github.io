@@ -6,7 +6,10 @@ coords:
   - 7.82801628113
 place: Schopfheim, Németország
 tags:
-  - németország
+  - útszél
+  - tavasz
+  - árnyék
+  - kilátás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

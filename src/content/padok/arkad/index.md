@@ -6,7 +6,10 @@ coords:
   - 7.45141267776
 place: Stadtteil I, Bern, Svájc
 tags:
-  - svájc
+  - menedék
+  - kávé
+  - árnyék
+  - nyugalom
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

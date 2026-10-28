@@ -6,7 +6,10 @@ coords:
   - -21.8849372864
 place: Laugardalur, Reykjavík, Izland
 tags:
-  - izland
+  - graffiti
+  - város
+  - borús ég
+  - egyszerűség
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

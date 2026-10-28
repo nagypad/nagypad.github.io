@@ -6,7 +6,10 @@ coords:
   - 9.73953938889
 place: Manarola, Olaszország
 tags:
-  - olaszország
+  - tenger
+  - eső
+  - szín
+  - borús ég
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

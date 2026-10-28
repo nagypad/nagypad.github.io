@@ -6,7 +6,10 @@ coords:
   - 8.43902617693
 place: Regensberg, Svájc
 tags:
-  - svájc
+  - hó
+  - tél
+  - összeroskadás
+  - kitartás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

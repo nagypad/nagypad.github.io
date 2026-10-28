@@ -6,7 +6,10 @@ coords:
   - 9.19521331787
 place: Bad Cannstatt, Stuttgart, Németország
 tags:
-  - németország
+  - lugas
+  - árnyék
+  - távlat
+  - nyugalom
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

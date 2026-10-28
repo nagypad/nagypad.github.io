@@ -6,7 +6,10 @@ coords:
   - 16.4427191019
 place: Hvar, Grad Hvar, Horvátország
 tags:
-  - horvátország
+  - éjszaka
+  - aranyfény
+  - kőfal
+  - egyedüllét
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

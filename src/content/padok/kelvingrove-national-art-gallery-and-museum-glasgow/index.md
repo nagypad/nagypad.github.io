@@ -6,7 +6,10 @@ coords:
   - -4.29157733917
 place: Finnieston, Glasgow, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - köd
+  - méltóság
+  - eső
+  - ámulat
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

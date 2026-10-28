@@ -6,7 +6,10 @@ coords:
   - 17.8829956055
 place: Tihany, Magyarország
 tags:
-  - magyarország
+  - megérkezés
+  - pihenő
+  - víz
+  - egyedüllét
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

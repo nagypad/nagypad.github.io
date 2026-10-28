@@ -6,7 +6,10 @@ coords:
   - 17.8293299675
 place: Balatonszárszó, Magyarország
 tags:
-  - magyarország
+  - átmenet
+  - víz
+  - kóborlás
+  - esti fény
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

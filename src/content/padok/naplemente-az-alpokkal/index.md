@@ -6,7 +6,10 @@ coords:
   - 8.43887329102
 place: Regensberg, Svájc
 tags:
-  - svájc
+  - alkonyat
+  - messzeség
+  - hegy
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

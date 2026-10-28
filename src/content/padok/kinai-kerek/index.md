@@ -6,7 +6,10 @@ coords:
   - 105.4683
 place: 安富街道, Kína
 tags:
-  - kína
+  - régmúlt
+  - áhítat
+  - szikla
+  - messzeség
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

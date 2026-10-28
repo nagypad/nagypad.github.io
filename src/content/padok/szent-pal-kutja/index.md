@@ -6,7 +6,10 @@ coords:
   - 34.9
 place: Şehitkerim Mahallesi, Tarsus, Törökország
 tags:
-  - törökország
+  - forrás
+  - árnyék
+  - áhítat
+  - pihenő
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

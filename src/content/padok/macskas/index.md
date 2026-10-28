@@ -6,7 +6,10 @@ coords:
   - 21.2748849392
 place: Újváros, Gyula, Magyarország
 tags:
-  - magyarország
+  - időskor
+  - park
+  - tavasz
+  - együttlét
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

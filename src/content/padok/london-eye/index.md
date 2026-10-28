@@ -6,7 +6,10 @@ coords:
   - -0.123338699341
 place: Millbank, City of Westminster, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - város
+  - együttlét
+  - borús ég
+  - ámulat
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

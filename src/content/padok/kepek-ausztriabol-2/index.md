@@ -6,7 +6,10 @@ coords:
   - 13.0651473999
 place: Hellbrunn, Salzburg, Ausztria
 tags:
-  - ausztria
+  - játék
+  - víz
+  - meglepetés
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

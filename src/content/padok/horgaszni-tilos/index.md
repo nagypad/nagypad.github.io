@@ -6,7 +6,10 @@ coords:
   - 20.7363188267
 place: Tiszavég, Tiszafüred, Magyarország
 tags:
-  - magyarország
+  - víz
+  - ősz
+  - csend
+  - vidék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

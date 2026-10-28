@@ -6,7 +6,10 @@ coords:
   - 20.5630373955
 place: Miskolc, Magyarország
 tags:
-  - magyarország
+  - erdő
+  - egyedüllét
+  - nyár
+  - tisztás
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

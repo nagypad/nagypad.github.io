@@ -6,7 +6,10 @@ coords:
   - 8.57915976693
 place: Hottingen, Zürich, Svájc
 tags:
-  - svájc
+  - trópus
+  - kaland
+  - árnyék
+  - pihenő
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

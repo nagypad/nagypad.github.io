@@ -6,7 +6,10 @@ coords:
   - 17.4994182587
 place: Balatonfenyves, Magyarország
 tags:
-  - magyarország
+  - utazás
+  - nosztalgia
+  - napfény
+  - indulás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

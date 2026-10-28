@@ -6,7 +6,10 @@ coords:
   - 19.0595680475
 place: Belváros, Budapest, Magyarország
 tags:
-  - magyarország
+  - gyerekkor
+  - játék
+  - rejtekhely
+  - kaland
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

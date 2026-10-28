@@ -6,7 +6,10 @@ coords:
   - 9.5435518
 place: Donnstetten, Németország
 tags:
-  - németország
+  - madártávlat
+  - erdő
+  - tisztás
+  - rend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

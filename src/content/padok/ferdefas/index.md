@@ -6,7 +6,10 @@ coords:
   - 8.42827320099
 place: Regensberg, Svájc
 tags:
-  - svájc
+  - egyedüllét
+  - tágasság
+  - kopár ágak
+  - tavasz
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

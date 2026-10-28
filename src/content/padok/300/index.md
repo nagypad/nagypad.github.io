@@ -6,7 +6,10 @@ coords:
   - 20.0557512
 place: Osiedle Zdrojowe, Wieliczka, Lengyelország
 tags:
-  - lengyelország
+  - mélység
+  - félhomály
+  - rejtély
+  - mese
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

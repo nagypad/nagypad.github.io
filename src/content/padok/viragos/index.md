@@ -6,7 +6,10 @@ coords:
   - -0.119867920876
 place: Millbank, City of Westminster, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - virág
+  - szín
+  - pompa
+  - vendégvárás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

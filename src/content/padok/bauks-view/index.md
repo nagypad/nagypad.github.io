@@ -6,7 +6,10 @@ coords:
   - -3.18022012711
 place: Southside, Edinburgh, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - hegy
+  - köd
+  - ősz
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 7.79460132122
 place: Augarten, Rheinfelden, Svájc
 tags:
-  - svájc
+  - otthonosság
+  - szív
+  - macskakő
+  - idill
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 8.036
 place: Aarau, Svájc
 tags:
-  - svájc
+  - felfedezés
+  - rejtekhely
+  - avar
+  - napfolt
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 17.4371266365
 place: Szigliget, Magyarország
 tags:
-  - magyarország
+  - víz
+  - derengés
+  - csend
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

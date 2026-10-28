@@ -6,7 +6,10 @@ coords:
   - 8.07422161102
 place: Rotzingen, Németország
 tags:
-  - németország
+  - lombsátor
+  - árnyék
+  - időtlenség
+  - aprócska
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

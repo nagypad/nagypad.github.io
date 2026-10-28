@@ -6,7 +6,10 @@ coords:
   - -71.0625677552
 place: Charlestown, Boston, Egyesült Államok
 tags:
-  - egyesült államok
+  - árnyék
+  - kisváros
+  - nyugalom
+  - diákkor
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

@@ -6,7 +6,10 @@ coords:
   - 2.31262207031
 place: Paris 8e Arrondissement, Párizs, Franciaország
 tags:
-  - franciaország
+  - park
+  - aranyfény
+  - tél
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

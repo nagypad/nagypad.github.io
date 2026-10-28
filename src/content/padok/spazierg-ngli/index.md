@@ -6,7 +6,10 @@ coords:
   - 8.08136701584
 place: Rüßwihl, Németország
 tags:
-  - németország
+  - sorakozás
+  - egyszerűség
+  - várakozás
+  - rend
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

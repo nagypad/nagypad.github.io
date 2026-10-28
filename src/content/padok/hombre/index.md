@@ -6,7 +6,10 @@ coords:
   - 2.15721212765
 place: Gràcia, Barcelona, Spanyolország
 tags:
-  - spanyolország
+  - város
+  - graffiti
+  - egyedüllét
+  - reggel
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 19.0701198578
 place: Békásmegyer, Budapest, Magyarország
 tags:
-  - magyarország
+  - nyár
+  - pihenő
+  - tágasság
+  - beszélgetés
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

@@ -6,7 +6,10 @@ coords:
   - 18.8972353935
 place: Pilisszentkereszt, Magyarország
 tags:
-  - magyarország
+  - hó
+  - tél
+  - menedék
+  - csend
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

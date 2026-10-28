@@ -6,7 +6,10 @@ coords:
   - 7.85712227225
 place: Altstadt, Freiburg im Breisgau, Németország
 tags:
-  - németország
+  - sörkert
+  - lombsátor
+  - társaság
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

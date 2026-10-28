@@ -6,7 +6,10 @@ coords:
   - 8.43248426914
 place: Regensberg, Svájc
 tags:
-  - svájc
+  - burjánzás
+  - rejtekhely
+  - nyár
+  - vadvirág
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

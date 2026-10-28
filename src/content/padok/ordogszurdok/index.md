@@ -6,7 +6,10 @@ coords:
   - 7.55167551343
 place: Mühle, Welschenrohr-Gänsbrunnen, Svájc
 tags:
-  - svájc
+  - barlang
+  - menedék
+  - erdő
+  - szemlélődés
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

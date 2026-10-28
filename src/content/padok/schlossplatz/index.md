@@ -6,7 +6,10 @@ coords:
   - 9.1799111
 place: Stuttgart-Mitte, Stuttgart, Németország
 tags:
-  - németország
+  - tavasz
+  - virág
+  - város
+  - derű
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

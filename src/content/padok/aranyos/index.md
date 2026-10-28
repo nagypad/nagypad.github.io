@@ -6,7 +6,10 @@ coords:
   - 8.74358028173
 place: Illnau-Effretikon, Svájc
 tags:
-  - svájc
+  - pompa
+  - méltóság
+  - macskakő
+  - régmúlt
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

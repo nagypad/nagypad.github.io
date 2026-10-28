@@ -6,7 +6,10 @@ coords:
   - 6.2166249
 place: L'Hôpital-du-Grosbois, Franciaország
 tags:
-  - franciaország
+  - időskor
+  - együttlét
+  - meghittség
+  - művészet
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

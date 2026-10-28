@@ -6,7 +6,10 @@ coords:
   - 8.5490299785
 place: Fluntern, Zürich, Svájc
 tags:
-  - svájc
+  - rend
+  - méltóság
+  - otthonosság
+  - árnyék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

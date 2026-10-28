@@ -6,7 +6,10 @@ coords:
   - 20.5894088745
 place: Abádszalók, Magyarország
 tags:
-  - magyarország
+  - pihenő
+  - útközben
+  - társaság
+  - virág
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

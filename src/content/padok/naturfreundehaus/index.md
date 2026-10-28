@@ -6,7 +6,10 @@ coords:
   - 9.52411025811
 place: Böhringen, Németország
 tags:
-  - németország
+  - vendégvárás
+  - ősz
+  - társaság
+  - menedék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

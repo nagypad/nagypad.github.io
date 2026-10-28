@@ -6,7 +6,10 @@ coords:
   - -74.0054807067
 place: Manhattan, New York, Egyesült Államok
 tags:
-  - egyesült államok
+  - város
+  - napozás
+  - tél
+  - pihenő
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

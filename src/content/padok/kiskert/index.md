@@ -6,7 +6,10 @@ coords:
   - 7.80248165131
 place: Schopfheim, Németország
 tags:
-  - németország
+  - kiskert
+  - nyár
+  - otthonosság
+  - rend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

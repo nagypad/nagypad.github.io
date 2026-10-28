@@ -6,7 +6,10 @@ coords:
   - 17.8803670406
 place: Balatonföldvár, Magyarország
 tags:
-  - magyarország
+  - sorakozás
+  - árnyék
+  - napfolt
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

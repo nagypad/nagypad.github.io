@@ -6,7 +6,10 @@ coords:
   - 18.9593285322
 place: Jánoshegy, Budapest, Magyarország
 tags:
-  - magyarország
+  - csigalépcső
+  - pihenő
+  - rejtekhely
+  - régmúlt
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 8.03280830383
 place: Oberwihl, Németország
 tags:
-  - németország
+  - testvérek
+  - együttlét
+  - nyár
+  - horizont
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

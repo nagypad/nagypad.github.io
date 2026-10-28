@@ -6,7 +6,10 @@ coords:
   - 3.2084834
 place: Begur, Spanyolország
 tags:
-  - spanyolország
+  - tenger
+  - magasság
+  - tágasság
+  - kilátás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

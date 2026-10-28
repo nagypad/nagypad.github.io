@@ -6,7 +6,10 @@ coords:
   - 7.80376911163
 place: Schopfheim, Németország
 tags:
-  - németország
+  - tágasság
+  - nyár
+  - burjánzás
+  - ég
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 8.0485446
 place: Goppisberg, Svájc
 tags:
-  - svájc
+  - magasság
+  - ámulat
+  - tágasság
+  - jég
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

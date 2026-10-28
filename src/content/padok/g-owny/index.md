@@ -6,7 +6,10 @@ coords:
   - 19.9463868141
 place: Stare Miasto, Krakkó, Lengyelország
 tags:
-  - lengyelország
+  - állomás
+  - indulás
+  - aranyfény
+  - nyüzsgés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

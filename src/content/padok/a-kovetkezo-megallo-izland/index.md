@@ -6,7 +6,10 @@ coords:
   - -7.40246772242
 place: Ballyliffin ED, Írország
 tags:
-  - írország
+  - tágasság
+  - messzeség
+  - kékség
+  - szabadság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

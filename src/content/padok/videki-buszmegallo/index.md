@@ -6,7 +6,10 @@ coords:
   - 17.8300648928
 place: Balatonszárszó, Magyarország
 tags:
-  - magyarország
+  - falu
+  - ősz
+  - árnyék
+  - hétköznap
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

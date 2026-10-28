@@ -6,7 +6,10 @@ coords:
   - 19.05
 place: Békásmegyer, Budapest, Magyarország
 tags:
-  - magyarország
+  - felhők
+  - tágasság
+  - szabadság
+  - nyár
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

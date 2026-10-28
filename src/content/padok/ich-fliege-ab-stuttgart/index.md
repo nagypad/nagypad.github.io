@@ -6,7 +6,10 @@ coords:
   - 9.211592
 place: Bernhausen, Filderstadt, Németország
 tags:
-  - németország
+  - repülés
+  - várakozás
+  - tágasság
+  - vágyakozás
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

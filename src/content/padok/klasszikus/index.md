@@ -6,7 +6,10 @@ coords:
   - 8.20977
 place: Waldshut, Németország
 tags:
-  - németország
+  - advent
+  - kisváros
+  - fények
+  - nyüzsgés
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

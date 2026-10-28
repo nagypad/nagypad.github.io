@@ -6,7 +6,10 @@ coords:
   - 19.0584281087
 place: Erzsébetváros, Budapest, Magyarország
 tags:
-  - magyarország
+  - humor
+  - város
+  - biciklik
+  - zsúfoltság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

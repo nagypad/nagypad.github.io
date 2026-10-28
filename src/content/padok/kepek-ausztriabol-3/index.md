@@ -6,7 +6,10 @@ coords:
   - 13.0407714844
 place: Neustadt, Salzburg, Ausztria
 tags:
-  - ausztria
+  - meglepetés
+  - művészet
+  - humor
+  - utca
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

@@ -6,7 +6,10 @@ coords:
   - 14.6171159984
 place: Grad Krk, Horvátország
 tags:
-  - horvátország
+  - tenger
+  - kikötő
+  - tágasság
+  - csend
 photos:
   - src: ./1.jpg
   - src: ./2.jpg

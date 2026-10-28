@@ -6,7 +6,10 @@ coords:
   - 14.5743298531
 place: Krk, Horvátország
 tags:
-  - horvátország
+  - várakozás
+  - kopár ágak
+  - nyugalom
+  - útszél
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

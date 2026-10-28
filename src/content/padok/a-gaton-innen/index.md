@@ -6,7 +6,10 @@ coords:
   - 20.5268061161
 place: Kisköre, Magyarország
 tags:
-  - magyarország
+  - csend
+  - fűzfaárnyék
+  - tágasság
+  - ősz
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

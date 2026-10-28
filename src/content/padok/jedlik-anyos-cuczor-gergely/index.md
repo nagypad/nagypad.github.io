@@ -1,7 +1,11 @@
 ---
 title: Jedlik Ányos Cuczor Gergely
 date: "2014-05-01"
-tags: []
+tags:
+  - város
+  - séta
+  - szobrok
+  - rend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

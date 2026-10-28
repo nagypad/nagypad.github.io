@@ -6,7 +6,10 @@ coords:
   - -0.0987696647644
 place: City of London, Egyesült Királyság
 tags:
-  - egyesült királyság
+  - magasság
+  - kőfal
+  - aprócska
+  - pihenő
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

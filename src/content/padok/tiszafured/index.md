@@ -6,7 +6,10 @@ coords:
   - 20.74015975
 place: Tiszavég, Tiszafüred, Magyarország
 tags:
-  - magyarország
+  - ősz
+  - liget
+  - napfolt
+  - csend
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

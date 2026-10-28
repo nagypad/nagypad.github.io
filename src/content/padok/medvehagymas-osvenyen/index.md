@@ -6,7 +6,10 @@ coords:
   - 18.5205888748
 place: Nyergesújfalu, Magyarország
 tags:
-  - magyarország
+  - tavasz
+  - erdő
+  - burjánzás
+  - illat
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

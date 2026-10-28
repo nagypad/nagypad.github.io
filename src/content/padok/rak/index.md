@@ -6,7 +6,10 @@ coords:
   - -110.887413
 place: Guaymas, Mexikó
 tags:
-  - mexikó
+  - mese
+  - tenger
+  - meglepetés
+  - derű
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

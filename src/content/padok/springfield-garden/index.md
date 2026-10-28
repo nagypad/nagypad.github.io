@@ -6,7 +6,10 @@ coords:
   - 20.3954958916
 place: Sáta, Magyarország
 tags:
-  - magyarország
+  - kert
+  - humor
+  - áhítat
+  - vidék
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

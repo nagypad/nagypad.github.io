@@ -6,7 +6,10 @@ coords:
   - -17.5163644552
 place: Commune de Ngor, Dakar, Szenegál
 tags:
-  - szenegál
+  - szerelem
+  - tenger
+  - kettesben
+  - tágasság
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata

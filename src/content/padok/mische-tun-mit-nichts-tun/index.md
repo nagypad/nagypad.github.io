@@ -6,7 +6,10 @@ coords:
   - 9.14183522952
 place: Stuttgart-West, Stuttgart, Németország
 tags:
-  - németország
+  - ősz
+  - aranyfény
+  - semmittevés
+  - borostyán
 photos:
   - src: ./1.jpg
 credit: a régi nagypad.hu csapata
