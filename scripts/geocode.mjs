@@ -16,13 +16,12 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { olvassPostsExport } from "./lib/posts-tsv.mjs";
+import { helyszinSzoveg, nominatimReverse } from "./lib/nominatim.mjs";
 
 const gyokerDir = new URL("..", import.meta.url).pathname;
 const exportPath = join(gyokerDir, "archive/posts-export.txt");
 const cachePath = join(gyokerDir, "archive/geocode-cache.json");
 
-const NOMINATIM_UA =
-  "nagypad-projekt/0.1 (egyszeri archívum-import, nem éles forgalom)";
 const KERESEK_KOZOTT_MS = 1100;
 
 function koordKulcs(lat, lon) {
@@ -36,38 +35,6 @@ function cacheBetoltese() {
 
 function cacheMentese(cache) {
   writeFileSync(cachePath, JSON.stringify(cache, null, 2) + "\n", "utf-8");
-}
-
-function helyszinSzoveg(address) {
-  const reszek = [
-    address.suburb ||
-      address.neighbourhood ||
-      address.city_district ||
-      address.borough,
-    address.city || address.town || address.village || address.municipality,
-    address.country,
-  ].filter(Boolean);
-
-  // Duplikátum-szűrés (pl. amikor a "város" mező megegyezik az ország
-  // kiírt nevével kis településeknél).
-  const egyedi = [...new Set(reszek)];
-  return egyedi.join(", ");
-}
-
-async function nominatimLekeres(lat, lon) {
-  const url = new URL("https://nominatim.openstreetmap.org/reverse");
-  url.searchParams.set("format", "jsonv2");
-  url.searchParams.set("lat", String(lat));
-  url.searchParams.set("lon", String(lon));
-  url.searchParams.set("zoom", "14");
-  url.searchParams.set("accept-language", "hu");
-
-  const valasz = await fetch(url, {
-    headers: { "User-Agent": NOMINATIM_UA },
-    signal: AbortSignal.timeout(15_000),
-  });
-  if (!valasz.ok) throw new Error(`HTTP ${valasz.status}`);
-  return valasz.json();
 }
 
 async function main() {
@@ -87,7 +54,7 @@ async function main() {
     const kulcs = hianyzo[i];
     const [lat, lon] = kulcs.split(",").map(Number);
     try {
-      const adat = await nominatimLekeres(lat, lon);
+      const adat = await nominatimReverse(lat, lon);
       const address = adat.address ?? {};
       cache[kulcs] = {
         place: helyszinSzoveg(address),
