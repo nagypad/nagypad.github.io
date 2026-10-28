@@ -52,3 +52,38 @@ const dev = import.meta.env.DEV;
     font-size: 0.95rem;
   }
 </style>
+
+<style is:global>
+  /* A Pagefind UI futásidőben injektálja a saját DOM-ját, ezért a scoped
+     stílus nem érné el — globálisan szabályozunk, de minden szabály a
+     #pagefind-keret alá szorítva, hogy ne szivárogjon ki.
+
+     A UI mindent a saját CSS-változóiból színez, és ezek alapértéke világos
+     témára készült (a szöveg pl. #393939, ami a sötét háttéren olvashatatlan).
+     Elég tehát a projekt tokenjeire állítani őket: a világos/sötét váltást
+     onnan magától követi. */
+  #pagefind-keret {
+    --pagefind-ui-text: var(--szin-szoveg);
+    --pagefind-ui-background: var(--szin-felulet);
+    --pagefind-ui-border: var(--szin-szegely);
+    --pagefind-ui-tag: var(--szin-szegely);
+    --pagefind-ui-primary: var(--szin-kiemelt);
+    --pagefind-ui-font: var(--betu-szoveg);
+    --pagefind-ui-border-radius: var(--radius);
+    --pagefind-ui-image-border-radius: var(--radius);
+  }
+
+  /* A beviteli mező a böngésző alapértelmezése szerint nem örökli a
+     szövegszínt, a Pagefind pedig csak a hátterét állítja. */
+  #pagefind-keret .pagefind-ui__search-input {
+    color: var(--szin-szoveg);
+  }
+
+  /* A Pagefind `mark { all: revert }`-tel a böngésző sárga kiemelését hozza
+     vissza, ami a sötét témából kiesik. */
+  #pagefind-keret mark {
+    background: transparent;
+    color: var(--szin-kiemelt);
+    font-weight: 600;
+  }
+</style>
