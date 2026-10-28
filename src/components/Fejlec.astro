@@ -1,0 +1,73 @@
+---
+const navPontok = [
+  { href: "/padok/", label: "Padok" },
+  { href: "/terkep/", label: "Térkép" },
+  { href: "/cimkek/", label: "Címkék" },
+  { href: "/kereses/", label: "Keresés" },
+  { href: "/bekuldes/", label: "Beküldés" },
+];
+---
+
+<header class="fejlec">
+  <div class="tartalom fejlec-sor">
+    <a href="/" class="logo">
+      <img src="/logo.svg" alt="" width="28" height="28" />
+      <span>Nagy Pad Projekt</span>
+    </a>
+    <nav aria-label="Fő navigáció">
+      <ul>
+        {navPontok.map((pont) => (
+          <li>
+            <a href={pont.href}>{pont.label}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .fejlec {
+    border-bottom: 1px solid var(--szin-szegely);
+    background: var(--szin-felulet);
+  }
+
+  .fejlec-sor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 0.9rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--betu-kijelzo);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--szin-szoveg);
+    text-decoration: none;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    color: var(--szin-szoveg-halvany);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  nav a:hover {
+    color: var(--szin-kiemelt);
+  }
+</style>

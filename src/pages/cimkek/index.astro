@@ -1,0 +1,65 @@
+---
+import Base from "../../layouts/Base.astro";
+import { mindenPad, cimkeGyakorisag } from "../../lib/padok";
+import { cimkeSlug } from "../../lib/tags";
+
+const padok = await mindenPad();
+const gyakorisag = cimkeGyakorisag(padok);
+const maxDb = Math.max(...gyakorisag.values(), 1);
+
+// Betűméret a gyakoriság négyzetgyökével skálázva (lásd TERV.md 9. fejezet),
+// hogy egy-két nagyon gyakori címke ne nyomja el vizuálisan a többit.
+function meret(db: number): string {
+  const arany = Math.sqrt(db) / Math.sqrt(maxDb);
+  return `${(0.85 + arany * 1.35).toFixed(2)}rem`;
+}
+
+const abc = [...gyakorisag.entries()].sort((a, b) =>
+  a[0].localeCompare(b[0], "hu"),
+);
+---
+
+<Base title="Címkék" leiras={`${gyakorisag.size} címke a padok leírásában.`}>
+  <div class="tartalom cimkek-oldal">
+    <h1>Címkék</h1>
+    <p class="cimkek-bevezeto">
+      Szabad címkézés — nincs kötelező szótár, bárki (te is, beküldőként is)
+      hozhat új címkét. {gyakorisag.size} címke van most használatban.
+    </p>
+    <div class="cimkefelho">
+      {abc.map(([cimke, db]) => (
+        <a
+          class="cimke"
+          href={`/cimke/${cimkeSlug(cimke)}/`}
+          style={{ fontSize: meret(db) }}
+        >
+          {cimke} <span class="cimkefelho-db">{db}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .cimkek-oldal {
+    padding-block: 2rem 3rem;
+    max-width: 760px;
+  }
+
+  .cimkek-bevezeto {
+    color: var(--szin-szoveg-halvany);
+    margin-bottom: 2rem;
+  }
+
+  .cimkefelho {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+  }
+
+  .cimkefelho-db {
+    opacity: 0.6;
+    font-size: 0.75em;
+  }
+</style>

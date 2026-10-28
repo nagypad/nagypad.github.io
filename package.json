@@ -1,0 +1,37 @@
+{
+  "name": "nagypad",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build && pagefind --site dist --output-path dist/pagefind",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fetch-images": "node scripts/fetch-images.mjs",
+    "geocode": "node scripts/geocode.mjs",
+    "import-legacy": "node scripts/import-legacy.mjs",
+    "napi-pad": "node scripts/napi-pad.mjs",
+    "lint:content": "node scripts/lint-content.mjs --strict",
+    "lint:content:info": "node scripts/lint-content.mjs",
+    "format:check": "prettier --check .",
+    "test": "node --test scripts/__tests__/"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.4.2",
+    "maplibre-gl": "^6.16.0",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "cheerio": "^1.2.0",
+    "exifr": "^7.1.3",
+    "js-yaml": "^4.1.0",
+    "pagefind": "^1.5.2",
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.2"
+  }
+}

@@ -1,0 +1,69 @@
+---
+const ev = new Date().getUTCFullYear();
+---
+
+<footer class="lablab">
+  <div class="tartalom lablab-sor">
+    <p>
+      © 2012–{ev} Nagy Pad Projekt · a tartalom{" "}
+      <a href="/licenc/" rel="license">
+        CC BY-SA 4.0
+      </a>{" "}
+      alatt
+    </p>
+    <nav aria-label="Adat és terjesztés">
+      <ul>
+        <li>
+          <a href="/rss.xml">RSS</a>
+        </li>
+        <li>
+          <a href="/padok.json">JSON</a>
+        </li>
+        <li>
+          <a href="/padok.geojson">GeoJSON</a>
+        </li>
+        <li>
+          <a href="/rolunk/">Rólunk</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<style>
+  .lablab {
+    border-top: 1px solid var(--szin-szegely);
+    margin-top: 3rem;
+    padding-block: 1.5rem;
+    color: var(--szin-szoveg-halvany);
+    font-size: 0.9rem;
+  }
+
+  .lablab-sor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .lablab-sor p {
+    margin: 0;
+  }
+
+  .lablab ul {
+    display: flex;
+    gap: 1.1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lablab a {
+    color: inherit;
+  }
+
+  .lablab a:hover {
+    color: var(--szin-kiemelt);
+  }
+</style>

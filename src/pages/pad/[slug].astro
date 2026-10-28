@@ -1,0 +1,213 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import { Image, getImage } from "astro:assets";
+import Base from "../../layouts/Base.astro";
+import Terkep from "../../components/Terkep.astro";
+import Megosztas from "../../components/Megosztas.astro";
+import PadKartya from "../../components/PadKartya.astro";
+import { formatHonap } from "../../lib/date";
+import { mindenPad, borito } from "../../lib/padok";
+import { cimkeSlug, kanonikusCimkek } from "../../lib/tags";
+
+export async function getStaticPaths() {
+  const padok = await getCollection("padok");
+  return padok.map((pad) => ({ params: { slug: pad.id }, props: { pad } }));
+}
+
+interface Props {
+  pad: CollectionEntry<"padok">;
+}
+const { pad } = Astro.props;
+const { Content } = await render(pad);
+
+const osszesPad = await mindenPad();
+const index = osszesPad.findIndex((p) => p.id === pad.id);
+const elozo =
+  index >= 0 ? osszesPad[(index + 1) % osszesPad.length] : undefined;
+const kovetkezo =
+  index >= 0
+    ? osszesPad[(index - 1 + osszesPad.length) % osszesPad.length]
+    : undefined;
+
+// A `pad` prop közvetlenül a collectionből jön (nem a már kanonizált
+// `mindenPad()`-ból), ezért itt kanonizáljuk a címkéket.
+const cimkek = kanonikusCimkek(pad.data.tags);
+
+const padUrl = new URL(`/pad/${pad.id}/`, Astro.site).toString();
+const borítokep = await getImage({
+  src: borito(pad).src,
+  width: 1200,
+  height: 630,
+});
+const ogKepUrl = new URL(borítokep.src, Astro.site).toString();
+---
+
+<Base
+  title={pad.data.title}
+  leiras={
+    pad.data.place ? `${pad.data.title} — ${pad.data.place}` : pad.data.title
+  }
+  ogKep={ogKepUrl}
+  ogTipus="article"
+  koordinata={pad.data.coords}
+  kozzetett={pad.data.date}
+>
+  <article class="tartalom pad-oldal">
+    <nav class="pad-vissza">
+      <a href="/padok/">← Összes pad</a>
+    </nav>
+
+    <header class="pad-fejlec">
+      <h1>{pad.data.title}</h1>
+      <p class="pad-meta">
+        {formatHonap(pad.data.date)}
+        {pad.data.place && <> · {pad.data.place}</>}
+        {!pad.data.coords && <span class="cimke">ismeretlen hely</span>}
+      </p>
+    </header>
+
+    <div class="pad-galeria">
+      {pad.data.photos.map((foto, i) => (
+        <figure>
+          <Image
+            src={foto.src}
+            alt={foto.caption ?? pad.data.title}
+            widths={[480, 960, 1440]}
+            sizes="(max-width: 700px) 100vw, 700px"
+            loading={i === 0 ? "eager" : "lazy"}
+          />
+          {foto.caption && <figcaption>{foto.caption}</figcaption>}
+        </figure>
+      ))}
+    </div>
+
+    <div class="pad-leiras">
+      <Content />
+    </div>
+
+    {cimkek.length > 0 && (
+      <div class="pad-cimkek">
+        {cimkek.map((c) => (
+          <a class="cimke" href={`/cimke/${cimkeSlug(c)}/`}>
+            {c}
+          </a>
+        ))}
+      </div>
+    )}
+
+    {pad.data.coords && (
+      <section class="pad-terkep">
+        <Terkep
+          mod="egy"
+          egyPad={{
+            lat: pad.data.coords[0],
+            lon: pad.data.coords[1],
+            title: pad.data.title,
+          }}
+        />
+      </section>
+    )}
+
+    <footer class="pad-labjegyzet">
+      {pad.data.credit && (
+        <p class="pad-credit">Fotó/beküldés: {pad.data.credit}</p>
+      )}
+      <Megosztas url={padUrl} cim={pad.data.title} />
+    </footer>
+
+    {(elozo || kovetkezo) && (
+      <nav class="pad-navigacio" aria-label="Szomszédos padok">
+        {elozo && <PadKartya pad={elozo} />}
+        {kovetkezo && <PadKartya pad={kovetkezo} />}
+      </nav>
+    )}
+  </article>
+</Base>
+
+<style>
+  .pad-oldal {
+    padding-block: 2rem 3rem;
+    max-width: 760px;
+  }
+
+  .pad-vissza {
+    margin-bottom: 1.5rem;
+  }
+
+  .pad-vissza a {
+    color: var(--szin-szoveg-halvany);
+    text-decoration: none;
+  }
+
+  .pad-fejlec h1 {
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+  }
+
+  .pad-meta {
+    color: var(--szin-szoveg-halvany);
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .pad-galeria {
+    display: grid;
+    gap: 1rem;
+    margin-block: 1.5rem;
+  }
+
+  .pad-galeria figure {
+    margin: 0;
+  }
+
+  .pad-galeria img {
+    width: 100%;
+    border-radius: var(--radius);
+  }
+
+  .pad-galeria figcaption {
+    font-size: 0.85rem;
+    color: var(--szin-szoveg-halvany);
+    margin-top: 0.4rem;
+  }
+
+  .pad-leiras {
+    font-size: 1.08rem;
+  }
+
+  .pad-cimkek {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-block: 1.5rem;
+  }
+
+  .pad-terkep {
+    margin-block: 1.5rem;
+  }
+
+  .pad-labjegyzet {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--szin-szegely);
+  }
+
+  .pad-credit {
+    color: var(--szin-szoveg-halvany);
+    font-size: 0.9rem;
+  }
+
+  .pad-navigacio {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  @media (max-width: 560px) {
+    .pad-navigacio {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

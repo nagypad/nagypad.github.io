@@ -1,0 +1,42 @@
+---
+import Base from "../../layouts/Base.astro";
+import Terkep from "../../components/Terkep.astro";
+import { mindenPad, koordinaltPadok } from "../../lib/padok";
+
+const osszesPad = await mindenPad();
+const terkepesPadok = koordinaltPadok(osszesPad);
+---
+
+<Base
+  title="Térkép"
+  leiras={`${terkepesPadok.length} pad a térképen, a világ minden tájáról.`}
+>
+  <div class="terkep-oldal">
+    <div class="tartalom terkep-fejsor">
+      <h1>Térkép</h1>
+      <p>
+        {terkepesPadok.length} pad térképen ·{" "}
+        {osszesPad.length - terkepesPadok.length > 0 && (
+          <a href="/ismeretlen-hely/">
+            {osszesPad.length - terkepesPadok.length} ismeretlen helyű →
+          </a>
+        )}
+      </p>
+    </div>
+    <Terkep mod="teljes" magassag="70vh" />
+  </div>
+</Base>
+
+<style>
+  .terkep-fejsor {
+    padding-block: 1.5rem 1rem;
+  }
+
+  .terkep-fejsor p {
+    color: var(--szin-szoveg-halvany);
+  }
+
+  .terkep-fejsor a {
+    text-decoration: none;
+  }
+</style>

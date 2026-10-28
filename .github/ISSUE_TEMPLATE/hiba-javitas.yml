@@ -1,0 +1,17 @@
+name: Hiba / javítás egy meglévő padnál
+description: Rossz koordináta, elírás, megszűnt pad — NEM új pad beküldésére. Új padot a /bekuldes/ oldalon küldj be.
+labels: ["javítás"]
+body:
+  - type: input
+    id: pad-url
+    attributes:
+      label: Melyik pad?
+      description: A pad linkje (pl. https://nagypad.github.io/pad/high-line/)
+    validations:
+      required: true
+  - type: textarea
+    id: leiras
+    attributes:
+      label: Mi a probléma?
+    validations:
+      required: true

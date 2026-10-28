@@ -1,0 +1,40 @@
+---
+import Base from "../../layouts/Base.astro";
+---
+
+<Base
+  title="Rólunk"
+  leiras="A Nagy Pad Projekt a nagypad.hu blog folytatása — padok a világ minden tájáról."
+>
+  <div class="tartalom tartalom-szoveges">
+    <h1>Rólunk</h1>
+    <p>
+      A Nagy Pad Projekt 2012-ben indult blogként: egyszerű ötlet volt, hogy
+      minden utazás során lefotózzuk a padokat, amikre rátalálunk, és megosszuk,
+      hol vannak. Idővel összegyűlt pár száz pad a világ minden tájáról — a régi
+      blog bejegyzéseit ez a honlap archiválja és viszi tovább.
+    </p>
+    <p>
+      A tartalom nyílt: minden pad adata (koordináta, cím, leírás) és a fotók is
+      kinyerhetők <a href="/padok.json">JSON</a>,{" "}
+      <a href="/padok.geojson">GeoJSON</a> vagy
+      <a href="/rss.xml">RSS</a> formában — bátran használd, idézd, dolgozd fel.
+    </p>
+    <p>
+      Láttál egy jó padot utazás közben? <a href="/bekuldes/">Küldd be</a> — nem
+      kell hozzá regisztráció.
+    </p>
+    <p>
+      A régi archívum fotóit <strong>a régi nagypad.hu csapata</strong>{" "}
+      készítette; az új padok beküldőinek neve a pad oldalán jelenik meg.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .tartalom-szoveges {
+    padding-block: 2rem 3rem;
+    max-width: 640px;
+    font-size: 1.05rem;
+  }
+</style>

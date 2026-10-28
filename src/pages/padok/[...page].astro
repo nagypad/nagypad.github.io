@@ -1,0 +1,75 @@
+---
+import type { GetStaticPathsOptions, Page } from "astro";
+import Base from "../../layouts/Base.astro";
+import PadKartya from "../../components/PadKartya.astro";
+import { mindenPad, type Pad } from "../../lib/padok";
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  const padok = await mindenPad();
+  // Astro a `getStaticPaths`-t elszigetelt build-time környezetben futtatja,
+  // ezért a lapméret itt, a függvényen belül van megadva (egy kívül
+  // definiált modul-szintű konstans nem lenne elérhető ebben a scope-ban).
+  return paginate(padok, { pageSize: 48 });
+}
+
+interface Props {
+  page: Page<Pad>;
+}
+const { page } = Astro.props;
+const osszesPad = await mindenPad();
+---
+
+<Base
+  title="Összes pad"
+  leiras={`${osszesPad.length} pad a világ minden tájáról, időrendben.`}
+>
+  <div class="tartalom padok-oldal">
+    <h1>Összes pad</h1>
+    <p class="padok-szamlalo">
+      {osszesPad.length} pad · <a href="/terkep/">térképen</a> ·{" "}
+      <a href="/cimkek/">címkék szerint</a>
+    </p>
+
+    <div class="rács">
+      {page.data.map((pad) => (
+        <PadKartya pad={pad} />
+      ))}
+    </div>
+
+    {page.lastPage > 1 && (
+      <nav class="lapozo" aria-label="Lapozás">
+        {page.url.prev && <a href={page.url.prev}>← Előző</a>}
+        <span>
+          {page.currentPage}. / {page.lastPage}
+        </span>
+        {page.url.next && <a href={page.url.next}>Következő →</a>}
+      </nav>
+    )}
+  </div>
+</Base>
+
+<style>
+  .padok-oldal {
+    padding-block: 2rem 3rem;
+  }
+
+  .padok-szamlalo {
+    color: var(--szin-szoveg-halvany);
+    margin-bottom: 1.5rem;
+  }
+
+  .lapozo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+    color: var(--szin-szoveg-halvany);
+  }
+
+  .lapozo a {
+    text-decoration: none;
+    color: var(--szin-kiemelt);
+    font-weight: 600;
+  }
+</style>

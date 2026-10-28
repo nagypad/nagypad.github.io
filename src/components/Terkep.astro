@@ -1,0 +1,258 @@
+---
+/**
+ * Egy MapLibre-térkép-komponens, három módban:
+ *  - "egy":    egyetlen pad, egy marker, nem interaktív (pad-oldali minitérkép)
+ *  - "mini":   a teljes padlista áttekintő nézete, kisebb magassággal (címlap)
+ *  - "teljes": a teljes padlista, klaszterezve, szűrővel (/terkep/)
+ *
+ * A "mini" és "teljes" mód a kliensen tölti be a `/padok.geojson`-t — ez
+ * ~400 padnál is csak néhány tíz kB, nem kell build-time inline-olni.
+ */
+interface Props {
+  mod: "egy" | "mini" | "teljes";
+  magassag?: string;
+  egyPad?: { lat: number; lon: number; title: string };
+}
+
+const {
+  mod,
+  magassag = mod === "egy" ? "220px" : mod === "mini" ? "380px" : "100%",
+  egyPad,
+} = Astro.props;
+
+const elemId = `terkep-${Math.random().toString(36).slice(2, 9)}`;
+---
+
+<div
+  id={elemId}
+  class="terkep"
+  style={`height: ${magassag};`}
+  data-mod={mod}
+  data-lat={egyPad?.lat}
+  data-lon={egyPad?.lon}
+  data-title={egyPad?.title}
+>
+  <noscript>
+    <p class="terkep-noscript">
+      A térkép megjelenítéséhez JavaScript szükséges.{" "}
+      <a href="/padok/">Nézd meg a listát</a> helyette.
+    </p>
+  </noscript>
+</div>
+
+<style>
+  .terkep {
+    position: relative;
+    width: 100%;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--szin-szegely);
+  }
+
+  .terkep-noscript {
+    padding: 1rem;
+    color: var(--szin-szoveg-halvany);
+  }
+
+  :global(.pad-marker) {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  :global(.pad-klaszter) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: var(--szin-kiemelt);
+    color: var(--szin-kiemelt-szoveg);
+    font-weight: 700;
+    font-size: 0.85rem;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+  }
+
+  :global(.maplibregl-popup-content) {
+    background: var(--szin-felulet);
+    color: var(--szin-szoveg);
+    border-radius: var(--radius);
+    padding: 0.6rem;
+    font-family: var(--betu-szoveg);
+  }
+
+  :global(.terkep-popup img) {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 0.4rem;
+  }
+
+  :global(.terkep-popup a) {
+    font-weight: 600;
+  }
+</style>
+
+<script>
+  import {
+    Map,
+    Marker,
+    NavigationControl,
+    Popup,
+    type GeoJSONSource,
+  } from "maplibre-gl";
+  import "maplibre-gl/dist/maplibre-gl.css";
+
+  const STILUS = "https://tiles.openfreemap.org/styles/positron";
+
+  async function inicializal(el: HTMLElement) {
+    const mod = el.dataset.mod;
+
+    if (mod === "egy") {
+      const lat = Number(el.dataset.lat);
+      const lon = Number(el.dataset.lon);
+      const map = new Map({
+        container: el,
+        style: STILUS,
+        center: [lon, lat],
+        zoom: 13,
+        interactive: false,
+        attributionControl: false,
+      });
+      new Marker({ color: "#8a5a3b" }).setLngLat([lon, lat]).addTo(map);
+      return;
+    }
+
+    const map = new Map({
+      container: el,
+      style: STILUS,
+      center: [19, 47],
+      zoom: mod === "mini" ? 1.3 : 2,
+      attributionControl: mod === "teljes",
+    });
+
+    map.addControl(new NavigationControl({ showCompass: false }), "top-right");
+
+    map.on("load", async () => {
+      const valasz = await fetch("/padok.geojson");
+      const adat = await valasz.json();
+
+      map.addSource("padok", {
+        type: "geojson",
+        data: adat,
+        cluster: true,
+        clusterMaxZoom: 13,
+        clusterRadius: 44,
+      });
+
+      map.addLayer({
+        id: "klaszterek",
+        type: "circle",
+        source: "padok",
+        filter: ["has", "point_count"],
+        paint: {
+          "circle-color": "#8a5a3b",
+          "circle-radius": ["step", ["get", "point_count"], 16, 10, 20, 30, 26],
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#fff",
+        },
+      });
+
+      map.addLayer({
+        id: "klaszter-szam",
+        type: "symbol",
+        source: "padok",
+        filter: ["has", "point_count"],
+        layout: {
+          "text-field": ["get", "point_count_abbreviated"],
+          "text-size": 13,
+          "text-font": ["Noto Sans Bold"],
+        },
+        paint: { "text-color": "#fff" },
+      });
+
+      map.addLayer({
+        id: "pontok",
+        type: "circle",
+        source: "padok",
+        filter: ["!", ["has", "point_count"]],
+        paint: {
+          "circle-color": "#8a5a3b",
+          "circle-radius": 7,
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "#fff",
+        },
+      });
+
+      map.on("click", "klaszterek", (e) => {
+        const features = map.queryRenderedFeatures(e.point, {
+          layers: ["klaszterek"],
+        });
+        const clusterId = features[0].properties?.cluster_id;
+        const source = map.getSource("padok") as GeoJSONSource;
+        source.getClusterExpansionZoom(clusterId).then((zoom) => {
+          map.easeTo({
+            center: (features[0].geometry as any).coordinates,
+            zoom,
+          });
+        });
+      });
+
+      map.on("click", "pontok", (e) => {
+        const f = e.features?.[0];
+        if (!f) return;
+        const { slug, title, place, thumb } = f.properties as Record<
+          string,
+          string
+        >;
+        const coords = (f.geometry as any).coordinates.slice();
+        const html = `
+          <div class="terkep-popup">
+            ${thumb ? `<img src="${thumb}" alt="" width="200" height="130" loading="lazy" />` : ""}
+            <a href="/pad/${slug}/">${title}</a>
+            ${place ? `<div>${place}</div>` : ""}
+          </div>`;
+        new Popup({ closeButton: false })
+          .setLngLat(coords)
+          .setHTML(html)
+          .addTo(map);
+      });
+
+      for (const layer of ["klaszterek", "pontok"]) {
+        map.on(
+          "mouseenter",
+          layer,
+          () => (map.getCanvas().style.cursor = "pointer"),
+        );
+        map.on("mouseleave", layer, () => (map.getCanvas().style.cursor = ""));
+      }
+    });
+  }
+
+  // Lusta betöltés: csak akkor fut a térkép-JS, ha a térkép valóban
+  // látótérbe kerül (címlap, pad-oldal) — ne fizesse meg minden látogató.
+  const megfigyelo = new IntersectionObserver(
+    (bejegyzesek) => {
+      for (const bejegyzes of bejegyzesek) {
+        if (bejegyzes.isIntersecting) {
+          inicializal(bejegyzes.target as HTMLElement);
+          megfigyelo.unobserve(bejegyzes.target);
+        }
+      }
+    },
+    { rootMargin: "200px" },
+  );
+
+  for (const el of document.querySelectorAll<HTMLElement>(
+    ".terkep[data-mod]",
+  )) {
+    megfigyelo.observe(el);
+  }
+</script>

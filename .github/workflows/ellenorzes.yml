@@ -1,0 +1,29 @@
+name: Ellenőrzés
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build-es-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Formázás (Prettier)
+        run: npm run format:check
+
+      - name: Tartalom-ellenőrzés (séma a build részeként, + kép/méret lint)
+        run: npm run lint:content
+
+      - name: Build (ez validálja a Zod-sémát is minden padon)
+        run: npm run build

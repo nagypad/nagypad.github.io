@@ -1,0 +1,72 @@
+name: Build és Pages deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Minden nap 05:00 UTC-kor — ez sorsolja ki "a nap padját" (lásd
+    # scripts/napi-pad.mjs és TERV.md 11. fejezet), majd újraépíti az
+    # oldalt, hogy a címlap, az RSS és a Facebook-poszt is a mai padot lássa.
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write # a napi-pad.json visszaírásához
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+
+      - name: Astro képfeldolgozó gyorsítótár
+        uses: actions/cache@v4
+        with:
+          path: .astro
+          key: astro-image-cache-${{ runner.os }}
+
+      - run: npm ci
+
+      - name: A nap padjának kisorsolása
+        run: node scripts/napi-pad.mjs
+
+      - name: A napi-pad.json visszaírása, ha változott
+        run: |
+          if ! git diff --quiet -- src/data/napi-pad.json; then
+            git config user.name "nagypad-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add src/data/napi-pad.json
+            git commit -m "A nap padja: $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "Nincs változás a napi-pad naplóban."
+          fi
+
+      - run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

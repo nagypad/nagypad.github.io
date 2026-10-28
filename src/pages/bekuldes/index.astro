@@ -1,0 +1,486 @@
+---
+import Base from "../../layouts/Base.astro";
+import { mindenPad, cimkeGyakorisag } from "../../lib/padok";
+
+const padok = await mindenPad();
+const gyakorisag = cimkeGyakorisag(padok);
+const ajanlottCimkek = [...gyakorisag.keys()].slice(0, 60);
+
+// A Worker URL-je build időben kerül be (env változóból) — amíg nincs
+// beállítva (M4 előtt), a form "dry-run" módban fut: a beküldés nem megy
+// sehova, csak megjeleníti, mit küldene el. Lásd TERV.md 12. fejezet és
+// a gyökérben a .env.example fájlt.
+const workerUrl = import.meta.env.PUBLIC_WORKER_URL ?? "";
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? "";
+---
+
+<Base
+  title="Pad beküldése"
+  leiras="Küldj be egy padot fotóval — nem kell hozzá regisztráció."
+>
+  <div class="tartalom bekuldes-oldal">
+    <h1>Pad beküldése</h1>
+    <p class="bekuldes-bevezeto">
+      Nem kell hozzá GitHub-fiók, se regisztráció. Töltsd ki, küldd el — mi
+      átnézzük, és ha minden rendben, hamarosan kint lesz a padok között.
+    </p>
+
+    {!workerUrl && (
+      <p class="dry-run-figyelmeztetes">
+        <strong>Teszt mód.</strong> A beküldés fogadója (Cloudflare Worker) még
+        nincs beállítva — a form most csak megmutatja, mit küldene el, de nem
+        küld el semmit. Lásd TERV.md 12. és 17. fejezet.
+      </p>
+    )}
+
+    <form id="bekuldes-form">
+      <div class="mezo">
+        <label for="fotok">
+          Fotó(k) <span class="kotelezo">*</span>
+        </label>
+        <input
+          type="file"
+          id="fotok"
+          name="fotok"
+          accept="image/*"
+          multiple
+          required
+        />
+        <p class="segitoszoveg">Legfeljebb 4 kép. Az első lesz a borítókép.</p>
+        <div id="elonezet" class="elonezet"></div>
+      </div>
+
+      <div class="mezo">
+        <label for="cim">
+          A pad neve <span class="kotelezo">*</span>
+        </label>
+        <input
+          type="text"
+          id="cim"
+          name="cim"
+          required
+          minlength="2"
+          maxlength="120"
+        />
+      </div>
+
+      <div class="mezo terkep-mezo">
+        <label>
+          Hol van? <span class="kotelezo">*</span>
+        </label>
+        <p class="segitoszoveg">
+          Ha a fotó(k)ban van GPS-adat, automatikusan kitöltjük. Kattints a
+          térképre, vagy húzd a jelölőt a pontos helyre; ha mobilon vagy ott, a
+          "Itt vagyok most" gomb is segít.
+        </p>
+        <div id="bekuldes-terkep" class="bekuldes-terkep"></div>
+        <div class="terkep-gombok">
+          <button type="button" class="gomb gomb-masodlagos" id="itt-vagyok">
+            📍 Itt vagyok most
+          </button>
+          <button
+            type="button"
+            class="gomb gomb-masodlagos"
+            id="nincs-koordinata"
+          >
+            Nem tudom megadni a helyet
+          </button>
+        </div>
+        <input type="hidden" id="lat" name="lat" />
+        <input type="hidden" id="lon" name="lon" />
+        <p id="koordinata-szoveg" class="segitoszoveg"></p>
+      </div>
+
+      <div class="mezo">
+        <label for="hely">Helyszín szövegesen</label>
+        <input
+          type="text"
+          id="hely"
+          name="hely"
+          maxlength="200"
+          placeholder="pl. Margit-sziget, Budapest"
+        />
+        <p class="segitoszoveg">
+          Ha üresen hagyod, a koordinátából próbáljuk kitalálni.
+        </p>
+      </div>
+
+      <div class="mezo">
+        <label for="leiras">Mit lehet róla tudni?</label>
+        <textarea id="leiras" name="leiras" maxlength="800" rows="4"></textarea>
+      </div>
+
+      <div class="mezo">
+        <label for="mikor">Mikor készült?</label>
+        <input
+          type="text"
+          id="mikor"
+          name="mikor"
+          placeholder="pl. 2026-05 vagy 2026"
+          maxlength="10"
+        />
+      </div>
+
+      <div class="mezo">
+        <label for="cimkek">Címkék</label>
+        <input
+          type="text"
+          id="cimkek"
+          name="cimkek"
+          list="cimke-lista"
+          placeholder="pl. tengerpart, kő, kilátás"
+        />
+        <datalist id="cimke-lista">
+          {ajanlottCimkek.map((c) => (
+            <option value={c} />
+          ))}
+        </datalist>
+        <p class="segitoszoveg">
+          Vesszővel elválasztva. Nyugodtan írj újat is, nincs kötött szótár.
+        </p>
+      </div>
+
+      <div class="mezo">
+        <label for="nev">
+          Ki küldte? <span class="kotelezo">*</span>
+        </label>
+        <input
+          type="text"
+          id="nev"
+          name="nev"
+          required
+          maxlength="80"
+          placeholder="Olyan nevet írj, amiről felismerünk"
+        />
+        <p class="segitoszoveg">
+          Ez jelenik meg kreditként a pad oldalán. Ha nem szeretnél szerepelni,
+          írd: anonim.
+        </p>
+      </div>
+
+      <div class="mezo mezo-checkbox">
+        <label>
+          <input type="checkbox" id="nyilatkozat" name="nyilatkozat" required />
+          A fotót én készítettem, vagy jogom van közzétenni, és hozzájárulok,
+          hogy
+          <a href="/licenc/">CC BY-SA 4.0</a> licenc alatt közzétegyétek.
+        </label>
+      </div>
+
+      {turnstileSiteKey && (
+        <div
+          class="cf-turnstile"
+          data-sitekey={turnstileSiteKey}
+          data-callback="turnstileKesz"
+        />
+      )}
+
+      <button type="submit" class="gomb" id="bekuldes-gomb">
+        {workerUrl
+          ? "Pad beküldése"
+          : "Kitöltött adat megjelenítése (teszt mód)"}
+      </button>
+
+      <p id="bekuldes-allapot" role="status" aria-live="polite"></p>
+      <pre id="dry-run-kimenet" class="dry-run-kimenet" hidden></pre>
+    </form>
+  </div>
+</Base>
+
+{turnstileSiteKey && (
+  <script
+    async
+    defer
+    src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+  ></script>
+)}
+
+<script define:vars={{ workerUrl }}>
+  window.__NAGYPAD_WORKER_URL__ = workerUrl;
+</script>
+
+<script>
+  import { Map, Marker } from "maplibre-gl";
+  import "maplibre-gl/dist/maplibre-gl.css";
+  import { gps } from "exifr";
+
+  const STILUS = "https://tiles.openfreemap.org/styles/positron";
+  const MAX_FOTO = 4;
+  const MAX_MERET_PX = 1600;
+
+  const form = document.getElementById("bekuldes-form") as HTMLFormElement;
+  const fotoInput = document.getElementById("fotok") as HTMLInputElement;
+  const elonezet = document.getElementById("elonezet") as HTMLDivElement;
+  const latInput = document.getElementById("lat") as HTMLInputElement;
+  const lonInput = document.getElementById("lon") as HTMLInputElement;
+  const koordSzoveg = document.getElementById(
+    "koordinata-szoveg",
+  ) as HTMLParagraphElement;
+  const allapotEl = document.getElementById(
+    "bekuldes-allapot",
+  ) as HTMLParagraphElement;
+  const dryRunEl = document.getElementById("dry-run-kimenet") as HTMLPreElement;
+
+  let marker: Marker | undefined;
+  const map = new Map({
+    container: "bekuldes-terkep",
+    style: STILUS,
+    center: [19, 47.1],
+    zoom: 6,
+  });
+
+  function koordinataBeallitasa(lat: number, lon: number) {
+    latInput.value = String(lat);
+    lonInput.value = String(lon);
+    koordSzoveg.textContent = `Kiválasztott koordináta: ${lat.toFixed(5)}, ${lon.toFixed(5)}`;
+    if (marker) {
+      marker.setLngLat([lon, lat]);
+    } else {
+      marker = new Marker({ draggable: true, color: "#8a5a3b" })
+        .setLngLat([lon, lat])
+        .addTo(map);
+      marker.on("dragend", () => {
+        const pos = marker!.getLngLat();
+        koordinataBeallitasa(pos.lat, pos.lng);
+      });
+    }
+    map.easeTo({ center: [lon, lat], zoom: Math.max(map.getZoom(), 12) });
+  }
+
+  map.on("click", (e) => koordinataBeallitasa(e.lngLat.lat, e.lngLat.lng));
+
+  document.getElementById("itt-vagyok")?.addEventListener("click", () => {
+    if (!navigator.geolocation) return;
+    navigator.geolocation.getCurrentPosition(
+      (pos) => koordinataBeallitasa(pos.coords.latitude, pos.coords.longitude),
+      () =>
+        alert(
+          "Nem sikerült lekérni a helyzeted. Kattints a térképre helyette.",
+        ),
+    );
+  });
+
+  document.getElementById("nincs-koordinata")?.addEventListener("click", () => {
+    latInput.value = "";
+    lonInput.value = "";
+    koordSzoveg.textContent = "Rendben, ismeretlen helyként küldjük be.";
+  });
+
+  /** Kép átméretezése canvas-szal, max 1600px-re — kisebb feltöltés, és az EXIF (a GPS is) menet közben lehullik. */
+  async function atmeretezesDataUrlra(file: File): Promise<string> {
+    const bitmap = await createImageBitmap(file);
+    const arany = Math.min(
+      1,
+      MAX_MERET_PX / Math.max(bitmap.width, bitmap.height),
+    );
+    const szelesseg = Math.round(bitmap.width * arany);
+    const magassag = Math.round(bitmap.height * arany);
+
+    const canvas = document.createElement("canvas");
+    canvas.width = szelesseg;
+    canvas.height = magassag;
+    const ctx = canvas.getContext("2d")!;
+    ctx.drawImage(bitmap, 0, 0, szelesseg, magassag);
+    return canvas.toDataURL("image/jpeg", 0.85);
+  }
+
+  let feldolgozottFotok: string[] = [];
+
+  fotoInput.addEventListener("change", async () => {
+    const fajlok = Array.from(fotoInput.files ?? []).slice(0, MAX_FOTO);
+    elonezet.innerHTML = "";
+    feldolgozottFotok = [];
+
+    for (const fajl of fajlok) {
+      const dataUrl = await atmeretezesDataUrlra(fajl);
+      feldolgozottFotok.push(dataUrl);
+      const img = document.createElement("img");
+      img.src = dataUrl;
+      elonezet.appendChild(img);
+    }
+
+    // Az első fotó EXIF GPS-adatából, ha van, előtöltjük a koordinátát.
+    if (fajlok[0] && !latInput.value) {
+      try {
+        const pozicio = await gps(fajlok[0]);
+        if (pozicio) koordinataBeallitasa(pozicio.latitude, pozicio.longitude);
+      } catch {
+        // Nincs GPS-adat a képben — nem probléma, a felhasználó kézzel megadja.
+      }
+    }
+  });
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    allapotEl.textContent = "";
+
+    if (feldolgozottFotok.length === 0) {
+      allapotEl.textContent = "Legalább egy fotó kötelező.";
+      return;
+    }
+
+    const adat = new FormData(form);
+    const payload = {
+      title: adat.get("cim"),
+      place: adat.get("hely") || null,
+      coords:
+        latInput.value && lonInput.value
+          ? [Number(latInput.value), Number(lonInput.value)]
+          : null,
+      description: adat.get("leiras") || "",
+      taken: adat.get("mikor") || null,
+      tags: String(adat.get("cimkek") || "")
+        .split(",")
+        .map((s) => s.trim())
+        .filter(Boolean),
+      credit: adat.get("nev"),
+      consent: adat.get("nyilatkozat") === "on",
+      photos: feldolgozottFotok,
+      turnstileToken:
+        (
+          document.querySelector(
+            'input[name="cf-turnstile-response"]',
+          ) as HTMLInputElement | null
+        )?.value ?? null,
+    };
+
+    const workerUrl = (window as any).__NAGYPAD_WORKER_URL__ as string;
+
+    if (!workerUrl) {
+      dryRunEl.hidden = false;
+      dryRunEl.textContent = JSON.stringify(
+        {
+          ...payload,
+          photos: payload.photos.map(
+            (p) => `${p.slice(0, 40)}... (${p.length} karakter)`,
+          ),
+        },
+        null,
+        2,
+      );
+      allapotEl.textContent =
+        "Teszt mód — nincs elküldve, lásd fent a kimenetet.";
+      return;
+    }
+
+    allapotEl.textContent = "Küldés...";
+    try {
+      const valasz = await fetch(workerUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const eredmeny = await valasz.json();
+      if (valasz.ok && eredmeny.prUrl) {
+        allapotEl.innerHTML = `Köszönjük! A padod itt várja a jóváhagyást: <a href="${eredmeny.prUrl}">${eredmeny.prUrl}</a>`;
+        form.reset();
+        elonezet.innerHTML = "";
+      } else {
+        allapotEl.textContent =
+          eredmeny.uzenet ??
+          "Megkaptuk a beküldést, de kézi feldolgozás alatt van — nem veszett el.";
+      }
+    } catch {
+      allapotEl.textContent =
+        "Nem sikerült elérni a beküldő szolgáltatást. Próbáld újra később, vagy írj a rolunk@... e-mail-címre.";
+    }
+  });
+</script>
+
+<style>
+  .bekuldes-oldal {
+    padding-block: 2rem 4rem;
+    max-width: 640px;
+  }
+
+  .bekuldes-bevezeto {
+    color: var(--szin-szoveg-halvany);
+  }
+
+  .dry-run-figyelmeztetes {
+    background: var(--szin-felulet);
+    border: 1px solid var(--szin-szegely);
+    border-radius: var(--radius);
+    padding: 1rem;
+  }
+
+  .mezo {
+    margin-block: 1.4rem;
+  }
+
+  .mezo label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+  }
+
+  .mezo input[type="text"],
+  .mezo textarea {
+    width: 100%;
+    padding: 0.6em 0.8em;
+    border-radius: var(--radius);
+    border: 1px solid var(--szin-szegely);
+    background: var(--szin-felulet);
+    color: var(--szin-szoveg);
+    font: inherit;
+  }
+
+  .kotelezo {
+    color: var(--szin-kiemelt);
+  }
+
+  .segitoszoveg {
+    font-size: 0.85rem;
+    color: var(--szin-szoveg-halvany);
+    margin: 0.3em 0 0;
+  }
+
+  .elonezet {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.6rem;
+    flex-wrap: wrap;
+  }
+
+  .elonezet img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .bekuldes-terkep {
+    height: 320px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-top: 0.5rem;
+  }
+
+  .terkep-gombok {
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+    flex-wrap: wrap;
+  }
+
+  .mezo-checkbox label {
+    display: flex;
+    gap: 0.6em;
+    font-weight: 400;
+    align-items: flex-start;
+  }
+
+  .dry-run-kimenet {
+    background: var(--szin-felulet);
+    border: 1px solid var(--szin-szegely);
+    border-radius: var(--radius);
+    padding: 1rem;
+    overflow-x: auto;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  #bekuldes-allapot {
+    color: var(--szin-szoveg-halvany);
+  }
+</style>

@@ -1,0 +1,23 @@
+---
+import Base from "../layouts/Base.astro";
+---
+
+<Base title="Nincs ilyen oldal" noindex={true}>
+  <div class="tartalom hiba-oldal">
+    <h1>404 — ez a pad elgurult</h1>
+    <p>
+      Nincs ilyen oldal. Próbáld a <a href="/">főoldalt</a>, vagy nézd meg az{" "}
+      <a href="/padok/">összes padot</a>.
+    </p>
+    <p>
+      <a href="/veletlen/">Vagy mutass egy véletlen padot →</a>
+    </p>
+  </div>
+</Base>
+
+<style>
+  .hiba-oldal {
+    padding-block: 4rem;
+    text-align: center;
+  }
+</style>

@@ -1,0 +1,27 @@
+name = "nagypad-bekuldes"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+# Két KV namespace:
+#  - RATE_LIMIT: IP-hash → napi beküldésszám (spam-fék)
+#  - POSTAFIOK: beküldések, amiket a GitHub felé NEM sikerült PR-ré alakítani
+#    (lásd TERV.md 12. fejezet "Ha mégis elhasal" rész) — a
+#    worker-egeszseg.yml Action ezeket próbálja később pótlólag feldolgozni.
+#
+# Létrehozás: `wrangler kv namespace create RATE_LIMIT` / `POSTAFIOK`,
+# majd az onnan kapott id-kat ide be kell írni.
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "TODO_ide_kell_a_wrangler_kv_namespace_create_altal_adott_id"
+
+[[kv_namespaces]]
+binding = "POSTAFIOK"
+id = "TODO_ide_kell_a_wrangler_kv_namespace_create_altal_adott_id"
+
+[vars]
+# Nem titkos beállítások. A titkok (GITHUB_APP_ID, GITHUB_APP_PRIVATE_KEY,
+# GITHUB_APP_INSTALLATION_ID, TURNSTILE_SECRET_KEY, EGESZSEG_TITOK) a
+# `wrangler secret put <NÉV>` paranccsal kerülnek be, NEM ebbe a fájlba.
+GITHUB_OWNER = "nagypad"
+GITHUB_REPO = "nagypad.github.io"
+GITHUB_BASE_BRANCH = "main"

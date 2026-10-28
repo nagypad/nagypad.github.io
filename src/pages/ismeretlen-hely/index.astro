@@ -1,0 +1,38 @@
+---
+import Base from "../../layouts/Base.astro";
+import PadKartya from "../../components/PadKartya.astro";
+import { mindenPad, ismeretlenHelyuPadok } from "../../lib/padok";
+
+const padok = ismeretlenHelyuPadok(await mindenPad());
+---
+
+<Base
+  title="Ismeretlen helyű padok"
+  leiras="Padok, amiknek nem ismerjük a pontos koordinátáját — segíts megtalálni!"
+>
+  <div class="tartalom ismeretlen-oldal">
+    <h1>Ismeretlen helyű padok</h1>
+    <p class="ismeretlen-bevezeto">
+      Ennek a {padok.length} padnak nincs rögzített koordinátája — a régi
+      archívumból maradt ki, vagy a beküldő nem tudta megadni. Ha felismered
+      valamelyiket, vagy tudod, hol lehet, <a href="/bekuldes/">írj nekünk</a>!
+    </p>
+    <div class="rács">
+      {padok.map((pad) => (
+        <PadKartya pad={pad} />
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .ismeretlen-oldal {
+    padding-block: 2rem 3rem;
+  }
+
+  .ismeretlen-bevezeto {
+    color: var(--szin-szoveg-halvany);
+    max-width: 640px;
+    margin-bottom: 2rem;
+  }
+</style>

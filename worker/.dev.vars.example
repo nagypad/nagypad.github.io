@@ -1,0 +1,16 @@
+# Másold `.dev.vars` névre és töltsd ki — ez SOHA nem kerül commitba
+# (lásd a gyökér .gitignore-ját: worker/.dev.vars).
+#
+# Élesben ezek NEM ide kerülnek, hanem:
+#   wrangler secret put GITHUB_APP_ID
+#   wrangler secret put GITHUB_APP_PRIVATE_KEY
+#   wrangler secret put GITHUB_APP_INSTALLATION_ID
+#   wrangler secret put TURNSTILE_SECRET_KEY
+#   wrangler secret put EGESZSEG_TITOK
+
+GITHUB_APP_ID="123456"
+GITHUB_APP_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----"
+GITHUB_APP_INSTALLATION_ID="987654"
+TURNSTILE_SECRET_KEY="1x0000000000000000000000000000000AA"
+EGESZSEG_TITOK="valami-hosszu-veletlen-string"
+ENGEDELYEZETT_SZARMAZAS="http://localhost:4321"

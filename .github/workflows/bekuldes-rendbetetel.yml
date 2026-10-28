@@ -1,0 +1,42 @@
+name: Beküldés rendbetétele
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  rendbetetel:
+    # Csak a Worker által nyitott `pad/*` ágakon fut — egy szokásos
+    # kódmódosító PR-t nem akarunk automatikusan módosítani.
+    if: startsWith(github.head_ref, 'pad/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Képek újrakódolása, hely/cimke pótlása
+        run: node scripts/normalize-submission.mjs
+
+      - name: Visszacommitolás, ha változott valami
+        run: |
+          if ! git diff --quiet -- src/content/padok; then
+            git config user.name "nagypad-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add src/content/padok
+            git commit -m "Beküldés rendbetétele (automatikus)"
+            git push
+          else
+            echo "Nincs mit rendbetenni."
+          fi

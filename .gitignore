@@ -1,0 +1,44 @@
+# függőségek
+node_modules/
+
+# build kimenet
+dist/
+.astro/
+
+# Astro / Vite cache és log
+.vite/
+*.log
+npm-debug.log*
+
+# helyi env fájlok (Cloudflare Worker titkok stb.)
+.env
+.env.*
+!.env.example
+
+# Wrangler lokális állapot
+worker/.wrangler/
+worker/.dev.vars
+
+# OS / editor szemét
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+
+# Claude Code saját, ehhez a munkamenethez generált helyi beállításai —
+# nem projekt-tartalom, nem kell a repóba
+.claude/
+
+# a nyers export fájlok már az archive/ alá vannak másolva,
+# a gyökérben lévő eredeti két fájl nem kell a verziózásba
+/posts (1).txt
+/sizes.txt
+
+# a blogspot-ról letöltött EREDETI (nem újrakódolt) képek — ez csak egy
+# egyszeri biztonsági másolat volt, amíg a régi blog élt (lásd TERV.md 14.
+# fejezet). A tényleges, EXIF-mentesen újrakódolt képek a
+# src/content/padok/ alatt vannak, AZOK mennek a repóba. Ez a mappa a
+# gépen marad, nem kell a git-történetbe (89 MB, feleslegesen duplázná
+# a tárhelyet).
+archive/original/
+# ugyanez okból: a sizes.txt-vel megegyező, redundáns export-másolat
+archive/sizes-export.txt

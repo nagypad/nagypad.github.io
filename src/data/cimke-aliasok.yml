@@ -1,0 +1,11 @@
+# Elírás- és szinonima-összevonás build időben: "alias": "kanonikus címke".
+# A címkeoldalak a kanonikus névre épülnek; a régi (alias) link ide
+# átirányít. A build kiírja (nem hasal el), ha egy címke csak 1 padon
+# szerepel — azok a tipikus elírás-gyanúsak, ide kerülhetnek idővel.
+# (lásd TERV.md 9. fejezet)
+
+fem: fém
+tengerparti: tengerpart
+viz: vízpart
+erdos: erdő
+varos: város

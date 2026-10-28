@@ -1,0 +1,63 @@
+---
+import Base from "../../../layouts/Base.astro";
+import PadKartya from "../../../components/PadKartya.astro";
+import { mindenPad, type Pad } from "../../../lib/padok";
+import { cimkeSlug } from "../../../lib/tags";
+
+export async function getStaticPaths() {
+  const padok = await mindenPad();
+  const slugRaTermek = new Map<string, { nev: string; padok: Pad[] }>();
+
+  for (const pad of padok) {
+    for (const cimke of pad.data.tags) {
+      const slug = cimkeSlug(cimke);
+      if (!slugRaTermek.has(slug)) {
+        slugRaTermek.set(slug, { nev: cimke, padok: [] });
+      }
+      slugRaTermek.get(slug)!.padok.push(pad);
+    }
+  }
+
+  return [...slugRaTermek.entries()].map(([slug, { nev, padok }]) => ({
+    params: { cimke: slug },
+    props: { nev, padok },
+  }));
+}
+
+interface Props {
+  nev: string;
+  padok: Pad[];
+}
+const { nev, padok } = Astro.props;
+---
+
+<Base title={`#${nev}`} leiras={`${padok.length} pad a "${nev}" címkével.`}>
+  <div class="tartalom cimke-oldal">
+    <p class="cimke-vissza">
+      <a href="/cimkek/">← Összes címke</a>
+    </p>
+    <h1>#{nev}</h1>
+    <p class="cimke-szamlalo">{padok.length} pad</p>
+    <div class="rács">
+      {padok.map((pad) => (
+        <PadKartya pad={pad} />
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .cimke-oldal {
+    padding-block: 2rem 3rem;
+  }
+
+  .cimke-vissza a {
+    color: var(--szin-szoveg-halvany);
+    text-decoration: none;
+  }
+
+  .cimke-szamlalo {
+    color: var(--szin-szoveg-halvany);
+    margin-bottom: 1.5rem;
+  }
+</style>

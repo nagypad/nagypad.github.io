@@ -1,0 +1,29 @@
+---
+import Base from "../../layouts/Base.astro";
+---
+
+<Base title="Keresés" leiras="Keresés a padok között." noindex={true}>
+  <div class="tartalom kereses-oldal">
+    <h1>Keresés</h1>
+    <div id="pagefind-keret"></div>
+  </div>
+</Base>
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+<script src="/pagefind/pagefind-ui.js" is:inline></script>
+<script is:inline>
+  window.addEventListener("DOMContentLoaded", () => {
+    // A Pagefind indexe csak build után létezik (lásd README.md) — `astro dev`
+    // alatt ez a doboz üres marad, ez elvárt, nem hiba.
+    if (typeof PagefindUI === "function") {
+      new PagefindUI({ element: "#pagefind-keret", showSubResults: true });
+    }
+  });
+</script>
+
+<style>
+  .kereses-oldal {
+    padding-block: 2rem 4rem;
+    max-width: 640px;
+  }
+</style>

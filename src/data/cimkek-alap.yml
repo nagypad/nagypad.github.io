@@ -1,0 +1,45 @@
+# Kezdő címkekészlet, hogy a beküldő-form autocomplete-je ne legyen üres
+# az első napon. Egyszintű, lapos lista — nincs kategória-mező a rendszerben,
+# a csoportosítás itt csak az áttekinthetőség kedvéért van.
+# Bővíthető: új sor = új alapcímke. (lásd TERV.md 9. fejezet)
+
+# környezet
+- tengerpart
+- vízpart
+- hegy
+- erdő
+- park
+- város
+- falu
+- templom
+- temető
+- állomás
+- kert
+
+# kilátás
+- panoráma
+- naplemente
+- híd
+- folyó
+
+# anyag
+- fa
+- fém
+- kő
+- beton
+
+# jelleg
+- körpad
+- hintapad
+- egyszemélyes
+- hosszú
+- asztallal
+- háttámla nélkül
+- rögtönzött
+- mobil
+
+# állapot
+- romos
+- vadonatúj
+- felirattal
+- benőtt

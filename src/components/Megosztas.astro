@@ -1,0 +1,70 @@
+---
+interface Props {
+  url: string;
+  cim: string;
+}
+const { url, cim } = Astro.props;
+const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+---
+
+<div class="megosztas" data-url={url} data-title={cim}>
+  <a
+    class="gomb gomb-masodlagos"
+    href={fbUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Megosztás Facebookon
+  </a>
+  <button type="button" class="gomb gomb-masodlagos megosztas-sajat" hidden>
+    Megosztás
+  </button>
+  <button type="button" class="gomb gomb-masodlagos megosztas-masolas">
+    Link másolása
+  </button>
+  <span class="megosztas-visszajelzes" role="status" aria-live="polite"></span>
+</div>
+
+<style>
+  .megosztas {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .megosztas-visszajelzes {
+    font-size: 0.85rem;
+    color: var(--szin-szoveg-halvany);
+  }
+</style>
+
+<script>
+  for (const el of document.querySelectorAll<HTMLElement>(".megosztas")) {
+    const url = el.dataset.url!;
+    const title = el.dataset.title!;
+    const sajatGomb = el.querySelector<HTMLButtonElement>(".megosztas-sajat")!;
+    const masolasGomb =
+      el.querySelector<HTMLButtonElement>(".megosztas-masolas")!;
+    const visszajelzes = el.querySelector<HTMLSpanElement>(
+      ".megosztas-visszajelzes",
+    )!;
+
+    if (typeof navigator.share === "function") {
+      sajatGomb.hidden = false;
+      sajatGomb.addEventListener("click", () => {
+        navigator.share({ title, url }).catch(() => {});
+      });
+    }
+
+    masolasGomb.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(url);
+        visszajelzes.textContent = "Link vágólapra másolva!";
+      } catch {
+        visszajelzes.textContent = url;
+      }
+      setTimeout(() => (visszajelzes.textContent = ""), 4000);
+    });
+  }
+</script>

@@ -1,0 +1,30 @@
+---
+import Base from "../../layouts/Base.astro";
+---
+
+<Base title="Véletlen pad" noindex={true}>
+  <div class="tartalom veletlen-oldal">
+    <p>Egy pillanat, keresünk egy véletlen padot…</p>
+    <p>
+      <a href="/padok/">Ha nem történne semmi, nézd meg a teljes listát.</a>
+    </p>
+  </div>
+</Base>
+
+<script>
+  fetch("/veletlen.json")
+    .then((r) => r.json())
+    .then((slugek: string[]) => {
+      if (slugek.length === 0) return;
+      const slug = slugek[Math.floor(Math.random() * slugek.length)];
+      window.location.replace(`/pad/${slug}/`);
+    });
+</script>
+
+<style>
+  .veletlen-oldal {
+    padding-block: 3rem;
+    text-align: center;
+    color: var(--szin-szoveg-halvany);
+  }
+</style>

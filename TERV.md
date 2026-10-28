@@ -1,6 +1,10 @@
 # Nagy Pad Projekt — terv
 
-> Állapot: **3. vázlat** · 2026-10-28
+> Állapot: **megvalósítva kódban (M0–M4), élesítés előtt áll** · 2026-10-28.
+> A kód a repóban van, a 406 archív pad importálva és böngészhető helyben
+> (`npm run build && npx astro preview`). Ami hiányzik, az kizárólag a
+> 17. fejezetben felsorolt, fiókokhoz/szervezethez kötött lépések — a
+> kódnak ettől függetlenül nem kell változnia.
 > Cél: a megszűnt nagypad.hu blog anyagát és a jövőbeli padokat egy modern, statikus,
 > GitHub Pages-en futó honlapon gyűjteni, közösségi beküldéssel.
 
@@ -565,14 +569,25 @@ a Pages ugyanúgy megy, te maradsz a tulajdonos. Két apró dolog, amit érdemes
 repókhoz a fine-grained PAT-ok extra jóváhagyást kérhetnek — ezt épp megkerüljük a GitHub Apppel.
 Bónusz: ha a régi csapatból bárki szerkeszteni akar, a szervezetbe egyszerűen behívható.
 
-### Apró eldöntendők (nem blokkolják a kezdést)
+### Apró eldöntendők — a megvalósítás közben, a saját javaslat szerint lezárva
 
-1. **A honlap neve és egysoros felirata.** „Nagy Pad Projekt" + mi alatta? (pl. *„Padok a világ
-   minden tájáról"*) Ez megy a fejlécbe, az OG-képre és a feed címébe.
-2. **A kredit megjelenítése.** Mind a 410 archív padnál ugyanaz a sor lesz („a régi nagypad.hu
-   csapata") — kiírjuk minden pad alján, vagy hagyjuk üresen a mezőt, és a `/rolunk/` mondja el
-   egyszer, hogy az archívum az övék? (Javaslat: a mező legyen kitöltve — az adat legyen pontos —,
-   de a megjelenítés diszkrét, apró betű a fotó alatt.)
-3. **Az `/ismeretlen-hely/` 7 padja** bekerüljön-e a „nap padja" merítésbe (térkép nélkül jelenne
-   meg), vagy maradjanak ki, amíg nincs koordinátájuk? (Javaslat: maradjanak ki, és inkább a
-   lista hívja fel rájuk a figyelmet.)
+1. **A honlap neve és egysoros felirata.** „Nagy Pad Projekt" + *„Padok a világ minden tájáról —
+   fotók, helyszínek, történetek."* — ez van a fejlécben, az alap OG-leírásban és a feedekben.
+2. **A kredit megjelenítése.** A mező ki van töltve minden archív padnál („a régi nagypad.hu
+   csapata"), a megjelenítés diszkrét: apró, halvány szöveg a pad-oldal alján, a megosztás-sor
+   fölött.
+3. **Az ismeretlen helyű padok** (a valós importnál végül **3** lett, nem 7 — lásd lent) **nem**
+   kerülnek a „nap padja" merítésbe (`napPadja()` csak a koordinátás padokból sorsol) — a
+   `/ismeretlen-hely/` lista hívja fel rájuk a figyelmet.
+
+Ha bármelyik döntés nem tetszik, mindhárom egy-egy soros változtatás (lásd
+`src/layouts/Base.astro`, a pad-oldal footer-e, `src/lib/napiPad.ts`).
+
+### Amit a valódi import az eredeti becslésekhez képest pontosított
+
+- A 410 sorból **4 nem valódi pad** volt (a blog évfordulós/összesítő bejegyzései, szöveg és
+  kép nélkül) — ezek kimaradtak. A tényleges padszám **406**.
+- Ebből **3-nak** nincs koordinátája (nem 7 — a korábbi becslés a hiányzó `img` mezőt és a
+  description-beli képek hiányát keverte).
+- Képletöltési hiba **0 volt**, mind az 536 fotó megvan (`archive/images-manifest.json`).
+- 23 egyedi ország-címke jött ki automatikusan a reverse geocode-ból.

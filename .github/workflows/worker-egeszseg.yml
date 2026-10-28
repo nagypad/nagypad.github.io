@@ -1,0 +1,67 @@
+name: Beküldő-worker egészség
+
+on:
+  schedule:
+    - cron: "0 7 * * *" # minden nap 07:00 UTC
+  workflow_dispatch:
+    inputs:
+      drain:
+        description: "A várakozó postafiók-bejegyzések pótlólagos feldolgozása"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  egeszseg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Beállítva van-e már a Worker?
+        id: check
+        run: |
+          if [ -z "${{ secrets.WORKER_URL }}" ]; then
+            echo "A WORKER_URL secret még nincs beállítva — a beküldés-fogadó M4 fázisa (lásd TERV.md 17.) még nem él. Kihagyva."
+            echo "van=0" >> "$GITHUB_OUTPUT"
+          else
+            echo "van=1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: /health lekérdezése
+        if: steps.check.outputs.van == '1'
+        id: health
+        run: |
+          valasz=$(curl -sS -w "\n%{http_code}" "${{ secrets.WORKER_URL }}/health")
+          kod=$(echo "$valasz" | tail -1)
+          torzs=$(echo "$valasz" | sed '$d')
+          echo "$torzs"
+          echo "torzs=$torzs" >> "$GITHUB_OUTPUT"
+          if [ "$kod" != "200" ]; then
+            echo "A /health HTTP $kod-t adott — a GitHub-jogosultság valószínűleg hibás."
+            exit 1
+          fi
+
+      - name: Issue nyitása, ha van várakozó beküldés
+        if: steps.check.outputs.van == '1' && success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const adat = JSON.parse(`${{ steps.health.outputs.torzs }}`);
+            if (!adat.varakozoBekuldesek || adat.varakozoBekuldesek === 0) return;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `${adat.varakozoBekuldesek} beküldés vár kézi feldolgozásra`,
+              body:
+                "A beküldő-worker nem tudta mindet azonnal PR-ré alakítani.\n\n" +
+                "Futtasd a `/drain` opcióval ezt a workflow-t (workflow_dispatch → drain: true), " +
+                "vagy nézd meg a Cloudflare KV `POSTAFIOK` namespace-t.",
+              labels: ["beküldés"],
+            });
+
+      - name: Pótlólagos feldolgozás (/drain)
+        if: steps.check.outputs.van == '1' && inputs.drain == true
+        run: |
+          curl -sS -X POST "${{ secrets.WORKER_URL }}/drain" \
+            -H "X-Egeszseg-Titok: ${{ secrets.EGESZSEG_TITOK }}"

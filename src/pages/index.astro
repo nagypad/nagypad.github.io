@@ -1,0 +1,240 @@
+---
+import Base from "../layouts/Base.astro";
+import Terkep from "../components/Terkep.astro";
+import PadKartya from "../components/PadKartya.astro";
+import { Image, getImage } from "astro:assets";
+import { mindenPad, cimkeGyakorisag, borito } from "../lib/padok";
+import { napPadja } from "../lib/napiPad";
+import { formatHonap } from "../lib/date";
+import { cimkeSlug } from "../lib/tags";
+
+const osszesPad = await mindenPad();
+const maiPad = napPadja(osszesPad);
+const legfrissebbek = osszesPad.filter((p) => p.id !== maiPad.id).slice(0, 6);
+
+// "Ország" helyett "címke" a számlálóban: a rendszerben az ország is csak
+// egy szabad címke (lásd TERV.md 9. fejezet), nincs külön taxonómia, amiből
+// megbízhatóan csak az országokat lehetne megszámolni.
+const egyediCimkekSzama = new Set(
+  osszesPad.flatMap((p) => p.data.tags).filter((t) => t.length > 0),
+).size;
+const elsoEv = Math.min(...osszesPad.map((p) => p.data.date.getUTCFullYear()));
+
+const gyakorisag = cimkeGyakorisag(osszesPad);
+const maxDb = Math.max(...gyakorisag.values(), 1);
+function meret(db: number): string {
+  const arany = Math.sqrt(db) / Math.sqrt(maxDb);
+  return `${(0.85 + arany * 1.1).toFixed(2)}rem`;
+}
+const topCimkek = [...gyakorisag.entries()].slice(0, 30);
+
+const heroKep = await getImage({
+  src: borito(maiPad).src,
+  width: 1600,
+  height: 900,
+});
+const ogKepUrl = new URL(heroKep.src, Astro.site).toString();
+---
+
+<Base
+  title="Nagy Pad Projekt"
+  leiras={`Padok a világ minden tájáról — ${osszesPad.length} pad, ${elsoEv} óta.`}
+  ogKep={ogKepUrl}
+>
+  <section class="hero">
+    <a href={`/pad/${maiPad.id}/`} class="hero-kep-link">
+      <Image
+        src={borito(maiPad).src}
+        alt={maiPad.data.title}
+        width={1600}
+        height={900}
+        loading="eager"
+        class="hero-kep"
+      />
+      <div class="hero-arnyalat"></div>
+    </a>
+    <div class="tartalom hero-szoveg">
+      <p class="hero-felirat">A nap padja</p>
+      <h1>
+        <a href={`/pad/${maiPad.id}/`}>{maiPad.data.title}</a>
+      </h1>
+      <p class="hero-hely">
+        {maiPad.data.place ?? "ismeretlen hely"} ·{" "}
+        {formatHonap(maiPad.data.date)}
+      </p>
+      <a class="gomb gomb-masodlagos hero-veletlen" href="/veletlen/">
+        Másik padot kérek
+      </a>
+    </div>
+  </section>
+
+  <div class="tartalom">
+    <p class="szamlalo-sav">
+      <strong>{osszesPad.length}</strong> pad ·{" "}
+      <strong>{egyediCimkekSzama}</strong> címke · {elsoEv} óta
+    </p>
+
+    <section class="szekcio">
+      <div class="szekcio-fejsor">
+        <h2>Legfrissebb padok</h2>
+        <a href="/padok/">Mind ({osszesPad.length}) →</a>
+      </div>
+      <div class="rács">
+        {legfrissebbek.map((pad) => (
+          <PadKartya pad={pad} />
+        ))}
+      </div>
+    </section>
+
+    <section class="szekcio">
+      <div class="szekcio-fejsor">
+        <h2>Térkép</h2>
+        <a href="/terkep/">Teljes térkép →</a>
+      </div>
+      <Terkep mod="mini" />
+    </section>
+
+    <section class="szekcio">
+      <div class="szekcio-fejsor">
+        <h2>Címkék</h2>
+        <a href="/cimkek/">Összes címke →</a>
+      </div>
+      <div class="cimkefelho">
+        {topCimkek.map(([cimke, db]) => (
+          <a
+            class="cimke"
+            href={`/cimke/${cimkeSlug(cimke)}/`}
+            style={{ fontSize: meret(db) }}
+          >
+            {cimke}
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="bekuldes-csik kartya">
+      <div>
+        <h2>Láttál egy jó padot?</h2>
+        <p>Küldd be fotóval — nem kell hozzá regisztráció, kb. 1 perc.</p>
+      </div>
+      <a class="gomb" href="/bekuldes/">
+        Pad beküldése
+      </a>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .hero {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-kep-link {
+    display: block;
+    position: relative;
+  }
+
+  :global(.hero-kep) {
+    width: 100%;
+    height: clamp(320px, 55vh, 620px);
+    object-fit: cover;
+  }
+
+  .hero-arnyalat {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.72),
+      rgba(0, 0, 0, 0.05) 60%
+    );
+  }
+
+  .hero-szoveg {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0;
+    right: 0;
+    color: #fff;
+  }
+
+  .hero-felirat {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.8rem;
+    opacity: 0.85;
+    margin: 0 0 0.3rem;
+  }
+
+  .hero-szoveg h1 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    margin-bottom: 0.3rem;
+  }
+
+  .hero-szoveg h1 a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .hero-hely {
+    opacity: 0.9;
+    margin: 0 0 1rem;
+  }
+
+  .hero-veletlen {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    backdrop-filter: blur(4px);
+  }
+
+  .szamlalo-sav {
+    text-align: center;
+    color: var(--szin-szoveg-halvany);
+    padding-block: 1.5rem;
+  }
+
+  .szekcio {
+    margin-block: 2.5rem;
+  }
+
+  .szekcio-fejsor {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+  }
+
+  .szekcio-fejsor a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: var(--szin-kiemelt);
+    font-weight: 600;
+  }
+
+  .cimkefelho {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .bekuldes-csik {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.75rem;
+    margin-block: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .bekuldes-csik h2 {
+    margin-bottom: 0.3rem;
+  }
+
+  .bekuldes-csik p {
+    margin: 0;
+    color: var(--szin-szoveg-halvany);
+  }
+</style>

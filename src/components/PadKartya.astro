@@ -1,0 +1,66 @@
+---
+import { Image } from "astro:assets";
+import { formatHonap } from "../lib/date";
+import { borito, type Pad } from "../lib/padok";
+
+interface Props {
+  pad: Pad;
+}
+const { pad } = Astro.props;
+const kep = borito(pad);
+---
+
+<a href={`/pad/${pad.id}/`} class="kartya pad-kartya">
+  <Image
+    src={kep.src}
+    alt={pad.data.title}
+    width={360}
+    height={240}
+    loading="lazy"
+  />
+  <div class="pad-kartya-info">
+    <h3>{pad.data.title}</h3>
+    <p class="pad-kartya-hely">{pad.data.place ?? "ismeretlen hely"}</p>
+    <p class="pad-kartya-datum">{formatHonap(pad.data.date)}</p>
+  </div>
+</a>
+
+<style>
+  .pad-kartya {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.15s ease;
+  }
+
+  .pad-kartya:hover {
+    transform: translateY(-2px);
+  }
+
+  .pad-kartya img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+  }
+
+  .pad-kartya-info {
+    padding: 0.85rem 1rem 1rem;
+  }
+
+  .pad-kartya-info h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .pad-kartya-hely {
+    margin: 0;
+    color: var(--szin-szoveg-halvany);
+    font-size: 0.9rem;
+  }
+
+  .pad-kartya-datum {
+    margin: 0.2rem 0 0;
+    color: var(--szin-szoveg-halvany);
+    font-size: 0.8rem;
+  }
+</style>
