@@ -1,0 +1,16 @@
+---
+title: Kannásbor
+date: "2013-05-01"
+coords:
+  - 50.0589365529
+  - 19.9377930164
+place: Stare Miasto, Krakkó, Lengyelország
+tags:
+  - lengyelország
+photos:
+  - src: ./1.jpg
+credit: a régi nagypad.hu csapata
+legacyUrl: http://www.nagypad.hu/2013/05/kannasbor.html
+---
+
+He

@@ -1,0 +1,16 @@
+---
+title: ferdefás
+date: "2012-03-01"
+coords:
+  - 47.4746027615
+  - 8.42827320099
+place: Regensberg, Svájc
+tags:
+  - svájc
+photos:
+  - src: ./1.jpg
+credit: a régi nagypad.hu csapata
+legacyUrl: http://www.nagypad.hu/2012/03/ferdefa.html
+---
+
+

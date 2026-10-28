@@ -1,0 +1,19 @@
+---
+title: White Mountains
+date: "2014-10-01"
+coords:
+  - 44.0282412
+  - -71.4962305
+place: Lincoln, Egyesült Államok
+tags:
+  - egyesült államok
+photos:
+  - src: ./1.jpg
+  - src: ./2.jpg
+credit: a régi nagypad.hu csapata
+legacyUrl: http://www.nagypad.hu/2014/10/white-mountains.html
+---
+
+New Hampshire legmagasabb hegysége. Majdnem eléri a kétezer métert. Ilyenkor ősszel tömegek jönnek, hogy az őszi erdőt fényképezzék.
+
+Természetesen mindenki autóval érkezett. Mi is.

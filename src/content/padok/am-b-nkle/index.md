@@ -1,0 +1,18 @@
+---
+title: am Bänkle
+date: "2012-03-01"
+coords:
+  - 47.6383283236
+  - 8.07658195496
+place: Rüßwihl, Németország
+tags:
+  - németország
+photos:
+  - src: ./1.jpg
+  - src: ./2.jpg
+credit: a régi nagypad.hu csapata
+legacyUrl: http://www.nagypad.hu/2012/03/am-bankle.html
+---
+
+**2012. 03. 27.**
+**2012. 07. 08.**

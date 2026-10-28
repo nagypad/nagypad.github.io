@@ -1,0 +1,16 @@
+---
+title: Napozó
+date: "2014-12-01"
+coords:
+  - 40.7043611784
+  - -74.0054807067
+place: Manhattan, New York, Egyesült Államok
+tags:
+  - egyesült államok
+photos:
+  - src: ./1.jpg
+credit: a régi nagypad.hu csapata
+legacyUrl: http://www.nagypad.hu/2014/12/napozo.html
+---
+
+

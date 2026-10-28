@@ -1,0 +1,16 @@
+---
+title: A molnáré
+date: "2013-05-01"
+coords:
+  - 46.7492564021
+  - 8.09503555298
+place: Brienzwiler, Svájc
+tags:
+  - svájc
+photos:
+  - src: ./1.jpg
+credit: a régi nagypad.hu csapata
+legacyUrl: http://www.nagypad.hu/2013/05/a-molnare.html
+---
+
+

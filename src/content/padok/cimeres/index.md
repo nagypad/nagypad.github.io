@@ -1,0 +1,17 @@
+---
+title: Címeres
+date: "2012-07-01"
+coords:
+  - 47.7040020368
+  - 9.18892085552
+place: Németország
+tags:
+  - németország
+photos:
+  - src: ./1.jpg
+  - src: ./2.jpg
+credit: a régi nagypad.hu csapata
+legacyUrl: http://www.nagypad.hu/2012/07/cimeres.html
+---
+
+

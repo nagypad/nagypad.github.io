@@ -1,0 +1,16 @@
+---
+title: Tükrös
+date: "2012-08-01"
+coords:
+  - 47.593341
+  - 19.357787
+place: Központ, Gödöllő, Magyarország
+tags:
+  - magyarország
+photos:
+  - src: ./1.jpg
+credit: a régi nagypad.hu csapata
+legacyUrl: http://www.nagypad.hu/2012/08/tukros.html
+---
+
+

@@ -1,0 +1,16 @@
+---
+title: Kastaniengarten
+date: "2012-05-01"
+coords:
+  - 47.9931312041
+  - 7.85712227225
+place: Altstadt, Freiburg im Breisgau, Németország
+tags:
+  - németország
+photos:
+  - src: ./1.jpg
+credit: a régi nagypad.hu csapata
+legacyUrl: http://www.nagypad.hu/2012/05/kastaniengarten.html
+---
+
+

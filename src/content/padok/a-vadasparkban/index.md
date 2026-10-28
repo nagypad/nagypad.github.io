@@ -1,0 +1,16 @@
+---
+title: A vadasparkban
+date: "2012-03-01"
+coords:
+  - 47.385
+  - 8.036
+place: Aarau, Svájc
+tags:
+  - svájc
+photos:
+  - src: ./1.jpg
+credit: a régi nagypad.hu csapata
+legacyUrl: http://www.nagypad.hu/2012/03/vadasparkban.html
+---
+
+
