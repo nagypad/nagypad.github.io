@@ -89,7 +89,7 @@ Mért állapot:
 | Beküldés-fogadó | **Cloudflare Worker** (ingyen tier) + Turnstile | Az egyetlen dolog, amit nem lehet statikusan megoldani |
 | Analitika | **GoatCounter** vagy semmi | Süti nélküli, nem kell cookie-banner |
 
-Node 22 LTS, pnpm, Prettier. Repóban `.nvmrc`.
+Node 24 LTS, pnpm, Prettier. Repóban `.nvmrc`.
 
 A szervezet-névre épülő URL (`nagypad.github.io`) miatt **nincs base path** → nincs útvonal-fájdalom,
 és ha egyszer lesz domain, csak az Astro `site` értéke változik. Az OG-képeket és a feedeket

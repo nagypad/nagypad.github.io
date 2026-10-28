@@ -44,7 +44,7 @@ jobs:
 
       - name: Issue nyitása, ha van várakozó beküldés
         if: steps.check.outputs.van == '1' && success()
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const adat = JSON.parse(`${{ steps.health.outputs.torzs }}`);
