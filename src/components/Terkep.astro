@@ -81,12 +81,67 @@ const elemId = `terkep-${Math.random().toString(36).slice(2, 9)}`;
     cursor: pointer;
   }
 
-  :global(.maplibregl-popup-content) {
+  /*
+   * A buborék a MapLibre saját CSS-ét írja felül, két csapdával:
+   *  - A méretet is meg kell adni: a `.maplibregl-map`-ra 12px/20px kerül,
+   *    és a buborék ezt örökli, ha csak a betűtípust állítjuk.
+   *  - A `.maplibregl-popup-content` hátterét ők `#fff`-re állítják, szintén
+   *    egyetlen osztállyal — azonos specificitás esetén a sorrend dönt, és a
+   *    `maplibre-gl.css` a kliens-scriptből dev alatt utolsóként töltődik be,
+   *    tehát ott az övék győzne. Ezért itt a `.maplibregl-popup` ősosztállyal
+   *    kettőre emeljük a specificitást: így betöltési sorrendtől függetlenül
+   *    a mi témaszínünk érvényes. Fehér háttérre a sötét téma világos
+   *    szövegszíne olvashatatlan lenne.
+   */
+  :global(.maplibregl-popup .maplibregl-popup-content) {
     background: var(--szin-felulet);
     color: var(--szin-szoveg);
     border-radius: var(--radius);
     padding: 0.6rem;
     font-family: var(--betu-szoveg);
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+
+  /*
+   * A csücsök színe is fix `#fff` náluk, méghozzá két osztállyal
+   * (`.maplibregl-popup-anchor-* .maplibregl-popup-tip`) — ezért kell az
+   * `.maplibregl-popup` chainelése, hogy háromra jöjjön a specificitás.
+   * A háromszöget border-ökkel rajzolják, így mindig a buborék felé eső
+   * oldal kap színt; ez horgonyonként más oldal.
+   */
+  :global(.maplibregl-popup.maplibregl-popup-anchor-top .maplibregl-popup-tip),
+  :global(
+    .maplibregl-popup.maplibregl-popup-anchor-top-left .maplibregl-popup-tip
+  ),
+  :global(
+    .maplibregl-popup.maplibregl-popup-anchor-top-right .maplibregl-popup-tip
+  ) {
+    border-bottom-color: var(--szin-felulet);
+  }
+
+  :global(
+    .maplibregl-popup.maplibregl-popup-anchor-bottom .maplibregl-popup-tip
+  ),
+  :global(
+    .maplibregl-popup.maplibregl-popup-anchor-bottom-left
+      .maplibregl-popup-tip
+  ),
+  :global(
+    .maplibregl-popup.maplibregl-popup-anchor-bottom-right
+      .maplibregl-popup-tip
+  ) {
+    border-top-color: var(--szin-felulet);
+  }
+
+  :global(.maplibregl-popup.maplibregl-popup-anchor-left .maplibregl-popup-tip) {
+    border-right-color: var(--szin-felulet);
+  }
+
+  :global(
+    .maplibregl-popup.maplibregl-popup-anchor-right .maplibregl-popup-tip
+  ) {
+    border-left-color: var(--szin-felulet);
   }
 
   :global(.terkep-popup img) {
