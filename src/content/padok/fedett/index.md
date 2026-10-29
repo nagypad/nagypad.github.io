@@ -1,6 +1,6 @@
 ---
 title: Fedett
-date: "2012-11-01"
+date: "2012-11-06"
 coords:
   - 46.8318512384
   - 17.8281605244
@@ -12,7 +12,7 @@ tags:
   - nyugalom
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/11/fedett.html
 ---
 

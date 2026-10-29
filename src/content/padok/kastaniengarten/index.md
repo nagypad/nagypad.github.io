@@ -1,6 +1,6 @@
 ---
 title: Kastaniengarten
-date: "2012-05-01"
+date: "2012-05-30"
 coords:
   - 47.9931312041
   - 7.85712227225

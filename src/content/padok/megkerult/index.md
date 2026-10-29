@@ -1,6 +1,6 @@
 ---
 title: Megkerült
-date: "2013-06-01"
+date: "2013-06-09"
 coords:
   - 47.8242201494
   - 13.3779144287
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/06/megkerult.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Pavilon
-date: "2012-11-01"
+date: "2012-11-10"
 coords:
   - 46.8323173292
   - 17.8299736977
@@ -12,7 +12,7 @@ tags:
   - fehér
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/11/pavilon.html
 ---
 

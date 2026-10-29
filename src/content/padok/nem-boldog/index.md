@@ -1,6 +1,6 @@
 ---
 title: Nem boldog
-date: "2013-04-01"
+date: "2013-04-18"
 coords:
   - 50.0273106508
   - 19.2024815083
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/04/nem-boldog.html
 ---
 

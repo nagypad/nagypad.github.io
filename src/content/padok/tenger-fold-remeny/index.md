@@ -1,6 +1,6 @@
 ---
 title: Tenger, föld, remény
-date: "2013-02-01"
+date: "2013-02-08"
 coords:
   - 54.5287198631
   - 13.6744857531
@@ -12,7 +12,7 @@ tags:
   - remény
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elek
 legacyUrl: http://www.nagypad.hu/2013/02/tenger-fold-remeny.html
 ---
 

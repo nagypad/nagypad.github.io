@@ -1,6 +1,6 @@
 ---
 title: Pitypang
-date: "2013-10-01"
+date: "2013-10-11"
 coords:
   - 47.569118
   - 19.031377
@@ -12,7 +12,7 @@ tags:
   - csend
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/10/pitypang.html
 ---
 

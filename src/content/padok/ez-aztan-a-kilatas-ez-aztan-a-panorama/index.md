@@ -1,6 +1,6 @@
 ---
 title: "\"Ez aztán a kilátás! Ez aztán a panoráma!'"
-date: "2012-07-01"
+date: "2012-07-17"
 coords:
   - 49.1952777
   - 20.2147222
@@ -12,7 +12,7 @@ tags:
   - várakozás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elcsiga
 legacyUrl: http://www.nagypad.hu/2012/07/ez-aztan-kilatas-ez-aztan-panorama.html
 ---
 

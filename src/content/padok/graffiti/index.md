@@ -1,6 +1,6 @@
 ---
 title: Graffiti
-date: "2013-10-01"
+date: "2013-10-21"
 coords:
   - 47.562754
   - 19.048568
@@ -12,7 +12,7 @@ tags:
   - meglepetés
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/10/graffiti.html
 ---
 

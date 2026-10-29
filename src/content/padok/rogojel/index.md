@@ -1,6 +1,6 @@
 ---
 title: Rogojel
-date: "2012-10-01"
+date: "2012-10-28"
 coords:
   - 46.7885348718
   - 22.8198266029
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/10/rogojel.html
 ---
 

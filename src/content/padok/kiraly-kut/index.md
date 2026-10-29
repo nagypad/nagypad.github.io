@@ -1,6 +1,6 @@
 ---
 title: Király-kút
-date: "2013-01-01"
+date: "2013-01-05"
 coords:
   - 47.717290717
   - 18.9293146133
@@ -12,7 +12,7 @@ tags:
   - menedék
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/01/kiraly-kut.html
 ---
 

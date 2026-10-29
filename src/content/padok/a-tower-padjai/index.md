@@ -1,6 +1,6 @@
 ---
 title: A Tower padjai
-date: "2013-09-01"
+date: "2013-09-21"
 coords:
   - 51.5079010764
   - -0.0762176513672
@@ -17,7 +17,7 @@ photos:
   - src: ./4.jpg
   - src: ./5.jpg
   - src: ./6.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/09/a-tower-padjai.html
 ---
 

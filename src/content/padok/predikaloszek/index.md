@@ -1,6 +1,6 @@
 ---
 title: Prédikálószék
-date: "2013-01-01"
+date: "2013-01-06"
 coords:
   - 47.7364516354
   - 18.9274692535
@@ -15,7 +15,7 @@ photos:
   - src: ./2.jpg
   - src: ./3.jpg
   - src: ./4.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/01/predikaloszek.html
 ---
 

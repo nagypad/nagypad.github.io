@@ -1,6 +1,6 @@
 ---
 title: Szemben
-date: "2013-04-01"
+date: "2013-04-17"
 coords:
   - 44.1000544808
   - 9.73741757749
@@ -12,7 +12,7 @@ tags:
   - szemlélődés
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elek
 legacyUrl: http://www.nagypad.hu/2013/04/szemben.html
 ---
 

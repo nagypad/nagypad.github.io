@@ -1,6 +1,6 @@
 ---
 title: Kirakatot nézegető
-date: "2013-02-01"
+date: "2013-02-09"
 coords:
   - 50.3583453095
   - 7.59311964292
@@ -12,7 +12,7 @@ tags:
   - séta
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/02/kirakatot-nezegeto.html
 ---
 

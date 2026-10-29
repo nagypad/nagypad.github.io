@@ -1,6 +1,6 @@
 ---
 title: Ilyen ez a külváros
-date: "2012-05-01"
+date: "2012-05-15"
 coords:
   - 47.64772541
   - 7.80836105347

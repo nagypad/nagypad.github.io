@@ -1,6 +1,6 @@
 ---
 title: a soha-le-nem-menő-nap
-date: "2014-07-01"
+date: "2014-07-09"
 coords:
   - 64.1456208737
   - -21.9248914719

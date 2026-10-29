@@ -1,6 +1,6 @@
 ---
 title: Virágos
-date: "2013-09-01"
+date: "2013-09-17"
 coords:
   - 51.5136301824
   - -0.119867920876
@@ -12,7 +12,7 @@ tags:
   - vendégvárás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/09/viragos.html
 ---
 

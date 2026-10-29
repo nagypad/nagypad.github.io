@@ -1,6 +1,6 @@
 ---
 title: Fürdő
-date: "2013-04-01"
+date: "2013-04-22"
 coords:
   - 47.7903242031
   - 18.9620161057
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/04/furdo.html
 ---
 

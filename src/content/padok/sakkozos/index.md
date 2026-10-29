@@ -1,6 +1,6 @@
 ---
 title: Sakkozós
-date: "2013-04-01"
+date: "2013-04-19"
 coords:
   - 50.055313378
   - 19.9295854568
@@ -12,7 +12,7 @@ tags:
   - beszélgetés
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/04/sakkozos.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Bauks view
-date: "2012-10-01"
+date: "2012-10-25"
 coords:
   - 55.9459977612
   - -3.18022012711
@@ -12,7 +12,7 @@ tags:
   - tágasság
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elek
 legacyUrl: http://www.nagypad.hu/2012/10/bauks-view.html
 ---
 

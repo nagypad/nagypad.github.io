@@ -1,6 +1,6 @@
 ---
 title: Szent Pál kútja
-date: "2012-12-01"
+date: "2012-12-13"
 coords:
   - 36.9166667
   - 34.9

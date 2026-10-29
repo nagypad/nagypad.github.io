@@ -1,6 +1,6 @@
 ---
 title: Velem, Magyarország
-date: "2013-10-01"
+date: "2013-10-23"
 coords:
   - 47.350733
   - 16.47895
@@ -12,7 +12,7 @@ tags:
   - túra
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/10/blog-post_23.html
 ---
 

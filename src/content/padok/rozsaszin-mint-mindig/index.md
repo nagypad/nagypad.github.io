@@ -1,6 +1,6 @@
 ---
 title: Rózsaszín, mint mindig
-date: "2012-09-01"
+date: "2012-09-21"
 coords:
   - 48.7733876987
   - 9.18426990509

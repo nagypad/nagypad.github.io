@@ -1,6 +1,6 @@
 ---
 title: Félárbócon
-date: "2014-12-01"
+date: "2014-12-30"
 coords:
   - 40.7731081732
   - -73.9714515209
@@ -12,7 +12,7 @@ tags:
   - tisztelgés
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/12/felarbocon.html
 ---
 

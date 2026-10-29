@@ -1,6 +1,6 @@
 ---
 title: Angebot
-date: "2013-04-01"
+date: "2013-04-15"
 coords:
   - 48.7763609
   - 9.1809956
@@ -12,7 +12,7 @@ tags:
   - kirakat
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elek
 legacyUrl: http://www.nagypad.hu/2013/04/angebot.html
 ---
 

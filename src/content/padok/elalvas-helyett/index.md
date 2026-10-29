@@ -1,6 +1,6 @@
 ---
 title: Elalvás helyett
-date: "2012-11-01"
+date: "2012-11-09"
 coords:
   - 47.7222746774
   - 20.3166657686
@@ -12,7 +12,7 @@ tags:
   - tágasság
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/11/elalvas-helyett.html
 ---
 

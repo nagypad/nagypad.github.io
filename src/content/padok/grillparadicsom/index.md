@@ -1,6 +1,6 @@
 ---
 title: Grillparadicsom
-date: "2012-08-01"
+date: "2012-08-07"
 coords:
   - 47.4725323312
   - 8.43846559525

@@ -1,6 +1,6 @@
 ---
 title: Kínai kerek
-date: "2013-07-01"
+date: "2013-07-02"
 coords:
   - 29.3744
   - 105.4683
@@ -12,7 +12,7 @@ tags:
   - messzeség
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/07/kinai-kerek.html
 ---
 

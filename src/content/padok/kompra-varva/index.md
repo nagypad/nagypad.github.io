@@ -1,6 +1,6 @@
 ---
 title: Kompra várva
-date: "2013-01-01"
+date: "2013-01-04"
 coords:
   - 47.7864749233
   - 18.9672598243
@@ -12,7 +12,7 @@ tags:
   - fények
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/01/kompra-varva.html
 ---
 

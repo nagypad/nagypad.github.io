@@ -1,6 +1,6 @@
 ---
 title: Zur schiefen Eck
-date: "2012-08-01"
+date: "2012-08-03"
 coords:
   - 47.5548333787
   - 7.79315829277

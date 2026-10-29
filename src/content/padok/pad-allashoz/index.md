@@ -1,6 +1,6 @@
 ---
 title: Pad álláshoz
-date: "2013-09-01"
+date: "2013-09-15"
 coords:
   - 51.4814630751
   - -0.0142049789429
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/09/pad-allashoz.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Główny
-date: "2013-08-01"
+date: "2013-08-06"
 coords:
   - 50.0655553731
   - 19.9463868141
@@ -12,7 +12,7 @@ tags:
   - nyüzsgés
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/08/gowny.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Madagaszkári expedíció
-date: "2013-06-01"
+date: "2013-06-16"
 coords:
   - 47.3844448376
   - 8.57915976693

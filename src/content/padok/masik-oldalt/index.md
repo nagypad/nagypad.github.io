@@ -1,6 +1,6 @@
 ---
 title: Másik oldalt
-date: "2013-08-01"
+date: "2013-08-26"
 coords:
   - 46.785089507
   - 17.4371266365
@@ -12,7 +12,7 @@ tags:
   - tágasság
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/08/masik-oldalt.html
 ---
 

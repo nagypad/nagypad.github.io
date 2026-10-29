@@ -1,6 +1,6 @@
 ---
 title: A város felett
-date: "2012-11-01"
+date: "2012-11-21"
 coords:
   - 47.4851802631
   - 19.0522885323
@@ -12,7 +12,7 @@ tags:
   - tágasság
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elcsiga
 legacyUrl: http://www.nagypad.hu/2012/11/a-varos-felett.html
 ---
 

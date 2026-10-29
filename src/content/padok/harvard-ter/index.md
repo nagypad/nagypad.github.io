@@ -1,6 +1,6 @@
 ---
 title: Harvard tér
-date: "2014-08-01"
+date: "2014-08-30"
 coords:
   - 42.3726701061
   - -71.0625677552
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/08/harvard-ter.html
 ---
 

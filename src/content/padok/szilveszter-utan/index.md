@@ -1,6 +1,6 @@
 ---
 title: Szilveszter után
-date: "2013-01-01"
+date: "2013-01-07"
 coords:
   - 47.8237303145
   - 19.0313780308
@@ -12,7 +12,7 @@ tags:
   - menedék
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/01/szilveszter-utan.html
 ---
 

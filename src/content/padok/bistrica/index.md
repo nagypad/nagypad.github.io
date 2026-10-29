@@ -1,6 +1,6 @@
 ---
 title: Bistrica
-date: "2013-08-01"
+date: "2013-08-18"
 coords:
   - 46.0047497529
   - 16.1190998554
@@ -14,7 +14,7 @@ photos:
   - src: ./1.jpg
   - src: ./2.jpg
   - src: ./3.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/08/bistrica.html
 ---
 

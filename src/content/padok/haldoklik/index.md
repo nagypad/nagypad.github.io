@@ -1,6 +1,6 @@
 ---
 title: Haldoklik
-date: "2012-07-01"
+date: "2012-07-13"
 coords:
   - 47.5397161893
   - 19.0398108959
@@ -12,7 +12,7 @@ tags:
   - humor
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/07/haldoklik.html
 ---
 

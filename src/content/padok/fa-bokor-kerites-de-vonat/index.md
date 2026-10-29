@@ -1,6 +1,6 @@
 ---
 title: Fa, bokor, kerítés, de vonat
-date: "2012-09-01"
+date: "2012-09-02"
 coords:
   - 47.6483325482
   - 19.4908618927
@@ -12,7 +12,7 @@ tags:
   - egyszerűség
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/09/fa-bokor-kerites-de-vonat.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Medvehagymás ösvényen
-date: "2014-03-01"
+date: "2014-03-26"
 coords:
   - 47.6867630353
   - 18.5205888748

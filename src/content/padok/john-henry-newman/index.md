@@ -1,6 +1,6 @@
 ---
 title: John Henry Newman
-date: "2013-09-01"
+date: "2013-09-23"
 coords:
   - 51.722226503
   - -1.22144043446
@@ -12,7 +12,7 @@ tags:
   - elvonulás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/09/john-henry-newman.html
 ---
 

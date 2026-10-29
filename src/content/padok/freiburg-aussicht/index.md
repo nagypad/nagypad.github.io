@@ -1,6 +1,6 @@
 ---
 title: Freiburg Aussicht
-date: "2012-05-01"
+date: "2012-05-30"
 coords:
   - 47.9933232674
   - 7.85727918148

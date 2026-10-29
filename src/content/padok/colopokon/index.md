@@ -1,6 +1,6 @@
 ---
 title: Cölöpökön
-date: "2014-09-01"
+date: "2014-09-28"
 coords:
   - 42.367454
   - -71.0499405
@@ -12,7 +12,7 @@ tags:
   - horizont
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/09/colopokon.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Szivecskék
-date: "2013-02-01"
+date: "2013-02-15"
 coords:
   - 14.7559489674
   - -17.5163644552
@@ -12,7 +12,7 @@ tags:
   - tágasság
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/02/szivecskek.html
 ---
 

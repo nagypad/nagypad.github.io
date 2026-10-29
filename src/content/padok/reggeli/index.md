@@ -1,6 +1,6 @@
 ---
 title: Reggeli
-date: "2013-01-01"
+date: "2013-01-28"
 coords:
   - 65.0193848409
   - 25.4792846503
@@ -12,7 +12,7 @@ tags:
   - tisztás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elek
 legacyUrl: http://www.nagypad.hu/2013/01/reggeli.html
 ---
 

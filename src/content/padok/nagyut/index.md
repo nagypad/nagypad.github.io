@@ -1,6 +1,6 @@
 ---
 title: Nagyút
-date: "2012-09-01"
+date: "2012-09-03"
 coords:
   - 47.726854015
   - 20.1628303528
@@ -12,7 +12,7 @@ tags:
   - nyár
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/09/nagyut.html
 ---
 

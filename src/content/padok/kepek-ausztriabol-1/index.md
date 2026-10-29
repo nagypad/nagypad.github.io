@@ -1,6 +1,6 @@
 ---
 title: Képek Ausztriából 1.
-date: "2012-07-01"
+date: "2012-07-28"
 coords:
   - 48.01505
   - 12.93234

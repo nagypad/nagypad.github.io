@@ -1,6 +1,6 @@
 ---
 title: Sorakozó
-date: "2013-08-01"
+date: "2013-08-08"
 coords:
   - 48.0844911071
   - 20.7732936881
@@ -12,7 +12,7 @@ tags:
   - várakozás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/08/sorakozo.html
 ---
 

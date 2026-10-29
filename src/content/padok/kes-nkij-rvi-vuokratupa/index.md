@@ -1,6 +1,6 @@
 ---
 title: Kesänkijärvi, vuokratupa
-date: "2013-02-01"
+date: "2013-02-05"
 coords:
   - 67.6011671628
   - 24.2365584403
@@ -12,7 +12,7 @@ tags:
   - tornác
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elek
 legacyUrl: http://www.nagypad.hu/2013/02/kesankijarvi-vuokratupa.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Central Park
-date: "2014-12-01"
+date: "2014-12-28"
 coords:
   - 40.7764604234
   - -73.9678788185
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/12/central-park.html
 ---
 

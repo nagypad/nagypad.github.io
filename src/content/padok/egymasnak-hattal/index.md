@@ -1,6 +1,6 @@
 ---
 title: Egymásnak háttal
-date: "2013-10-01"
+date: "2013-10-09"
 coords:
   - 47.55875
   - 19.079732
@@ -12,7 +12,7 @@ tags:
   - humor
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/10/egymasnak-hattal.html
 ---
 

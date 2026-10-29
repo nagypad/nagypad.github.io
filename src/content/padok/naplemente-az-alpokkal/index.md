@@ -1,6 +1,6 @@
 ---
 title: Naplemente az Alpokkal
-date: "2012-08-01"
+date: "2012-08-21"
 coords:
   - 47.4825773257
   - 8.43887329102

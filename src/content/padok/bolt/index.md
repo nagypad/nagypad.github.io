@@ -1,6 +1,6 @@
 ---
 title: Bolt
-date: "2013-08-01"
+date: "2013-08-14"
 coords:
   - 45.0818240576
   - 13.6349880695
@@ -12,7 +12,7 @@ tags:
   - tágasság
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/08/bolt.html
 ---
 

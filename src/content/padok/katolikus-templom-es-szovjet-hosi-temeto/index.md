@@ -1,6 +1,6 @@
 ---
 title: Katolikus templom és szovjet hősi temető
-date: "2012-08-01"
+date: "2012-08-23"
 coords:
   - 47.4767383738
   - 20.5923271179
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/08/katolikus-templom-es-szovjet-hosi-temeto.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Papírforma
-date: "2013-03-01"
+date: "2013-03-08"
 coords:
   - 47.6567305694
   - 9.18126583099
@@ -12,7 +12,7 @@ tags:
   - tágasság
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elek
 legacyUrl: http://www.nagypad.hu/2013/03/papirforma.html
 ---
 

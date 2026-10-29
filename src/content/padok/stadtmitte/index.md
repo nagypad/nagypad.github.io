@@ -1,6 +1,6 @@
 ---
 title: Stadtmitte
-date: "2013-02-01"
+date: "2013-02-14"
 coords:
   - 50.3576185617
   - 7.59011507034
@@ -12,7 +12,7 @@ tags:
   - lámpafény
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/02/stadtmitte.html
 ---
 

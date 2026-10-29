@@ -1,6 +1,6 @@
 ---
 title: Höllbachwasserfall, Görwihl
-date: "2012-06-01"
+date: "2012-06-24"
 coords:
   - 47.647349559
   - 8.08731079102

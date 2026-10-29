@@ -1,6 +1,6 @@
 ---
 title: Fagyi
-date: "2013-09-01"
+date: "2013-09-11"
 coords:
   - 51.5026788161
   - -0.146448612213
@@ -12,7 +12,7 @@ tags:
   - park
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/09/fagyi.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: London Eye
-date: "2013-09-01"
+date: "2013-09-19"
 coords:
   - 51.5035069383
   - -0.123338699341
@@ -12,7 +12,7 @@ tags:
   - ámulat
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/09/london-eye.html
 ---
 

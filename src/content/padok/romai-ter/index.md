@@ -1,6 +1,6 @@
 ---
 title: Római tér
-date: "2013-10-01"
+date: "2013-10-17"
 coords:
   - 47.569821
   - 19.048481
@@ -12,7 +12,7 @@ tags:
   - nyugalom
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/10/romai-ter.html
 ---
 

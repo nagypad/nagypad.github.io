@@ -1,6 +1,6 @@
 ---
 title: Elbújva
-date: "2013-10-01"
+date: "2013-10-13"
 coords:
   - 46.7877782328
   - 17.4754929543
@@ -12,7 +12,7 @@ tags:
   - rejtekhely
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/10/elbujva.html
 ---
 

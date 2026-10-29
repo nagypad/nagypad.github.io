@@ -1,6 +1,6 @@
 ---
 title: Az élet értelme
-date: "2012-09-01"
+date: "2012-09-05"
 coords:
   - 47.6862357921
   - 19.9287700653
@@ -12,7 +12,7 @@ tags:
   - türelem
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/09/az-elet-ertelme.html
 ---
 

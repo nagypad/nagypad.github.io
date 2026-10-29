@@ -1,6 +1,6 @@
 ---
 title: De igen, néha még Skóciában is süt a nap
-date: "2012-10-01"
+date: "2012-10-23"
 coords:
   - 55.9487958254
   - -3.20094823837

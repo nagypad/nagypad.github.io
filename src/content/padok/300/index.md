@@ -1,6 +1,6 @@
 ---
 title: "-300"
-date: "2013-08-01"
+date: "2013-08-04"
 coords:
   - 49.9830356
   - 20.0557512
@@ -22,7 +22,7 @@ photos:
   - src: ./9.jpg
   - src: ./10.jpg
   - src: ./11.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/08/300.html
 ---
 

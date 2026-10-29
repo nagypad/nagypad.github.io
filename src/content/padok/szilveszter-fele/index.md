@@ -1,6 +1,6 @@
 ---
 title: Szilveszter felé
-date: "2013-01-01"
+date: "2013-01-04"
 coords:
   - 47.7081516164
   - 18.8972353935
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/01/szilveszter-fele.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: High Line
-date: "2015-01-01"
+date: "2015-01-02"
 coords:
   - 40.7516208
   - -74.0021071
@@ -12,7 +12,7 @@ tags:
   - ablakok
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2015/01/high-line.html
 ---
 

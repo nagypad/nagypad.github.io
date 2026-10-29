@@ -1,6 +1,6 @@
 ---
 title: Már megette a kenyere javát
-date: "2014-05-01"
+date: "2014-05-11"
 coords:
   - 48.3248273411
   - 21.5682166391

@@ -1,6 +1,6 @@
 ---
 title: Balatoni vasútállomás
-date: "2012-08-01"
+date: "2012-08-29"
 coords:
   - 46.8979
   - 18.0177
@@ -12,7 +12,7 @@ tags:
   - rejtekhely
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/08/balatoni-vasutallomas.html
 ---
 

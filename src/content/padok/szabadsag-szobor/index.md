@@ -1,6 +1,6 @@
 ---
 title: Szabadság szobor
-date: "2014-12-01"
+date: "2014-12-31"
 coords:
   - 40.7028788559
   - -73.996642828
@@ -12,7 +12,7 @@ tags:
   - sorakozás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/12/szabadsag-szobor.html
 ---
 

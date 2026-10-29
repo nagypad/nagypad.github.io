@@ -1,6 +1,6 @@
 ---
 title: Nyilván vadaspark
-date: "2012-10-01"
+date: "2012-10-13"
 coords:
   - 47.2940391282
   - 8.52911353111

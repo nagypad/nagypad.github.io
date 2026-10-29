@@ -1,6 +1,6 @@
 ---
 title: 6a az éjszakában
-date: "2013-09-01"
+date: "2013-09-13"
 coords:
   - 48.0982532464
   - 20.810251236
@@ -12,7 +12,7 @@ tags:
   - lámpafény
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/09/6a-az-ejszakaban.html
 ---
 

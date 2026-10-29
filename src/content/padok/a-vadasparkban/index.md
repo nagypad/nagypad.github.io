@@ -1,6 +1,6 @@
 ---
 title: A vadasparkban
-date: "2012-03-01"
+date: "2012-03-27"
 coords:
   - 47.385
   - 8.036

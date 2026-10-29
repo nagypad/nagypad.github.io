@@ -1,6 +1,6 @@
 ---
 title: Vidéki buszmegálló
-date: "2012-11-01"
+date: "2012-11-13"
 coords:
   - 46.8317301275
   - 17.8300648928
@@ -12,7 +12,7 @@ tags:
   - hétköznap
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/11/videki-buszmegallo.html
 ---
 

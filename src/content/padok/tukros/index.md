@@ -1,6 +1,6 @@
 ---
 title: Tükrös
-date: "2012-08-01"
+date: "2012-08-31"
 coords:
   - 47.593341
   - 19.357787
@@ -12,7 +12,7 @@ tags:
   - nyár
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/08/tukros.html
 ---
 

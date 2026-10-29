@@ -1,6 +1,6 @@
 ---
 title: "\"Ich fliege ab Stuttgart\""
-date: "2012-10-01"
+date: "2012-10-22"
 coords:
   - 48.688854
   - 9.211592

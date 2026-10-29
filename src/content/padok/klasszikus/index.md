@@ -1,6 +1,6 @@
 ---
 title: Klasszikus
-date: "2012-11-01"
+date: "2012-11-29"
 coords:
   - 47.62273
   - 8.20977

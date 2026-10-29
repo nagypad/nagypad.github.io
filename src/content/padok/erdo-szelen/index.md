@@ -1,6 +1,6 @@
 ---
 title: Erdő szélén
-date: "2012-10-01"
+date: "2012-10-31"
 coords:
   - 46.6219506647
   - 22.7038532495
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/10/erdo-szelen.html
 ---
 

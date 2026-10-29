@@ -1,6 +1,6 @@
 ---
 title: Kassa
-date: "2013-12-01"
+date: "2013-12-20"
 coords:
   - 48.7234719078
   - 21.2564849854
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/12/kassa.html
 ---
 

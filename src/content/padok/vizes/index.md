@@ -1,6 +1,6 @@
 ---
 title: Vizes
-date: "2013-10-01"
+date: "2013-10-03"
 coords:
   - 47.5706962
   - 19.065031
@@ -12,7 +12,7 @@ tags:
   - kitartás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/10/vizes.html
 ---
 

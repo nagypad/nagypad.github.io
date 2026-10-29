@@ -1,6 +1,6 @@
 ---
 title: Hegyi kunyhó
-date: "2012-10-01"
+date: "2012-10-30"
 coords:
   - 46.6924449167
   - 22.7776354551
@@ -14,7 +14,7 @@ photos:
   - src: ./1.jpg
   - src: ./2.jpg
   - src: ./3.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/10/hegyi-kunyho.html
 ---
 

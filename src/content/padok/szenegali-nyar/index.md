@@ -1,6 +1,6 @@
 ---
 title: Szenegáli nyár
-date: "2013-02-01"
+date: "2013-02-17"
 coords:
   - 14.7564988414
   - -17.5144815445
@@ -12,7 +12,7 @@ tags:
   - derű
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/02/szenegali-nyar.html
 ---
 

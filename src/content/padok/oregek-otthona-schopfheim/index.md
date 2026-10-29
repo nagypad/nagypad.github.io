@@ -1,6 +1,6 @@
 ---
 title: Öregek Otthona, Schopfheim
-date: "2012-06-01"
+date: "2012-06-19"
 coords:
   - 47.6439523215
   - 7.8278875351

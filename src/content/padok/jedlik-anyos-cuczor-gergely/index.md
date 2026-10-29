@@ -8,7 +8,7 @@ tags:
   - rend
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/05/jedlik-anyos-cuczor-gergely.html
 ---
 

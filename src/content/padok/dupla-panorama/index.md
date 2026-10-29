@@ -1,6 +1,6 @@
 ---
 title: Dupla panoráma
-date: "2012-11-01"
+date: "2012-11-23"
 coords:
   - 47.4844280347
   - 19.051682353
@@ -12,7 +12,7 @@ tags:
   - háttal
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elcsiga
 legacyUrl: http://www.nagypad.hu/2012/11/dupla-panorama.html
 ---
 

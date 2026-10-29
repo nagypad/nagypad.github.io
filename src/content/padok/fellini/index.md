@@ -1,6 +1,6 @@
 ---
 title: Fellini
-date: "2013-10-01"
+date: "2013-10-05"
 coords:
   - 47.5769428
   - 19.0658625
@@ -12,7 +12,7 @@ tags:
   - játék
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/10/fellini.html
 ---
 

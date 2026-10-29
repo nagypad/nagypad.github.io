@@ -1,6 +1,6 @@
 ---
 title: Ami nem látszik
-date: "2013-12-01"
+date: "2013-12-26"
 coords:
   - 48.6819083708
   - 20.9676003456
@@ -12,7 +12,7 @@ tags:
   - rejtekhely
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/12/ami-nem-latszik.html
 ---
 

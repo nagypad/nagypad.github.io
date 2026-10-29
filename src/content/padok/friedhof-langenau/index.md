@@ -1,6 +1,6 @@
 ---
 title: Friedhof, Langenau
-date: "2012-05-01"
+date: "2012-05-10"
 coords:
   - 47.6560801685
   - 7.79797554016

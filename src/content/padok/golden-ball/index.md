@@ -1,6 +1,6 @@
 ---
 title: Golden Ball
-date: "2013-09-01"
+date: "2013-09-25"
 coords:
   - 51.7220387463
   - -1.22140556574
@@ -12,7 +12,7 @@ tags:
   - otthonosság
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/09/golden-ball.html
 ---
 

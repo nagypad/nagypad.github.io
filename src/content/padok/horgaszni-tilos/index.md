@@ -1,6 +1,6 @@
 ---
 title: Horgászni tilos
-date: "2012-11-01"
+date: "2012-11-11"
 coords:
   - 47.6255961898
   - 20.7363188267
@@ -12,7 +12,7 @@ tags:
   - vidék
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/11/horgaszni-tilos.html
 ---
 

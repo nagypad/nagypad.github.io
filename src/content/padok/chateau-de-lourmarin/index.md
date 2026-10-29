@@ -1,6 +1,6 @@
 ---
 title: Chateau de Lourmarin
-date: "2013-02-01"
+date: "2013-02-16"
 coords:
   - 43.764474
   - 5.359249
@@ -14,7 +14,7 @@ photos:
   - src: ./1.jpg
   - src: ./2.jpg
   - src: ./3.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/02/chateau-de-lourmarin.html
 ---
 

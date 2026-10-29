@@ -1,6 +1,6 @@
 ---
 title: Szabadon
-date: "2013-09-01"
+date: "2013-09-09"
 coords:
   - 51.5040812722
   - -0.134003162384
@@ -12,7 +12,7 @@ tags:
   - nyugalom
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/09/szabadon.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Kakukktojás
-date: "2012-08-01"
+date: "2012-08-28"
 coords:
   - 46.9168403761
   - 17.8918683529
@@ -12,7 +12,7 @@ tags:
   - napfény
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/08/kakukktojas.html
 ---
 

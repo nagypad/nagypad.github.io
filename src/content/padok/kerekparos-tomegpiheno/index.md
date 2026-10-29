@@ -1,6 +1,6 @@
 ---
 title: Kerékpáros tömegpihenő
-date: "2012-11-01"
+date: "2012-11-07"
 coords:
   - 47.626977281
   - 20.7339692116
@@ -12,7 +12,7 @@ tags:
   - sorakozás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/11/kerekparos-tomegpiheno.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Temetői pad medvehagymával
-date: "2012-06-01"
+date: "2012-06-03"
 coords:
   - 47.7668037165
   - 8.81850669538

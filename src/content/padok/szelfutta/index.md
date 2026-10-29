@@ -1,6 +1,6 @@
 ---
 title: Szélfútta
-date: "2013-02-01"
+date: "2013-02-13"
 coords:
   - 46.895286
   - 17.791097
@@ -12,7 +12,7 @@ tags:
   - borús ég
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/02/szelfutta.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Labancoké
-date: "2013-07-01"
+date: "2013-07-06"
 coords:
   - 47.4625285765
   - 8.18070416718
@@ -12,7 +12,7 @@ tags:
   - menedék
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elek
 legacyUrl: http://www.nagypad.hu/2013/07/labancoke.html
 ---
 

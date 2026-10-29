@@ -1,6 +1,6 @@
 ---
 title: Rosenstein Park, Stuttgart
-date: "2012-09-01"
+date: "2012-09-19"
 coords:
   - 48.8042631041
   - 9.19521331787

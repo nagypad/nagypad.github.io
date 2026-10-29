@@ -1,6 +1,6 @@
 ---
 title: Nagycenk
-date: "2013-08-01"
+date: "2013-08-30"
 coords:
   - 47.608419887
   - 16.7061603069
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/08/nagycenk.html
 ---
 

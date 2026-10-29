@@ -1,6 +1,6 @@
 ---
 title: Napkelte
-date: "2012-07-01"
+date: "2012-07-11"
 coords:
   - 47.2299801062
   - 17.5488674641
@@ -12,7 +12,7 @@ tags:
   - virrasztás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/07/napkelte.html
 ---
 

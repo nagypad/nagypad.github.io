@@ -1,6 +1,6 @@
 ---
 title: Most akkor én hova parkoljak?
-date: "2012-10-01"
+date: "2012-10-10"
 coords:
   - 47.4982781858
   - 19.0584281087

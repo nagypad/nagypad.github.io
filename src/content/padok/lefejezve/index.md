@@ -1,6 +1,6 @@
 ---
 title: Lefejezve
-date: "2014-12-01"
+date: "2014-12-22"
 coords:
   - 40.7046519456
   - -74.0051722527
@@ -12,7 +12,7 @@ tags:
   - árnyék
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/12/lefejezve.html
 ---
 

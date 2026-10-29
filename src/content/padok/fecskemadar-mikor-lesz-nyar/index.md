@@ -1,6 +1,6 @@
 ---
 title: Fecskemadár, mikor lesz nyár?
-date: "2013-04-01"
+date: "2013-04-08"
 coords:
   - 44.3031674172
   - 9.20979326442

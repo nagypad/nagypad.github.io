@@ -1,6 +1,6 @@
 ---
 title: Kerek csoki, szögletes csoki
-date: "2014-09-01"
+date: "2014-09-20"
 coords:
   - 47.7993984366
   - 18.7384593487

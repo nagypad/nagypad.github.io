@@ -1,6 +1,6 @@
 ---
 title: FJC
-date: "2014-08-01"
+date: "2014-08-27"
 coords:
   - 42.3439296222
   - -71.1575105349
@@ -12,7 +12,7 @@ tags:
   - tágasság
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/08/fjc.html
 ---
 

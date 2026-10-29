@@ -1,6 +1,6 @@
 ---
 title: Regensberg, Svájc
-date: "2012-03-01"
+date: "2012-03-30"
 coords:
   - 47.4802189821
   - 8.43336939812

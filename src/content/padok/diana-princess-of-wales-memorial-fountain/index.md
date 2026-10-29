@@ -1,6 +1,6 @@
 ---
 title: Diana, Princess of Wales Memorial Fountain
-date: "2013-09-01"
+date: "2013-09-07"
 coords:
   - 51.5046021734
   - -0.171360969543
@@ -16,7 +16,7 @@ photos:
   - src: ./3.jpg
   - src: ./4.jpg
   - src: ./5.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/09/diana-princess-of-wales-memorial.html
 ---
 

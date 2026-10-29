@@ -1,6 +1,6 @@
 ---
 title: Rosenborg kastély
-date: "2013-06-01"
+date: "2013-06-23"
 coords:
   - 55.6853752966
   - 12.5777836841

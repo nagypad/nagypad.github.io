@@ -1,6 +1,6 @@
 ---
 title: Gyalogkakukk
-date: "2012-07-01"
+date: "2012-07-11"
 coords:
   - 36.0762104734
   - 14.256477356
@@ -12,7 +12,7 @@ tags:
   - forróság
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elcsiga
 legacyUrl: http://www.nagypad.hu/2012/07/gyalogkakukk.html
 ---
 

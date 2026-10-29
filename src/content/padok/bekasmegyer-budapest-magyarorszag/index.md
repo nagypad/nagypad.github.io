@@ -1,6 +1,6 @@
 ---
 title: Békásmegyer, Budapest, Magyarország
-date: "2013-10-01"
+date: "2013-10-15"
 coords:
   - 47.6
   - 19.05
@@ -12,7 +12,7 @@ tags:
   - nyár
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/10/blog-post.html
 ---
 

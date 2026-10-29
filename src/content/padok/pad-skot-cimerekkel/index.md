@@ -1,6 +1,6 @@
 ---
 title: Pad skót címerekkel
-date: "2012-11-01"
+date: "2012-11-12"
 coords:
   - 55.9480824359
   - -3.19944083691

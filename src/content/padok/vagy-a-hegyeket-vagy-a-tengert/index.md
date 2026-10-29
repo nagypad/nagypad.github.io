@@ -1,6 +1,6 @@
 ---
 title: Vagy a hegyeket, vagy a tengert
-date: "2012-08-01"
+date: "2012-08-22"
 coords:
   - 47.2362179436
   - 9.59490805864

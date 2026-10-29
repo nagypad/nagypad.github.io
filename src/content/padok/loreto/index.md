@@ -1,6 +1,6 @@
 ---
 title: Loreto
-date: "2013-10-01"
+date: "2013-10-19"
 coords:
   - 47.9164209
   - 16.5160113
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/10/loreto.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Edinburgh-i falfirkászok, szevasztok
-date: "2012-10-01"
+date: "2012-10-26"
 coords:
   - 55.9455291446
   - -3.17979633808
@@ -12,7 +12,7 @@ tags:
   - külváros
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elek
 legacyUrl: http://www.nagypad.hu/2012/10/edinburgh-i-falfirkaszok-szevasztok.html
 ---
 

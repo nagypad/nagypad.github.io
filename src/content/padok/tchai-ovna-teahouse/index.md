@@ -1,6 +1,6 @@
 ---
 title: Tchai Ovna Teahouse
-date: "2012-10-01"
+date: "2012-10-22"
 coords:
   - 55.8727404
   - -4.2820557

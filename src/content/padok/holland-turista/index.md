@@ -1,6 +1,6 @@
 ---
 title: Holland turista
-date: "2012-08-01"
+date: "2012-08-06"
 coords:
   - 46.6389990641
   - 17.4783951044

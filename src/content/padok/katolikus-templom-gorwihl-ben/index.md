@@ -1,6 +1,6 @@
 ---
 title: Katolikus Templom Görwihl-ben
-date: "2012-05-01"
+date: "2012-05-19"
 coords:
   - 47.6415813525
   - 8.07950019836

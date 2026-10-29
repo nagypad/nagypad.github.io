@@ -1,6 +1,6 @@
 ---
 title: Virágos ablakpárkány
-date: "2012-05-01"
+date: "2012-05-15"
 coords:
   - 47.6767445019
   - 8.61491203308

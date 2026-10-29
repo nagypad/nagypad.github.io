@@ -1,6 +1,6 @@
 ---
 title: 149 €
-date: "2012-07-01"
+date: "2012-07-07"
 tags:
   - kényelem
   - csábítás

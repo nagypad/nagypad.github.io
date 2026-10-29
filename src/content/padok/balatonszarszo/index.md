@@ -1,6 +1,6 @@
 ---
 title: Balatonszárszó
-date: "2012-07-01"
+date: "2012-07-19"
 coords:
   - 46.8327515
   - 17.8299475

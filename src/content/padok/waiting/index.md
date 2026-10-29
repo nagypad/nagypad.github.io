@@ -1,6 +1,6 @@
 ---
 title: Waiting...
-date: "2013-03-01"
+date: "2013-03-11"
 coords:
   - 48.0846015198
   - 20.7751464844
@@ -12,7 +12,7 @@ tags:
   - csend
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/03/waiting.html
 ---
 

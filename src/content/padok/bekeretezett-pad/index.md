@@ -1,6 +1,6 @@
 ---
 title: Bekeretezett pad
-date: "2014-09-01"
+date: "2014-09-22"
 coords:
   - 47.0152293246
   - 18.1668269634

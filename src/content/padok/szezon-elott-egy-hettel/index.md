@@ -1,6 +1,6 @@
 ---
 title: Szezon előtt egy héttel
-date: "2012-05-01"
+date: "2012-05-30"
 coords:
   - 46.6136665529
   - 8.30859643951

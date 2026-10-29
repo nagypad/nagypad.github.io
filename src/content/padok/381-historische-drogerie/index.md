@@ -1,6 +1,6 @@
 ---
 title: 381 Historische Drogerie
-date: "2012-05-01"
+date: "2012-05-30"
 coords:
   - 46.748771213
   - 8.078083992

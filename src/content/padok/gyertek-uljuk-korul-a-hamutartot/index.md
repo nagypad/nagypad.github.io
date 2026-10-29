@@ -1,6 +1,6 @@
 ---
 title: Gyertek, üljük körül a hamutartót!...
-date: "2013-02-01"
+date: "2013-02-21"
 coords:
   - 47.560927122
   - 7.58515298367

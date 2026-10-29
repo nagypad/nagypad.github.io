@@ -1,6 +1,6 @@
 ---
 title: Darányi Ignácznak
-date: "2012-08-01"
+date: "2012-08-26"
 coords:
   - 46.9170602285
   - 17.8919863701
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/08/daranyi-ignacznak.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Kicsiknek és nagyoknak
-date: "2013-01-01"
+date: "2013-01-13"
 coords:
   - 47.3717001601
   - 8.55770900975

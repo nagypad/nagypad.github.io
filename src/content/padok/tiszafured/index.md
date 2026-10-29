@@ -1,6 +1,6 @@
 ---
 title: Tiszafüred
-date: "2012-10-01"
+date: "2012-10-18"
 coords:
   - 47.6242295244
   - 20.74015975
@@ -12,7 +12,7 @@ tags:
   - csend
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/10/tiszafured.html
 ---
 

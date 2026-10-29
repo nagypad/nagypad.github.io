@@ -1,6 +1,6 @@
 ---
 title: Csendélet
-date: "2012-07-01"
+date: "2012-07-16"
 coords:
   - 47.2893181686
   - 19.2269486189
@@ -12,7 +12,7 @@ tags:
   - csend
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elcsiga
 legacyUrl: http://www.nagypad.hu/2012/07/csendelet.html
 ---
 

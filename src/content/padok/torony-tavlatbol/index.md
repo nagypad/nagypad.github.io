@@ -1,6 +1,6 @@
 ---
 title: Torony távlatból
-date: "2013-08-01"
+date: "2013-08-22"
 coords:
   - 46.9058392744
   - 18.052457571
@@ -18,7 +18,7 @@ photos:
   - src: ./5.jpg
   - src: ./6.jpg
   - src: ./7.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/08/torony-tavlatbol.html
 ---
 

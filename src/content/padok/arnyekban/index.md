@@ -1,6 +1,6 @@
 ---
 title: Árnyékban
-date: "2013-04-01"
+date: "2013-04-13"
 coords:
   - 48.7559482754
   - 9.19055700302
@@ -12,7 +12,7 @@ tags:
   - torony
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: elek
 legacyUrl: http://www.nagypad.hu/2013/04/arnyekban.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Itt járt Gombóc Artúr
-date: "2014-06-01"
+date: "2014-06-09"
 coords:
   - 47.6461388667
   - 18.3192837238

@@ -1,6 +1,6 @@
 ---
 title: Buszmegálló rönkpaddal
-date: "2012-08-01"
+date: "2012-08-10"
 coords:
   - 46.8683848961
   - 17.9138731956

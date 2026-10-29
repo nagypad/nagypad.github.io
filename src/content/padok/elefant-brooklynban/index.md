@@ -1,6 +1,6 @@
 ---
 title: Elefánt Brooklynban
-date: "2014-12-01"
+date: "2014-12-29"
 coords:
   - 40.7029967995
   - -73.9941108227
@@ -12,7 +12,7 @@ tags:
   - szín
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/12/elefant-brooklynban.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Órás szárszós
-date: "2012-11-01"
+date: "2012-11-05"
 coords:
   - 46.8316493868
   - 17.8305637836
@@ -12,7 +12,7 @@ tags:
   - nyugalom
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2012/11/oras-szarszos.html
 ---
 
