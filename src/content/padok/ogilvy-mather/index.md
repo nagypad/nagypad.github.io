@@ -1,6 +1,7 @@
 ---
 title: Ogilvy & Mather
 date: "2013-06-12"
+place: Párizs, Franciaország
 tags:
   - ötlet
   - város

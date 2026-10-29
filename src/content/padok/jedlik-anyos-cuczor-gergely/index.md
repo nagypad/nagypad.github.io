@@ -1,6 +1,10 @@
 ---
 title: Jedlik Ányos Cuczor Gergely
 date: "2014-05-01"
+coords:
+  - 47.6874
+  - 17.6364
+place: Széchenyi tér, Győr, Magyarország
 tags:
   - város
   - séta
