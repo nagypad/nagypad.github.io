@@ -18,7 +18,7 @@ photos:
   - src: ./5.jpg
   - src: ./6.jpg
   - src: ./7.jpg
-credit: a régi nagypad.hu csapata
+credit: Julis
 legacyUrl: http://www.nagypad.hu/2013/11/padok-cagliari-ban.html
 ---
 

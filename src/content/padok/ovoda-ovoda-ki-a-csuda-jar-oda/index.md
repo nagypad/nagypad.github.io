@@ -1,6 +1,6 @@
 ---
 title: óvoda, óvoda, ki a csuda jár oda
-date: "2014-11-01"
+date: "2014-11-07"
 coords:
   - 47.5754762331
   - 18.8834059238
@@ -12,7 +12,7 @@ tags:
   - derű
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2014/11/ovoda-ovoda-ki-csuda-jar-oda.html
 ---
 

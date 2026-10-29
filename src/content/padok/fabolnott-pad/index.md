@@ -1,6 +1,6 @@
 ---
 title: Fábólnőtt pad
-date: "2014-11-01"
+date: "2014-11-19"
 coords:
   - 47.5164652316
   - 18.4631735086
@@ -12,7 +12,7 @@ tags:
   - avar
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2014/11/fabolnott-pad.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: White Mountains
-date: "2014-10-01"
+date: "2014-10-16"
 coords:
   - 44.0282412
   - -71.4962305
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/10/white-mountains.html
 ---
 

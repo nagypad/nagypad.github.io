@@ -1,6 +1,6 @@
 ---
 title: Trombitásra várva
-date: "2013-05-01"
+date: "2013-05-16"
 coords:
   - 50.0618224983
   - 19.9381041527
@@ -12,7 +12,7 @@ tags:
   - magasság
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/05/trombitasra-varva.html
 ---
 

@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2014/10/torusz.html
 ---
 

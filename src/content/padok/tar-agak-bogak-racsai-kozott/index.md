@@ -1,6 +1,6 @@
 ---
 title: Tar ágak-bogak rácsai között
-date: "2014-10-01"
+date: "2014-10-17"
 coords:
   - 44.1866941
   - -71.4018221
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/10/tar-agak-bogak-racsai-kozott.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: A szüzeké
-date: "2013-05-01"
+date: "2013-05-10"
 coords:
   - 44.1004608153
   - 9.73970174789
@@ -12,7 +12,7 @@ tags:
   - menedék
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2013/05/a-szuzeke.html
 ---
 

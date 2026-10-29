@@ -1,6 +1,6 @@
 ---
 title: Macskás
-date: "2013-12-01"
+date: "2013-12-18"
 coords:
   - 46.6449139131
   - 21.2748849392
@@ -12,7 +12,7 @@ tags:
   - együttlét
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/12/macskas.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Košljun
-date: "2013-06-01"
+date: "2013-06-04"
 coords:
   - 45.0264419159
   - 14.6171159984
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/06/kosljun.html
 ---
 

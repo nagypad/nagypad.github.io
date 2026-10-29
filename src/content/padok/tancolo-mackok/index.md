@@ -1,6 +1,6 @@
 ---
 title: Táncoló mackók
-date: "2013-11-01"
+date: "2013-11-02"
 coords:
   - 47.5149710279
   - 19.082790086
@@ -12,7 +12,7 @@ tags:
   - meglepetés
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2013/11/tancolo-mackok.html
 ---
 

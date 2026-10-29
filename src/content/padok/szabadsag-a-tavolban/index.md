@@ -1,6 +1,6 @@
 ---
 title: Szabadság a távolban
-date: "2014-12-01"
+date: "2014-12-21"
 coords:
   - 40.7146226629
   - -74.0174514055
@@ -12,7 +12,7 @@ tags:
   - vágyakozás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/12/szabadsag-tavolban.html
 ---
 

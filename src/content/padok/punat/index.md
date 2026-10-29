@@ -1,6 +1,6 @@
 ---
 title: Punat
-date: "2013-06-01"
+date: "2013-06-03"
 coords:
   - 45.023310563
   - 14.6266222
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/06/punat.html
 ---
 

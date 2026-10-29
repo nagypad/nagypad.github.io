@@ -1,6 +1,6 @@
 ---
 title: Beborulva
-date: "2013-10-01"
+date: "2013-10-29"
 coords:
   - 47.4876329
   - 19.0497975
@@ -12,7 +12,7 @@ tags:
   - sodródás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/10/beborulva.html
 ---
 

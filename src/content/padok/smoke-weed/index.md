@@ -1,6 +1,6 @@
 ---
 title: smoke weed
-date: "2014-09-01"
+date: "2014-09-30"
 coords:
   - 47.5426820368
   - 18.964446187
@@ -12,7 +12,7 @@ tags:
   - titok
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2014/09/smoke-weed.html
 ---
 

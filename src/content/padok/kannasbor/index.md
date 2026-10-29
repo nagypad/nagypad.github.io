@@ -1,6 +1,6 @@
 ---
 title: Kannásbor
-date: "2013-05-01"
+date: "2013-05-15"
 coords:
   - 50.0589365529
   - 19.9377930164
@@ -12,7 +12,7 @@ tags:
   - tavasz
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/05/kannasbor.html
 ---
 

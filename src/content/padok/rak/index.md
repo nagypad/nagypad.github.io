@@ -1,6 +1,6 @@
 ---
 title: Rák
-date: "2014-12-01"
+date: "2014-12-07"
 coords:
   - 27.9221513
   - -110.887413
@@ -12,7 +12,7 @@ tags:
   - derű
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/12/rak.html
 ---
 

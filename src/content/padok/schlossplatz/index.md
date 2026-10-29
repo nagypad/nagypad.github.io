@@ -1,6 +1,6 @@
 ---
 title: Schlossplatz
-date: "2013-05-01"
+date: "2013-05-21"
 coords:
   - 48.77855
   - 9.1799111
@@ -12,7 +12,7 @@ tags:
   - derű
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: Julis
 legacyUrl: http://www.nagypad.hu/2013/05/schlossplatz.html
 ---
 

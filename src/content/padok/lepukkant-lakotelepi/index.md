@@ -1,6 +1,6 @@
 ---
 title: Lepukkant lakótelepi
-date: "2013-11-01"
+date: "2013-11-20"
 coords:
   - 47.5068162648
   - 19.146348238
@@ -12,7 +12,7 @@ tags:
   - várakozás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2013/11/lepukkant-lakotelepi.html
 ---
 

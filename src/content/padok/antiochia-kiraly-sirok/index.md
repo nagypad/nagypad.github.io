@@ -1,6 +1,6 @@
 ---
 title: Antióchia, Király sírok
-date: "2013-05-01"
+date: "2013-05-24"
 coords:
   - 36.124
   - 35.922
@@ -12,7 +12,7 @@ tags:
   - rejtély
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2013/05/antiochia-kiraly-sirok.html
 ---
 

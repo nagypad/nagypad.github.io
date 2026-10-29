@@ -1,6 +1,6 @@
 ---
 title: Washington New Yorkban
-date: "2014-12-01"
+date: "2014-12-21"
 coords:
   - 40.7310686124
   - -73.9970773458
@@ -12,7 +12,7 @@ tags:
   - sorakozás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/12/washington-new-yorkban.html
 ---
 

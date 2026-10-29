@@ -1,6 +1,6 @@
 ---
 title: Magyar Nemzeti Színház, Horvátország
-date: "2013-06-01"
+date: "2013-06-02"
 coords:
   - 45.3245358091
   - 14.4441890717
@@ -14,7 +14,7 @@ photos:
   - src: ./1.jpg
   - src: ./2.jpg
   - src: ./3.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/06/magyar-nemzeti-szinhaz-horvatorszag.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: GCKOVA
-date: "2013-11-01"
+date: "2013-11-19"
 coords:
   - 46.9867811758
   - 17.8896045685
@@ -12,7 +12,7 @@ tags:
   - vidék
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2013/11/gckova.html
 ---
 

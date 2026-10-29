@@ -1,6 +1,6 @@
 ---
 title: Lepukkant Moszkva téri
-date: "2013-11-01"
+date: "2013-11-30"
 coords:
   - 47.5074250392
   - 19.0247797966
@@ -12,7 +12,7 @@ tags:
   - kék
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2013/11/lepukkant-moszkva-teri.html
 ---
 

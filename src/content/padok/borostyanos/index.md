@@ -1,6 +1,6 @@
 ---
 title: Borostyános
-date: "2013-05-01"
+date: "2013-05-13"
 coords:
   - 50.0544178744
   - 19.9363553524
@@ -12,7 +12,7 @@ tags:
   - csend
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/05/borostyanos.html
 ---
 

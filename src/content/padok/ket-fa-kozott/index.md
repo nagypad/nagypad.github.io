@@ -1,6 +1,6 @@
 ---
 title: Két fa között
-date: "2014-12-01"
+date: "2014-12-03"
 coords:
   - 42.2349678657
   - -70.7795852423
@@ -12,7 +12,7 @@ tags:
   - rejtekhely
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/12/ket-fa-kozott.html
 ---
 

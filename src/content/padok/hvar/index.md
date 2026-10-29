@@ -1,6 +1,6 @@
 ---
 title: Hvar
-date: "2014-10-01"
+date: "2014-10-06"
 coords:
   - 43.1679084297
   - 16.4427191019
@@ -15,7 +15,7 @@ photos:
   - src: ./2.jpg
   - src: ./3.jpg
   - src: ./4.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/10/hvar.html
 ---
 

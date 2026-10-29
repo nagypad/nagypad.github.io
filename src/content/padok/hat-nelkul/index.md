@@ -1,6 +1,6 @@
 ---
 title: Hát nélkül
-date: "2013-12-01"
+date: "2013-12-16"
 coords:
   - 46.6447224088
   - 21.2696385384
@@ -12,7 +12,7 @@ tags:
   - csend
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/12/hat-nelkul.html
 ---
 

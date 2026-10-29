@@ -1,6 +1,6 @@
 ---
 title: Esős délután
-date: "2013-05-01"
+date: "2013-05-20"
 coords:
   - 48.7998475732
   - 9.20519057795
@@ -12,7 +12,7 @@ tags:
   - tavasz
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: Julis
 legacyUrl: http://www.nagypad.hu/2013/05/esos-delutan.html
 ---
 

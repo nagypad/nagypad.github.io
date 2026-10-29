@@ -1,6 +1,6 @@
 ---
 title: Viczián
-date: "2013-12-01"
+date: "2013-12-14"
 coords:
   - 47.6734286442
   - 19.2805767059
@@ -12,7 +12,7 @@ tags:
   - nyugalom
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/12/viczian.html
 ---
 

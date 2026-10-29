@@ -1,6 +1,6 @@
 ---
 title: Éjszakára várva
-date: "2014-10-01"
+date: "2014-10-07"
 coords:
   - 42.2430777308
   - -70.7879108191
@@ -14,7 +14,7 @@ photos:
   - src: ./1.jpg
   - src: ./2.jpg
   - src: ./3.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2014/10/ejszakara-varva.html
 ---
 

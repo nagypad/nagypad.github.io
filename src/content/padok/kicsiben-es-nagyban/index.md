@@ -1,6 +1,6 @@
 ---
 title: Kicsiben és nagyban
-date: "2013-05-01"
+date: "2013-05-12"
 coords:
   - 50.0535636861
   - 19.9346280098
@@ -13,7 +13,7 @@ tags:
 photos:
   - src: ./1.jpg
   - src: ./2.jpg
-credit: a régi nagypad.hu csapata
+credit: borazslo
 legacyUrl: http://www.nagypad.hu/2013/05/kicsiben-es-nagyban.html
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Inkább állnak
-date: "2013-05-01"
+date: "2013-05-13"
 coords:
   - 47.4697654938
   - 8.30802222768
@@ -12,7 +12,7 @@ tags:
   - rejtekhely
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2013/05/inkabb-allnak.html
 ---
 

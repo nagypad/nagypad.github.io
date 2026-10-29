@@ -1,6 +1,6 @@
 ---
 title: Titanic quarter
-date: "2013-05-01"
+date: "2013-05-25"
 coords:
   - 54.6050443
   - -5.910723
@@ -12,7 +12,7 @@ tags:
   - hármasban
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: dieurie
 legacyUrl: http://www.nagypad.hu/2013/05/titanic-quarter.html
 ---
 
