@@ -12,7 +12,7 @@ tags:
   - körforgás
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: Julis vagy dieurie
 legacyUrl: http://www.nagypad.hu/2014/05/celkeresztben.html
 ---
 

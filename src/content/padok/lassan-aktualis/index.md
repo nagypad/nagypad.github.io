@@ -12,7 +12,7 @@ tags:
   - meglepetés
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: Julis vagy dieurie
 legacyUrl: http://www.nagypad.hu/2012/12/lassan-aktualis.html
 ---
 

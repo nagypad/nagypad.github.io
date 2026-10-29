@@ -12,7 +12,7 @@ tags:
   - hétköznap
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: Julis vagy dieurie
 legacyUrl: http://www.nagypad.hu/2012/08/toparti-oltozo.html
 ---
 

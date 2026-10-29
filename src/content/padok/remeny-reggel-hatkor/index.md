@@ -14,7 +14,7 @@ photos:
   - src: ./1.jpg
   - src: ./2.jpg
   - src: ./3.jpg
-credit: a régi nagypad.hu csapata
+credit: Julis vagy dieurie
 legacyUrl: http://www.nagypad.hu/2013/03/remeny-reggel-hatkor.html
 ---
 

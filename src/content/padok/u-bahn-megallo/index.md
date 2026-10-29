@@ -12,7 +12,7 @@ tags:
   - csend
 photos:
   - src: ./1.jpg
-credit: a régi nagypad.hu csapata
+credit: Julis vagy dieurie
 legacyUrl: http://www.nagypad.hu/2012/09/u-bahn-megallo.html
 ---
 

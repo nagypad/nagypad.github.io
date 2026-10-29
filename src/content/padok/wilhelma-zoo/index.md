@@ -15,7 +15,7 @@ photos:
   - src: ./2.jpg
   - src: ./3.jpg
   - src: ./4.jpg
-credit: a régi nagypad.hu csapata
+credit: Julis vagy dieurie
 legacyUrl: http://www.nagypad.hu/2012/09/wilhelma-zoo.html
 ---
 
