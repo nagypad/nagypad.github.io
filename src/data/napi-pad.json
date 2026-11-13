@@ -1,7 +1,7 @@
 {
   "mai": {
-    "nap": "2026-11-12",
-    "slug": "kassa"
+    "nap": "2026-11-13",
+    "slug": "padositva"
   },
   "mutatott": [
     "gyertek-uljuk-korul-a-hamutartot",
@@ -19,6 +19,7 @@
     "istenek-hegyen",
     "szirenes-pad",
     "eskuvoi-fotozasrol",
-    "kassa"
+    "kassa",
+    "padositva"
   ]
 }
